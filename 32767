@@ -1,0 +1,30 @@
+[20-Oct-2023 19:27:07 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 14
+[20-Oct-2023 19:27:35 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 14
+[20-Oct-2023 19:27:44 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 14
+[20-Oct-2023 19:28:28 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 14
+[20-Oct-2023 19:28:51 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 14
+[20-Oct-2023 19:29:00 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 14
+[20-Oct-2023 19:32:14 UTC] PHP Warning:  Failed to set memory limit to 1024 bytes (Current memory usage is 39845888 bytes) in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 10
+[20-Oct-2023 19:32:22 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 19:32:48 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 19:32:57 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 19:38:31 UTC] PHP Warning:  Failed to set memory limit to 1024 bytes (Current memory usage is 39845888 bytes) in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 10
+[20-Oct-2023 19:38:40 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 19:39:07 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 19:39:17 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 21:04:14 UTC] PHP Warning:  Failed to set memory limit to 1024 bytes (Current memory usage is 39845888 bytes) in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 10
+[20-Oct-2023 21:04:28 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 21:04:59 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 21:05:09 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 23:52:20 UTC] PHP Warning:  Failed to set memory limit to 1024 bytes (Current memory usage is 39845888 bytes) in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 10
+[20-Oct-2023 23:52:32 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 23:53:00 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[20-Oct-2023 23:53:10 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[23-Oct-2023 13:13:22 UTC] PHP Warning:  Failed to set memory limit to 1024 bytes (Current memory usage is 37748736 bytes) in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 10
+[23-Oct-2023 13:13:32 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[23-Oct-2023 13:14:03 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[23-Oct-2023 13:14:12 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[23-Oct-2023 14:12:39 UTC] PHP Warning:  Failed to set memory limit to 1024 bytes (Current memory usage is 37748736 bytes) in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 10
+[23-Oct-2023 14:12:49 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[23-Oct-2023 14:13:17 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
+[23-Oct-2023 14:13:26 UTC] PHP Warning:  Attempt to read property "ID" on bool in /usr/share/nginx/stage.isilgo.com/wp-content/mu-plugins/check_membresias.php on line 16
