@@ -1,0 +1,9 @@
+2023-11-04T20:57:03+00:00 INFO asociacion regalo: entra
+2023-11-04T20:57:03+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='cristian.frenkel@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-11-04T20:57:03+00:00 INFO resultado consulta: []
+2023-11-04T20:59:51+00:00 INFO asociacion regalo: entra
+2023-11-04T20:59:51+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='cristian.frenkel@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-11-04T20:59:51+00:00 INFO resultado consulta: []
+2023-11-04T21:24:17+00:00 INFO asociacion regalo: entra
+2023-11-04T21:24:17+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-11-04T21:24:17+00:00 INFO resultado consulta: []

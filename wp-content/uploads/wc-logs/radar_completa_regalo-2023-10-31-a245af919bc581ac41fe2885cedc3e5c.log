@@ -1,0 +1,270 @@
+2023-10-31T13:27:18+00:00 INFO Entra a completar regalo: ok
+2023-10-31T13:27:18+00:00 INFO resultado de tabla: []
+2023-10-31T13:27:20+00:00 INFO Entra a completar regalo: ok
+2023-10-31T13:27:20+00:00 INFO resultado de tabla: []
+2023-10-31T13:46:06+00:00 INFO Entra a completar regalo: ok
+2023-10-31T13:46:06+00:00 INFO resultado de tabla: []
+2023-10-31T13:46:07+00:00 INFO Entra a completar regalo: ok
+2023-10-31T13:46:07+00:00 INFO resultado de tabla: []
+2023-10-31T14:30:16+00:00 INFO Entra a completar regalo: ok
+2023-10-31T14:30:16+00:00 INFO resultado de tabla: []
+2023-10-31T19:29:19+00:00 INFO Entra a completar regalo: ok
+2023-10-31T19:29:19+00:00 INFO resultado de tabla: [
+    {
+        "id": "118",
+        "id_producto": "112",
+        "correo_destinatario": "katyagarvich@gmail.com",
+        "nombre_destinatario": "katyagarvich",
+        "nombre_remitente": "Prueba15",
+        "mensaje": "Esto es un prueba.",
+        "postergar": "0",
+        "fecha_envio": "2023-10-31 19:26:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9503",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-31T19:29:19+00:00 INFO Encontró resultado: Entró if
+2023-10-31T19:29:19+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "118",
+    "id_producto": "112",
+    "correo_destinatario": "katyagarvich@gmail.com",
+    "nombre_destinatario": "katyagarvich",
+    "nombre_remitente": "Prueba15",
+    "mensaje": "Esto es un prueba.",
+    "postergar": "0",
+    "fecha_envio": "2023-10-31 19:26:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9503",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-31T19:29:19+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-31T19:29:19+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '11820',
+     'user_login' => 'katyagarvich@gmail.com',
+     'user_pass' => '$P$BCGKP5Z8Y8e2eHFu.x1HJnXHwVfh811',
+     'user_nicename' => 'katia-elizabeth',
+     'user_email' => 'katyagarvich@gmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-09-13 12:05:15',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'KATIA ELIZABETH GARVICH SAN MARTIN',
+  ),
+   'ID' => 11820,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-10-31T19:29:19+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-31T19:29:19+00:00 INFO Envío inmediato correo: ok
+2023-10-31T19:31:13+00:00 INFO Entra a completar regalo: ok
+2023-10-31T19:31:13+00:00 INFO resultado de tabla: [
+    {
+        "id": "119",
+        "id_producto": "373",
+        "correo_destinatario": "vicevaldes.bravo@gmail.com",
+        "nombre_destinatario": "radar",
+        "nombre_remitente": "pruebas",
+        "mensaje": "rpruebas",
+        "postergar": "0",
+        "fecha_envio": "2023-10-31 19:30:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9504",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-31T19:31:13+00:00 INFO Encontró resultado: Entró if
+2023-10-31T19:31:13+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "119",
+    "id_producto": "373",
+    "correo_destinatario": "vicevaldes.bravo@gmail.com",
+    "nombre_destinatario": "radar",
+    "nombre_remitente": "pruebas",
+    "mensaje": "rpruebas",
+    "postergar": "0",
+    "fecha_envio": "2023-10-31 19:30:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9504",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-31T19:31:13+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-31T19:31:13+00:00 INFO Busco si existe usuario: false
+2023-10-31T19:31:13+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-31T19:31:13+00:00 INFO Envío inmediato correo: ok
+2023-10-31T19:31:14+00:00 INFO Entra a completar regalo: ok
+2023-10-31T19:31:14+00:00 INFO resultado de tabla: [
+    {
+        "id": "119",
+        "id_producto": "373",
+        "correo_destinatario": "vicevaldes.bravo@gmail.com",
+        "nombre_destinatario": "radar",
+        "nombre_remitente": "pruebas",
+        "mensaje": "rpruebas",
+        "postergar": "0",
+        "fecha_envio": "2023-10-31 19:30:00",
+        "pagado": "1",
+        "enviado": "1",
+        "id_orden": "9504",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-31T19:31:14+00:00 INFO Encontró resultado: Entró if
+2023-10-31T19:31:14+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "119",
+    "id_producto": "373",
+    "correo_destinatario": "vicevaldes.bravo@gmail.com",
+    "nombre_destinatario": "radar",
+    "nombre_remitente": "pruebas",
+    "mensaje": "rpruebas",
+    "postergar": "0",
+    "fecha_envio": "2023-10-31 19:30:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9504",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-31T19:31:14+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-31T19:31:14+00:00 INFO Envío inmediato correo: ok
+2023-10-31T20:29:10+00:00 INFO Entra a completar regalo: ok
+2023-10-31T20:29:10+00:00 INFO resultado de tabla: []
+2023-10-31T20:29:12+00:00 INFO Entra a completar regalo: ok
+2023-10-31T20:29:12+00:00 INFO resultado de tabla: []
+2023-10-31T20:30:33+00:00 INFO Entra a completar regalo: ok
+2023-10-31T20:30:33+00:00 INFO resultado de tabla: []
+2023-10-31T20:31:14+00:00 INFO Entra a completar regalo: ok
+2023-10-31T20:31:14+00:00 INFO resultado de tabla: [
+    {
+        "id": "120",
+        "id_producto": "340",
+        "correo_destinatario": "vicente.valdes@radar.cl",
+        "nombre_destinatario": "radar",
+        "nombre_remitente": "vicente",
+        "mensaje": "radarpruebas",
+        "postergar": "0",
+        "fecha_envio": "2023-10-31 20:30:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9507",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-31T20:31:14+00:00 INFO Encontró resultado: Entró if
+2023-10-31T20:31:14+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "120",
+    "id_producto": "340",
+    "correo_destinatario": "vicente.valdes@radar.cl",
+    "nombre_destinatario": "radar",
+    "nombre_remitente": "vicente",
+    "mensaje": "radarpruebas",
+    "postergar": "0",
+    "fecha_envio": "2023-10-31 20:30:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9507",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-31T20:31:14+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-31T20:31:14+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '35',
+     'user_login' => 'vicente.valdes@radar.cl',
+     'user_pass' => '$P$BhFiTlwDsHXX8mbgo4fzyxuxR56v4Q1',
+     'user_nicename' => 'vicente-valdesradar-cl',
+     'user_email' => 'vicente.valdes@radar.cl',
+     'user_url' => '',
+     'user_registered' => '2023-08-24 21:04:26',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'Vicente Valdés',
+  ),
+   'ID' => 35,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-10-31T20:31:14+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-31T20:31:14+00:00 INFO Envío inmediato correo: ok
+2023-10-31T20:31:15+00:00 INFO Entra a completar regalo: ok
+2023-10-31T20:31:15+00:00 INFO resultado de tabla: [
+    {
+        "id": "120",
+        "id_producto": "340",
+        "correo_destinatario": "vicente.valdes@radar.cl",
+        "nombre_destinatario": "radar",
+        "nombre_remitente": "vicente",
+        "mensaje": "radarpruebas",
+        "postergar": "0",
+        "fecha_envio": "2023-10-31 20:30:00",
+        "pagado": "1",
+        "enviado": "1",
+        "id_orden": "9507",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-31T20:31:15+00:00 INFO Encontró resultado: Entró if
+2023-10-31T20:31:15+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "120",
+    "id_producto": "340",
+    "correo_destinatario": "vicente.valdes@radar.cl",
+    "nombre_destinatario": "radar",
+    "nombre_remitente": "vicente",
+    "mensaje": "radarpruebas",
+    "postergar": "0",
+    "fecha_envio": "2023-10-31 20:30:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9507",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-31T20:31:15+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-31T20:31:15+00:00 INFO Envío inmediato correo: ok

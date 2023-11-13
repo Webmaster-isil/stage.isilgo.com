@@ -1,0 +1,94 @@
+@media (min-width: 1201px) and (max-width: 1368px) {
+  .busqueda_mobile_header {
+    display: none;
+    width: 10%;
+  }
+  .carro_vacio {
+    padding: 0 2rem !important;
+  }
+  .cart_menu_li.li_two {
+    margin-right: 0 !important;
+  }
+  .header_global,
+  .header_global a {
+    font-size: 12px !important;
+  }
+  li.login_header a.login {
+    margin-left: 0;
+  }
+  .preheader {
+    font-size: 80% !important;
+  }
+  .dgwt-wcas-search-wrapp {
+    max-width: 600px !important;
+    min-width: 100px !important;
+    width: 220px !important;
+  }
+  .usuario_logueado a {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #pm_menu div#totalcla {
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+  .whmc_top_part {
+    padding: 0;
+  }
+  .whmc-mini-cart {
+    padding: 5px 1rem;
+  }
+
+  #pm_menu .couplonfield {
+    margin: 5px 0;
+  }
+  #pm_menu h6 {
+    padding: 5px 0 0 0 !important;
+    margin: 0 !important;
+    font-size: 80%;
+  }
+  #pm_menu .medios-de-pago .tit-mediospago {
+    display: block;
+  }
+  #pm_menu .medios-de-pago {
+    padding: 5px 1rem !important;
+  }
+  .whmc-body .medios-de-pago span {
+    font-size: 80%;
+  }
+  #pm_menu .wc_remove_btn {
+    transform: scale(0.7);
+  }
+  #pm_menu .cart_image_iem {
+    min-width: 10px !important;
+    max-width: 60px;
+  }
+
+  #pm_menu .whmc-cart-items .cart_image_iem img {
+    width: 50px;
+  }
+  #pm_menu .woocommerce.recientes p,
+  .whmc-body .medios-de-pago img {
+    margin-bottom: 5px;
+    font-size: 80%;
+  }
+  #pm_menu .whmc-bottom-part2 {
+    margin-top: 5px;
+  }
+  #pm_menu .detalles_loop {
+    width: 100%;
+  }
+  #pm_menu .medios-de-pago img {
+    width: 70%;
+  }
+  #pm_menu .whmc-bottom-part {
+    font-size: 80% !important;
+  }
+  #pm_menu .whmc-cart-item-wrap {
+    max-height: 90px !important;
+  }
+  #pm_menu .woocommerce.recientes {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}

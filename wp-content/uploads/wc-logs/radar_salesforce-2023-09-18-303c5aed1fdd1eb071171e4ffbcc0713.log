@@ -1,0 +1,274 @@
+2023-09-18T15:28:06+00:00 INFO nuevo usuario:
+{
+    "first_name": "RODOLFO",
+    "last_name": "ARANGUIZ",
+    "company": "RODOLFO ARANGUIZ",
+    "email": "shinyi_01@hotmail.com",
+    "00Nf400000TUbiN": "63496774",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "18\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T15:48:06+00:00 INFO actualiza usuario:
+{
+    "first_name": "RODOLFO",
+    "last_name": "ARANGUIZ",
+    "email": "shinyi_01@hotmail.com",
+    "company": "RODOLFO ARANGUIZ",
+    "00Nf400000TUbiN": "63496774",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "17244050",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "puebla",
+    "state": "LMA",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T15:50:17+00:00 INFO nuevo usuario:
+{
+    "first_name": "rodolfo",
+    "last_name": "aranguiz",
+    "company": "rodolfo aranguiz",
+    "email": "rodolfoap260@gmail.com",
+    "00Nf400000TUbiN": "963496774",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "18\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T17:02:47+00:00 INFO nuevo usuario:
+{
+    "first_name": "RODOLFO",
+    "last_name": "ARANGUIZ",
+    "company": "RODOLFO ARANGUIZ",
+    "email": "shinyi_01@hotmail.com",
+    "00Nf400000TUbiN": "63496774",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "18\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T19:18:55+00:00 INFO nuevo usuario:
+{
+    "first_name": "Cristi\u00e1n",
+    "last_name": "Frenkel",
+    "company": "Cristi\u00e1n Frenkel",
+    "email": "cristian.frenkel@radar.cl",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "18\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T19:21:57+00:00 INFO actualiza usuario:
+{
+    "first_name": "Cristi\u00e1n",
+    "last_name": "Frenkel",
+    "email": "cristian.frenkel@radar.cl",
+    "company": "",
+    "00Nf400000TUbiN": "",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "7",
+    "00Nf400000TUZxq": "155637129",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "CL",
+    "city": "Providencia",
+    "state": "CL-RM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T19:23:21+00:00 INFO actualiza usuario:
+{
+    "first_name": "Cristi\u00e1n",
+    "last_name": "Frenkel",
+    "email": "cristian.frenkel@radar.cl",
+    "company": "",
+    "00Nf400000TUbiN": "",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "7",
+    "00Nf400000TUZxq": "155637129",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "CL",
+    "city": "Providencia",
+    "state": "CL-RM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T19:27:15+00:00 INFO actualiza usuario:
+{
+    "first_name": "Cristi\u00e1n",
+    "last_name": "Frenkel",
+    "email": "cristian.frenkel@radar.cl",
+    "company": "",
+    "00Nf400000TUbiN": "",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "7",
+    "00Nf400000TUZxq": "155637129",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "CL",
+    "city": "Providencia",
+    "state": "CL-RM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T19:27:44+00:00 INFO nuevo usuario:
+{
+    "first_name": "Joseph J.",
+    "last_name": "Jimenez. Sanchez",
+    "company": "Joseph J. Jimenez. Sanchez",
+    "email": "jjimenez@isil.pe",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "18\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T19:39:52+00:00 INFO actualiza usuario:
+{
+    "first_name": "Cristi\u00e1n",
+    "last_name": "Frenkel",
+    "email": "cristian.frenkel@radar.cl",
+    "company": "",
+    "00Nf400000TUbiN": "",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "7",
+    "00Nf400000TUZxq": "155637129",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "CL",
+    "city": "Providencia",
+    "state": "CL-RM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T19:49:15+00:00 INFO nuevo usuario:
+{
+    "first_name": "JORGE LUIS",
+    "last_name": "CHUNGA ZULOETA",
+    "company": "JORGE LUIS CHUNGA ZULOETA",
+    "email": "jchunga@isil.pe",
+    "00Nf400000TUbiN": "968696500",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "18\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T19:52:59+00:00 INFO nuevo usuario:
+{
+    "first_name": "Joseph J.",
+    "last_name": "Jimenez. Sanchez",
+    "company": "Joseph J. Jimenez. Sanchez",
+    "email": "jjimenez@isil.pe",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "18\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T19:55:24+00:00 INFO nuevo usuario:
+{
+    "first_name": "Joseph J.",
+    "last_name": "Jimenez. Sanchez",
+    "company": "Joseph J. Jimenez. Sanchez",
+    "email": "jjimenez@isil.pe",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "18\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-18T19:58:57+00:00 INFO nuevo usuario:
+{
+    "first_name": "JORGE LUIS",
+    "last_name": "CHUNGA ZULOETA",
+    "company": "JORGE LUIS CHUNGA ZULOETA",
+    "email": "jchunga@isil.pe",
+    "00Nf400000TUbiN": "968696500",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "18\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}

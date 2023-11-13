@@ -1,0 +1,138 @@
+2023-10-04T15:15:38+00:00 INFO nuevo usuario:
+{
+    "first_name": "Cesar Aurelio",
+    "last_name": "Alfaro Estela",
+    "company": "Cesar Aurelio Alfaro Estela",
+    "email": "calfaro@isil.pe",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "04\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-04T19:35:23+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "04\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-04T20:33:33+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "04\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-04T20:33:58+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "04\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-04T20:34:24+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "04\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-04T20:37:02+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "00Nf400000TUbiN": "968696501",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "04\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-04T21:46:53+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "04\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-04T22:23:09+00:00 INFO actualiza usuario:
+{
+    "first_name": "Lunes dos",
+    "last_name": "veinticinco de septiembre",
+    "email": "vesip92563@bnovel.com",
+    "company": "",
+    "00Nf400000TUbiN": "968696502",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568946",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}

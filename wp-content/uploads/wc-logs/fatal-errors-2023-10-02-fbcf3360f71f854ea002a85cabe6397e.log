@@ -1,0 +1,847 @@
+2023-10-02T04:04:57+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1144
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1144): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1144
+
+2023-10-02T06:47:01+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1144
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1144): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1144
+
+2023-10-02T07:02:08+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1144
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1144): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1144
+
+2023-10-02T07:03:08+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1144
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1144): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1144
+
+2023-10-02T07:05:22+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1144
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1144): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1144
+
+2023-10-02T07:11:04+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1144
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1144): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1144
+
+2023-10-02T07:19:31+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1144
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1144): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1144
+
+2023-10-02T07:19:44+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1144
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1144): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1144
+
+2023-10-02T07:19:58+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1144
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1144): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1144
+
+2023-10-02T12:48:12+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1144
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1144): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1144
+
+2023-10-02T14:26:55+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T14:28:22+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T14:30:14+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T14:31:29+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T14:36:50+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T14:40:24+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T14:54:39+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T15:34:22+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T15:34:37+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T15:42:09+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T15:53:50+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-02T16:11:47+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:12:08+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:12:29+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:12:39+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:16:23+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:17:10+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:27:04+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:27:41+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:27:46+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:28:28+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:32:58+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:49:31+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:53:43+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T16:56:35+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T17:24:50+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T17:25:00+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T17:25:07+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T17:35:02+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1136
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1136): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1136
+
+2023-10-02T19:09:29+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-02T20:06:25+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-02T20:07:01+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:07:07+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:07:22+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:07:31+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:10:09+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:11:43+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:11:59+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:12:07+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:13:35+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:13:50+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:14:31+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:15:14+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1150
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1150): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_recient...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1150
+
+2023-10-02T20:23:44+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-02T20:24:33+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-02T21:04:05+00:00 CRITICAL Uncaught TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1374
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1374): date('Y-m-d', '+1 months')
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1043): asocia_membresia_regalo(89, Array, 79)
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): asocia_regalo('dr_hemmerick@ho...', Object(WP_User))
+#3 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Standard/OAuthHandler/class-loginhandler.php(493): do_action('wp_login', 'dr_hemmerick@ho...', Object(WP_User))
+#6 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(771): MoOauthClient\Standard\LoginHandler->handle_sso('openidconnect', Array, Array, 'eyI2MTcwNzA2ZTY...', Array)
+#7 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Premium/OAuthHandler/class-loginhandler.php(208): MoOauthClient\LoginHandler->mo_oauth_login_validate()
+#8 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(29): MoOauthClient\Premium\LoginHandler->mo_oauth_login_validate()
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): MoOauthClient\LoginHandler->mo_oauth_decide_flow('')
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home/isilgodevradar/public_html/wp-settings.php(632): do_action('init')
+#13 /home/isilgodevradar/public_html/wp-config.php(105): require_once('/home/isilgodev...')
+#14 /home/isilgodevradar/public_html/wp-load.php(50): require_once('/home/isilgodev...')
+#15 /home/isilgodevradar/public_html/wp-blog-header.php(13): require_once('/home/isilgodev...')
+#16 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#17 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1374
+
+2023-10-02T21:07:11+00:00 CRITICAL Uncaught TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1375
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1375): date('Y-m-d', '+1 months')
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1043): asocia_membresia_regalo(89, Array, 79)
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): asocia_regalo('dr_hemmerick@ho...', Object(WP_User))
+#3 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Standard/OAuthHandler/class-loginhandler.php(493): do_action('wp_login', 'dr_hemmerick@ho...', Object(WP_User))
+#6 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(771): MoOauthClient\Standard\LoginHandler->handle_sso('openidconnect', Array, Array, 'eyI2MTcwNzA2ZTY...', Array)
+#7 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Premium/OAuthHandler/class-loginhandler.php(208): MoOauthClient\LoginHandler->mo_oauth_login_validate()
+#8 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(29): MoOauthClient\Premium\LoginHandler->mo_oauth_login_validate()
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): MoOauthClient\LoginHandler->mo_oauth_decide_flow('')
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home/isilgodevradar/public_html/wp-settings.php(632): do_action('init')
+#13 /home/isilgodevradar/public_html/wp-config.php(105): require_once('/home/isilgodev...')
+#14 /home/isilgodevradar/public_html/wp-load.php(50): require_once('/home/isilgodev...')
+#15 /home/isilgodevradar/public_html/wp-blog-header.php(13): require_once('/home/isilgodev...')
+#16 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#17 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1375
+
+2023-10-02T21:09:36+00:00 CRITICAL Uncaught TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1375
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1375): date('Y-m-d', '+1 months')
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1043): asocia_membresia_regalo(89, Array, 79, Array)
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): asocia_regalo('dr_hemmerick@ho...', Object(WP_User))
+#3 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Standard/OAuthHandler/class-loginhandler.php(493): do_action('wp_login', 'dr_hemmerick@ho...', Object(WP_User))
+#6 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(771): MoOauthClient\Standard\LoginHandler->handle_sso('openidconnect', Array, Array, 'eyI2MTcwNzA2ZTY...', Array)
+#7 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Premium/OAuthHandler/class-loginhandler.php(208): MoOauthClient\LoginHandler->mo_oauth_login_validate()
+#8 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(29): MoOauthClient\Premium\LoginHandler->mo_oauth_login_validate()
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): MoOauthClient\LoginHandler->mo_oauth_decide_flow('')
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home/isilgodevradar/public_html/wp-settings.php(632): do_action('init')
+#13 /home/isilgodevradar/public_html/wp-config.php(105): require_once('/home/isilgodev...')
+#14 /home/isilgodevradar/public_html/wp-load.php(50): require_once('/home/isilgodev...')
+#15 /home/isilgodevradar/public_html/wp-blog-header.php(13): require_once('/home/isilgodev...')
+#16 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#17 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1375
+
+2023-10-02T21:10:42+00:00 CRITICAL Uncaught TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1375
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1375): date('Y-m-d', '+1 months')
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1043): asocia_membresia_regalo(89, Array, 79, Array)
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): asocia_regalo('dr_hemmerick@ho...', Object(WP_User))
+#3 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Standard/OAuthHandler/class-loginhandler.php(493): do_action('wp_login', 'dr_hemmerick@ho...', Object(WP_User))
+#6 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(771): MoOauthClient\Standard\LoginHandler->handle_sso('openidconnect', Array, Array, 'eyI2MTcwNzA2ZTY...', Array)
+#7 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Premium/OAuthHandler/class-loginhandler.php(208): MoOauthClient\LoginHandler->mo_oauth_login_validate()
+#8 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(29): MoOauthClient\Premium\LoginHandler->mo_oauth_login_validate()
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): MoOauthClient\LoginHandler->mo_oauth_decide_flow('')
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home/isilgodevradar/public_html/wp-settings.php(632): do_action('init')
+#13 /home/isilgodevradar/public_html/wp-config.php(105): require_once('/home/isilgodev...')
+#14 /home/isilgodevradar/public_html/wp-load.php(50): require_once('/home/isilgodev...')
+#15 /home/isilgodevradar/public_html/wp-blog-header.php(13): require_once('/home/isilgodev...')
+#16 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#17 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1375
+
+2023-10-02T21:12:06+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1370
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1370): json_decode(Array)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1043): asocia_membresia_regalo(89, Array, 79, Array)
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): asocia_regalo('dr_hemmerick@ho...', Object(WP_User))
+#3 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Standard/OAuthHandler/class-loginhandler.php(493): do_action('wp_login', 'dr_hemmerick@ho...', Object(WP_User))
+#6 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(771): MoOauthClient\Standard\LoginHandler->handle_sso('openidconnect', Array, Array, 'eyI2MTcwNzA2ZTY...', Array)
+#7 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Premium/OAuthHandler/class-loginhandler.php(208): MoOauthClient\LoginHandler->mo_oauth_login_validate()
+#8 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(29): MoOauthClient\Premium\LoginHandler->mo_oauth_login_validate()
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): MoOauthClient\LoginHandler->mo_oauth_decide_flow('')
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home/isilgodevradar/public_html/wp-settings.php(632): do_action('init')
+#13 /home/isilgodevradar/public_html/wp-config.php(105): require_once('/home/isilgodev...')
+#14 /home/isilgodevradar/public_html/wp-load.php(50): require_once('/home/isilgodev...')
+#15 /home/isilgodevradar/public_html/wp-blog-header.php(13): require_once('/home/isilgodev...')
+#16 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#17 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1370
+
+2023-10-02T21:14:01+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1370
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1370): json_decode(Array)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1043): asocia_membresia_regalo(89, Array, 79, Array)
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): asocia_regalo('dr_hemmerick@ho...', Object(WP_User))
+#3 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Standard/OAuthHandler/class-loginhandler.php(493): do_action('wp_login', 'dr_hemmerick@ho...', Object(WP_User))
+#6 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(771): MoOauthClient\Standard\LoginHandler->handle_sso('openidconnect', Array, Array, 'eyI2MTcwNzA2ZTY...', Array)
+#7 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Premium/OAuthHandler/class-loginhandler.php(208): MoOauthClient\LoginHandler->mo_oauth_login_validate()
+#8 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(29): MoOauthClient\Premium\LoginHandler->mo_oauth_login_validate()
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): MoOauthClient\LoginHandler->mo_oauth_decide_flow('')
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home/isilgodevradar/public_html/wp-settings.php(632): do_action('init')
+#13 /home/isilgodevradar/public_html/wp-config.php(105): require_once('/home/isilgodev...')
+#14 /home/isilgodevradar/public_html/wp-load.php(50): require_once('/home/isilgodev...')
+#15 /home/isilgodevradar/public_html/wp-blog-header.php(13): require_once('/home/isilgodev...')
+#16 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#17 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1370
+
+2023-10-02T22:06:33+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1155
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1155): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1155
+
+2023-10-02T22:37:31+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-02T22:41:21+00:00 CRITICAL Cannot redeclare arreglo() (previously declared in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:404) en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 404
+
+2023-10-02T22:43:05+00:00 CRITICAL Cannot redeclare arreglo() (previously declared in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:404) en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 404
+
+2023-10-02T23:25:32+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1155
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1155): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1155
+
+2023-10-02T23:29:44+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #2 must be of type array, null given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1155
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1155): array_diff(Array, NULL)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): recientesVistos('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1155
+
+2023-10-02T23:40:59+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1370
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1370): json_decode(Array)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1043): asocia_membresia_regalo(89, Array, 79, Array)
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): asocia_regalo('dr_hemmerick@ho...', Object(WP_User))
+#3 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Standard/OAuthHandler/class-loginhandler.php(493): do_action('wp_login', 'dr_hemmerick@ho...', Object(WP_User))
+#6 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(771): MoOauthClient\Standard\LoginHandler->handle_sso('openidconnect', Array, Array, 'eyI2MTcwNzA2ZTY...', Array)
+#7 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Premium/OAuthHandler/class-loginhandler.php(208): MoOauthClient\LoginHandler->mo_oauth_login_validate()
+#8 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(29): MoOauthClient\Premium\LoginHandler->mo_oauth_login_validate()
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): MoOauthClient\LoginHandler->mo_oauth_decide_flow('')
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home/isilgodevradar/public_html/wp-settings.php(632): do_action('init')
+#13 /home/isilgodevradar/public_html/wp-config.php(105): require_once('/home/isilgodev...')
+#14 /home/isilgodevradar/public_html/wp-load.php(50): require_once('/home/isilgodev...')
+#15 /home/isilgodevradar/public_html/wp-blog-header.php(13): require_once('/home/isilgodev...')
+#16 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#17 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1370
+
+2023-10-02T23:44:22+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php:1374
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php(1043): asocia_membresia_regalo(89, Array, 79, Array)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): asocia_regalo('dr_hemmerick@ho...', Object(WP_User))
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Standard/OAuthHandler/class-loginhandler.php(493): do_action('wp_login', 'dr_hemmerick@ho...', Object(WP_User))
+#5 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(771): MoOauthClient\Standard\LoginHandler->handle_sso('openidconnect', Array, Array, 'eyI2MTcwNzA2ZTY...', Array)
+#6 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/Premium/OAuthHandler/class-loginhandler.php(208): MoOauthClient\LoginHandler->mo_oauth_login_validate()
+#7 /home/isilgodevradar/public_html/wp-content/plugins/miniorange-login-with-eve-online-google-facebook/classes/common/Widget/class-loginhandler.php(29): MoOauthClient\Premium\LoginHandler->mo_oauth_login_validate()
+#8 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): MoOauthClient\LoginHandler->mo_oauth_decide_flow('')
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#10 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/isilgodevradar/public_html/wp-settings.php(632): do_action('init')
+#12 /home/isilgodevradar/public_html/wp-config.php(105): require_once('/home/isilgodev...')
+#13 /home/isilgodevradar/public_html/wp-load.php(50): require_once('/home/isilgodev...')
+#14 /home/isilgodevradar/public_html/wp-blog-header.php(13): require_once('/home/isilgodev...')
+#15 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#16 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/functions.php en la línea 1374
+

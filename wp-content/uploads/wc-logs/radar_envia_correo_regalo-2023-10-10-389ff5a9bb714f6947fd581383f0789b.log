@@ -1,0 +1,114 @@
+2023-10-10T18:09:15+00:00 INFO registro: : {
+    "id": "87",
+    "id_producto": "1470",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "Romero",
+    "nombre_remitente": "Manujel",
+    "mensaje": "Regalo membresia\r\n",
+    "postergar": "0",
+    "fecha_envio": "2023-10-10 18:08:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1756",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T18:09:15+00:00 INFO recurrencia dato]: : MONTHLY
+2023-10-10T18:09:15+00:00 INFO Body principal: : Manujel te ha regalado una membresía "Boost 1 mes" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/suscripciones/boost-1-mes/">aquí</a>
+2023-10-10T18:09:16+00:00 INFO Envio de correo: : 1
+2023-10-10T18:09:16+00:00 INFO Envío correcto: ok
+2023-10-10T18:49:03+00:00 INFO registro: : {
+    "id": "72",
+    "id_producto": "112",
+    "correo_destinatario": "rodolfoap260@gmail.com",
+    "nombre_destinatario": "de tu papi",
+    "nombre_remitente": "otra mas",
+    "mensaje": "hola",
+    "postergar": "1",
+    "fecha_envio": "2023-10-07 13:00:00",
+    "pagado": "1",
+    "enviado": "0",
+    "id_orden": "1724",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T18:49:03+00:00 INFO recurrencia dato]: : BIANNUAL
+2023-10-10T18:49:03+00:00 INFO Body principal: : otra mas te ha regalado una membresía "Plan de 6 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="http://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/suscripciones/advance-6-meses/">aquí</a>
+2023-10-10T18:49:10+00:00 INFO Envio de correo: : 
+2023-10-10T18:49:10+00:00 INFO Envío correcto: ok
+2023-10-10T18:59:21+00:00 INFO registro: : {
+    "id": "88",
+    "id_producto": "500",
+    "correo_destinatario": "dekuraptor@gmail.com",
+    "nombre_destinatario": "Usuario dekuraptor",
+    "nombre_remitente": "Cuenta administrador",
+    "mensaje": "Esta es una prueba.",
+    "postergar": "0",
+    "fecha_envio": "2023-10-10 18:58:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1757",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T18:59:21+00:00 INFO recurrencia dato]: : 
+2023-10-10T18:59:21+00:00 INFO Body principal: : Cuenta administrador te ha regalado un curso online "Reportes Ejecutivos con Excel" puedes iniciar tu aprendizaje iniciando sesión <a href="https://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/cursos-administracion/reportes-ejecutivos-con-excel/">aquí</a>
+2023-10-10T18:59:22+00:00 INFO Envio de correo: : 
+2023-10-10T18:59:22+00:00 INFO Envío correcto: ok
+2023-10-10T19:28:07+00:00 INFO registro: : {
+    "id": "89",
+    "id_producto": "467",
+    "correo_destinatario": "tiprueba15@gmail.com",
+    "nombre_destinatario": "tiprueba15",
+    "nombre_remitente": "dultanagna",
+    "mensaje": "Esto es un regalo!! Disfr\u00fatalo!!",
+    "postergar": "0",
+    "fecha_envio": "2023-10-10 19:25:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1759",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T19:28:07+00:00 INFO recurrencia dato]: : 
+2023-10-10T19:28:07+00:00 INFO Body principal: : dultanagna te ha regalado un curso online "Guest Service Experience: Gestionando la mejor experiencia del huésped" puedes iniciar tu aprendizaje iniciando sesión <a href="https://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/cursos-hoteleria-y-turismo/guest-service-experience-gestionando-la-mejor-experiencia-del-huesped/">aquí</a>
+2023-10-10T19:28:07+00:00 INFO Envio de correo: : 
+2023-10-10T19:28:07+00:00 INFO Envío correcto: ok
+2023-10-10T21:02:31+00:00 INFO registro: : {
+    "id": "90",
+    "id_producto": "402",
+    "correo_destinatario": "tiprueba18@gmail.com",
+    "nombre_destinatario": "Elizabeth",
+    "nombre_remitente": "Katya",
+    "mensaje": "Estimada Elizabeth,\r\n\r\nTe acabo de regalar un curso de ISILGO, espero que lo disfrutes al m\u00e1ximo!!\r\n\r\nCon mucho cari\u00f1o,\r\n\r\nKatya",
+    "postergar": "0",
+    "fecha_envio": "2023-10-10 21:00:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1760",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T21:02:31+00:00 INFO recurrencia dato]: : 
+2023-10-10T21:02:31+00:00 INFO Body principal: : Katya te ha regalado un curso online "Desarrollo de Equipos de Alto Rendimiento" puedes iniciar tu aprendizaje iniciando sesión <a href="https://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/cyber/desarrollo-de-equipos-de-alto-rendimiento/">aquí</a>
+2023-10-10T21:02:32+00:00 INFO Envio de correo: : 
+2023-10-10T21:02:32+00:00 INFO Envío correcto: ok
+2023-10-10T21:32:03+00:00 INFO registro: : {
+    "id": "91",
+    "id_producto": "494",
+    "correo_destinatario": "tiprueba18@gmail.com",
+    "nombre_destinatario": "tiprueba18",
+    "nombre_remitente": "dultanagna",
+    "mensaje": "Esto es un regalo.",
+    "postergar": "1",
+    "fecha_envio": "2023-10-10 17:00:00",
+    "pagado": "1",
+    "enviado": "0",
+    "id_orden": "1761",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T21:32:03+00:00 INFO recurrencia dato]: : 
+2023-10-10T21:32:03+00:00 INFO Body principal: : dultanagna te ha regalado un curso online "Mindset Emprendedor para profesionales de servicios" puedes iniciar tu aprendizaje iniciando sesión <a href="http://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/masterclass/mindset-emprendedor-para-profesionales-de-servicios/">aquí</a>
+2023-10-10T21:32:06+00:00 INFO Envio de correo: : 
+2023-10-10T21:32:06+00:00 INFO Envío correcto: ok

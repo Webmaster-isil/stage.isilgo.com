@@ -1,0 +1,120 @@
+2023-10-06T12:53:31+00:00 INFO asociacion regalo: entra
+2023-10-06T12:53:31+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='shinyi_01@hotmail.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-06T12:53:31+00:00 INFO resultado consulta: [
+    {
+        "id": "64",
+        "id_producto": "105",
+        "correo_destinatario": "shinyi_01@hotmail.com",
+        "nombre_destinatario": "shinyi",
+        "nombre_remitente": "Rodolfo ap260",
+        "mensaje": "sda",
+        "postergar": "1",
+        "fecha_envio": "2023-10-05 11:00:00",
+        "pagado": "1",
+        "enviado": "0",
+        "id_orden": "1713",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-06T12:53:31+00:00 INFO entra al resultado de regalos: 
+2023-10-06T12:53:31+00:00 INFO Query tabla recurrentes: SELECT * FROM wp_niubiz_recurrent_payment WHERE purchaseNumber=1713
+2023-10-06T12:53:31+00:00 INFO Resultado tabla recurrentes: [
+    {
+        "ID": "101",
+        "actionCode": "000",
+        "purchaseNumber": "1713",
+        "amount": "86.00",
+        "card": "455170******8059",
+        "brand": "visa",
+        "transactionId": "991232780007872",
+        "transactionDate": "23-10-05 07:51:25",
+        "message": "Registro de afiliacion con exito",
+        "currency": "PEN",
+        "full_response": "{\"header\":{\"ecoreTransactionUUID\":\"317fc185-68fe-4ad2-9f21-93598eb41486\",\"ecoreTransactionDate\":1696510298232,\"millis\":13093},\"fulfillment\":{\"channel\":\"web\",\"merchantId\":\"522591303\",\"terminalId\":\"00000001\",\"captureType\":\"manual\",\"countable\":true,\"fastPayment\":false,\"signature\":\"317fc185-68fe-4ad2-9f21-93598eb41486\"},\"order\":{\"tokenId\":\"D50797E0466542C18797E04665C2C177\",\"purchaseNumber\":\"1713\",\"productId\":\"105\",\"amount\":86,\"installment\":2,\"currency\":\"PEN\",\"authorizedAmount\":86,\"authorizationCode\":\"075119\",\"actionCode\":\"000\",\"traceNumber\":\"933290\",\"transactionDate\":\"231005075125\",\"transactionId\":\"991232780007872\"},\"token\":{\"tokenId\":\"7000010039476019\",\"ownerId\":null,\"expireOn\":\"280331235959\"},\"dataMap\":{\"TERMINAL\":\"00000001\",\"BRAND_ACTION_CODE\":\"00\",\"BRAND_HOST_DATE_TIME\":\"231005080544\",\"TRACE_NUMBER\":\"933290\",\"RECURRENCE_MAX_AMOUNT\":\"86.0\",\"CARD_TYPE\":\"C\",\"ECI_DESCRIPTION\":\"Transaccion no autenticada pero enviada en canal seguro\",\"SIGNATURE\":\"317fc185-68fe-4ad2-9f21-93598eb41486\",\"CARD\":\"455170******8059\",\"MERCHANT\":\"522591303\",\"EXPIRATION_MONTH\":\"03\",\"STATUS\":\"Authorized\",\"INSTALLMENTS_INFO\":\"02000000000\",\"ACTION_DESCRIPTION\":\"Aprobado y completado con exito\",\"ID_UNICO\":\"991232780007872\",\"AMOUNT\":\"86.00\",\"QUOTA_NUMBER\":\"02\",\"EXPIRATION_YEAR\":\"2028\",\"BRAND_HOST_ID\":\"016263\",\"AUTHORIZATION_CODE\":\"075119\",\"YAPE_ID\":\"\",\"CURRENCY\":\"0604\",\"TRANSACTION_DATE\":\"231005075125\",\"ACTION_CODE\":\"000\",\"CARD_TOKEN\":\"7000010039476019\",\"ECI\":\"07\",\"ID_RESOLUTOR\":\"720231005075119\",\"BRAND\":\"visa\",\"ADQUIRENTE\":\"570009\",\"QUOTA_AMOUNT\":\"0.00\",\"RECURRENCE_SRV_MESSAGE\":\"Registro de afiliacion con exito\",\"BRAND_NAME\":\"VI\",\"PROCESS_CODE\":\"000000\",\"RECURRENCE_SRV_CODE\":\"000\",\"RECURRENCE_STATUS\":\"Registered\",\"TRANSACTION_ID\":\"991232780007872\",\"QUOTA_DEFERRED\":\"0\"}}"
+    }
+]
+2023-10-06T12:53:31+00:00 INFO Orden pagada: 1
+2023-10-06T12:53:31+00:00 INFO Encuentra datos de membresia regalada: 
+2023-10-06T12:56:20+00:00 INFO asociacion regalo: entra
+2023-10-06T12:56:20+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-06T12:56:20+00:00 INFO resultado consulta: []
+2023-10-06T13:07:16+00:00 INFO asociacion regalo: entra
+2023-10-06T13:07:16+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-06T13:07:16+00:00 INFO resultado consulta: []
+2023-10-06T13:07:33+00:00 INFO asociacion regalo: entra
+2023-10-06T13:07:33+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='rodolfoap260@gmail.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-06T13:07:33+00:00 INFO resultado consulta: []
+2023-10-06T13:24:17+00:00 INFO asociacion regalo: entra
+2023-10-06T13:24:17+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='dekuraptor@gmail.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-06T13:24:17+00:00 INFO resultado consulta: [
+    {
+        "id": "66",
+        "id_producto": "112",
+        "correo_destinatario": "dekuraptor@gmail.com",
+        "nombre_destinatario": "asdasd",
+        "nombre_remitente": "adsasd",
+        "mensaje": "asdasdas",
+        "postergar": "0",
+        "fecha_envio": "2023-10-06 13:21:00",
+        "pagado": "1",
+        "enviado": "0",
+        "id_orden": "1718",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-06T13:24:17+00:00 INFO entra al resultado de regalos: 
+2023-10-06T13:24:17+00:00 INFO Query tabla recurrentes: SELECT * FROM wp_niubiz_recurrent_payment WHERE purchaseNumber=1718
+2023-10-06T13:24:17+00:00 INFO Resultado tabla recurrentes: [
+    {
+        "ID": "103",
+        "actionCode": "000",
+        "purchaseNumber": "1718",
+        "amount": "180.00",
+        "card": "455170******8059",
+        "brand": "visa",
+        "transactionId": "991232790009338",
+        "transactionDate": "23-10-06 08:22:02",
+        "message": "Registro de afiliacion con exito",
+        "currency": "PEN",
+        "full_response": "{\"header\":{\"ecoreTransactionUUID\":\"c5193a73-f4ad-4c04-b9fe-86d0a94be12d\",\"ecoreTransactionDate\":1696598525242,\"millis\":3393},\"fulfillment\":{\"channel\":\"web\",\"merchantId\":\"522591303\",\"terminalId\":\"00000001\",\"captureType\":\"manual\",\"countable\":true,\"fastPayment\":false,\"signature\":\"c5193a73-f4ad-4c04-b9fe-86d0a94be12d\"},\"order\":{\"tokenId\":\"4BFC539AC7F843D2BC539AC7F843D242\",\"purchaseNumber\":\"1718\",\"productId\":\"112\",\"amount\":180,\"installment\":2,\"currency\":\"PEN\",\"authorizedAmount\":180,\"authorizationCode\":\"082155\",\"actionCode\":\"000\",\"traceNumber\":\"934242\",\"transactionDate\":\"231006082202\",\"transactionId\":\"991232790009338\"},\"token\":{\"tokenId\":\"7000010039476019\",\"ownerId\":null,\"expireOn\":\"281004082204\"},\"dataMap\":{\"TERMINAL\":\"00000001\",\"BRAND_ACTION_CODE\":\"00\",\"BRAND_HOST_DATE_TIME\":\"231006083621\",\"TRACE_NUMBER\":\"934242\",\"RECURRENCE_MAX_AMOUNT\":\"180.0\",\"CARD_TYPE\":\"C\",\"ECI_DESCRIPTION\":\"Transaccion no autenticada pero enviada en canal seguro\",\"SIGNATURE\":\"c5193a73-f4ad-4c04-b9fe-86d0a94be12d\",\"CARD\":\"455170******8059\",\"MERCHANT\":\"522591303\",\"EXPIRATION_MONTH\":\"11\",\"STATUS\":\"Authorized\",\"INSTALLMENTS_INFO\":\"02000000000\",\"ACTION_DESCRIPTION\":\"Aprobado y completado con exito\",\"ID_UNICO\":\"991232790009338\",\"AMOUNT\":\"180.00\",\"QUOTA_NUMBER\":\"02\",\"EXPIRATION_YEAR\":\"2028\",\"BRAND_HOST_ID\":\"017975\",\"AUTHORIZATION_CODE\":\"082155\",\"YAPE_ID\":\"\",\"CURRENCY\":\"0604\",\"TRANSACTION_DATE\":\"231006082202\",\"ACTION_CODE\":\"000\",\"CARD_TOKEN\":\"7000010039476019\",\"ECI\":\"07\",\"ID_RESOLUTOR\":\"820231006082155\",\"BRAND\":\"visa\",\"ADQUIRENTE\":\"570009\",\"QUOTA_AMOUNT\":\"0.00\",\"RECURRENCE_SRV_MESSAGE\":\"Registro de afiliacion con exito\",\"BRAND_NAME\":\"VI\",\"PROCESS_CODE\":\"000000\",\"RECURRENCE_SRV_CODE\":\"000\",\"RECURRENCE_STATUS\":\"Registered\",\"TRANSACTION_ID\":\"991232790009338\",\"QUOTA_DEFERRED\":\"0\"}}"
+    }
+]
+2023-10-06T13:24:17+00:00 INFO Orden pagada: 1
+2023-10-06T13:24:17+00:00 INFO Encuentra datos de membresia regalada: 
+2023-10-06T14:53:04+00:00 INFO asociacion regalo: entra
+2023-10-06T14:53:04+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='soporte@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-06T14:53:04+00:00 INFO resultado consulta: [
+    {
+        "id": "31",
+        "id_producto": "340",
+        "correo_destinatario": "soporte@radar.cl",
+        "nombre_destinatario": "Pedro",
+        "nombre_remitente": "Soporte",
+        "mensaje": "Te regalo este curso",
+        "postergar": "0",
+        "fecha_envio": "2023-09-26 00:00:00",
+        "pagado": "1",
+        "enviado": "1",
+        "id_orden": "1564",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-06T14:53:04+00:00 INFO entra al resultado de regalos: 
+2023-10-06T14:53:04+00:00 INFO Query tabla recurrentes: SELECT * FROM wp_niubiz_recurrent_payment WHERE purchaseNumber=1564
+2023-10-06T14:53:04+00:00 INFO Resultado tabla recurrentes: []
+2023-10-06T14:53:04+00:00 INFO Orden pagada: 1
+2023-10-06T16:37:00+00:00 INFO asociacion regalo: entra
+2023-10-06T16:37:00+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='epalomino@isil.pe' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-06T16:37:00+00:00 INFO resultado consulta: []
+2023-10-06T18:29:00+00:00 INFO asociacion regalo: entra
+2023-10-06T18:29:00+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='dekuraptor@gmail.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-06T18:29:00+00:00 INFO resultado consulta: []
+2023-10-06T18:29:17+00:00 INFO asociacion regalo: entra
+2023-10-06T18:29:17+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='dekuraptor@gmail.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-06T18:29:17+00:00 INFO resultado consulta: []
+2023-10-06T20:46:32+00:00 INFO asociacion regalo: entra
+2023-10-06T20:46:32+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='calfaro@isil.pe' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-06T20:46:32+00:00 INFO resultado consulta: []

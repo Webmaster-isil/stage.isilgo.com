@@ -1,0 +1,20 @@
+2023-10-25T07:23:08+00:00 INFO registro: : {
+    "id": "100",
+    "id_producto": "330",
+    "correo_destinatario": "palominoeduardo01@gmail.com",
+    "nombre_destinatario": "Wilfredo",
+    "nombre_remitente": "Eduardo",
+    "mensaje": "Te regalo este curso disfrutalo",
+    "postergar": "0",
+    "fecha_envio": "2023-10-25 07:20:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9443",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-25T07:23:08+00:00 INFO recurrencia dato]: : 
+2023-10-25T07:23:08+00:00 INFO Body principal: : Eduardo te ha regalado un curso online "Business Model Canvas y Nuevos Modelos de Negocio" puedes iniciar tu aprendizaje iniciando sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/cursos-innovacion-y-transformacion-digital/business-model-canvas-y-nuevos-modelos-de-negocio/">aquí</a>
+2023-10-25T07:23:09+00:00 INFO Envio de correo: : bool(true)
+
+2023-10-25T07:23:09+00:00 INFO Envío correcto: ok

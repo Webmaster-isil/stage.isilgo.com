@@ -1,0 +1,339 @@
+2023-10-11T14:15:38+00:00 INFO Entra a completar regalo: ok
+2023-10-11T14:15:38+00:00 INFO resultado de tabla: [
+    {
+        "id": "92",
+        "id_producto": "330",
+        "correo_destinatario": "dr_hemmerick@hotmail.com",
+        "nombre_destinatario": "Romero",
+        "nombre_remitente": "Manuel",
+        "mensaje": "Testeando que metabien el gmt",
+        "postergar": "0",
+        "fecha_envio": "2023-10-11 19:14:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1764",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-11T14:15:38+00:00 INFO Encontró resultado: Entró if
+2023-10-11T14:15:38+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "92",
+    "id_producto": "330",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "Romero",
+    "nombre_remitente": "Manuel",
+    "mensaje": "Testeando que metabien el gmt",
+    "postergar": "0",
+    "fecha_envio": "2023-10-11 19:14:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1764",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-11T14:15:38+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-11T14:15:38+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '89',
+     'user_login' => 'dr_hemmerick@hotmail.com',
+     'user_pass' => '$P$BYJB.wFsiH.DqfXmN8.8U3N.OQs7Ko1',
+     'user_nicename' => 'dr_hemmerickhotmail-com',
+     'user_email' => 'dr_hemmerick@hotmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-09-12 17:01:03',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'dr_hemmerick@hotmail.com',
+  ),
+   'ID' => 89,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-10-11T14:15:38+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-11T14:15:38+00:00 INFO Envío inmediato correo: ok
+2023-10-11T14:18:36+00:00 INFO Entra a completar regalo: ok
+2023-10-11T14:18:36+00:00 INFO resultado de tabla: [
+    {
+        "id": "93",
+        "id_producto": "373",
+        "correo_destinatario": "dr_hemmerick@hotmail.com",
+        "nombre_destinatario": "Peter",
+        "nombre_remitente": "Manu",
+        "mensaje": "Jeloo",
+        "postergar": "1",
+        "fecha_envio": "2023-10-12 00:00:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1765",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-11T14:18:36+00:00 INFO Encontró resultado: Entró if
+2023-10-11T14:18:36+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "93",
+    "id_producto": "373",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "Peter",
+    "nombre_remitente": "Manu",
+    "mensaje": "Jeloo",
+    "postergar": "1",
+    "fecha_envio": "2023-10-12 00:00:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1765",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-11T14:18:36+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-11T14:18:36+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '89',
+     'user_login' => 'dr_hemmerick@hotmail.com',
+     'user_pass' => '$P$BYJB.wFsiH.DqfXmN8.8U3N.OQs7Ko1',
+     'user_nicename' => 'dr_hemmerickhotmail-com',
+     'user_email' => 'dr_hemmerick@hotmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-09-12 17:01:03',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'dr_hemmerick@hotmail.com',
+  ),
+   'ID' => 89,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-10-11T14:18:36+00:00 INFO Busco si postergar está en 0 para enviar: '1'
+2023-10-11T14:18:48+00:00 INFO Entra a completar regalo: ok
+2023-10-11T14:18:48+00:00 INFO resultado de tabla: [
+    {
+        "id": "93",
+        "id_producto": "373",
+        "correo_destinatario": "dr_hemmerick@hotmail.com",
+        "nombre_destinatario": "Peter",
+        "nombre_remitente": "Manu",
+        "mensaje": "Jeloo",
+        "postergar": "1",
+        "fecha_envio": "2023-10-12 00:00:00",
+        "pagado": "1",
+        "enviado": "0",
+        "id_orden": "1765",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-11T14:18:48+00:00 INFO Encontró resultado: Entró if
+2023-10-11T14:18:48+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "93",
+    "id_producto": "373",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "Peter",
+    "nombre_remitente": "Manu",
+    "mensaje": "Jeloo",
+    "postergar": "1",
+    "fecha_envio": "2023-10-12 00:00:00",
+    "pagado": "1",
+    "enviado": "0",
+    "id_orden": "1765",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-11T14:18:48+00:00 INFO Busco si postergar está en 0 para enviar: '1'
+2023-10-11T14:33:49+00:00 INFO Entra a completar regalo: ok
+2023-10-11T14:33:49+00:00 INFO resultado de tabla: [
+    {
+        "id": "94",
+        "id_producto": "493",
+        "correo_destinatario": "dr_hemmerick@hotmail.com",
+        "nombre_destinatario": "Ela",
+        "nombre_remitente": "Manu",
+        "mensaje": "Lol",
+        "postergar": "0",
+        "fecha_envio": "2023-10-11 14:30:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1766",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-11T14:33:49+00:00 INFO Encontró resultado: Entró if
+2023-10-11T14:33:49+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "94",
+    "id_producto": "493",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "Ela",
+    "nombre_remitente": "Manu",
+    "mensaje": "Lol",
+    "postergar": "0",
+    "fecha_envio": "2023-10-11 14:30:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1766",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-11T14:33:49+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-11T14:33:49+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '89',
+     'user_login' => 'dr_hemmerick@hotmail.com',
+     'user_pass' => '$P$BYJB.wFsiH.DqfXmN8.8U3N.OQs7Ko1',
+     'user_nicename' => 'dr_hemmerickhotmail-com',
+     'user_email' => 'dr_hemmerick@hotmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-09-12 17:01:03',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'dr_hemmerick@hotmail.com',
+  ),
+   'ID' => 89,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-10-11T14:33:49+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-11T14:33:49+00:00 INFO Envío inmediato correo: ok
+2023-10-11T14:37:07+00:00 INFO Entra a completar regalo: ok
+2023-10-11T14:37:07+00:00 INFO resultado de tabla: [
+    {
+        "id": "95",
+        "id_producto": "510",
+        "correo_destinatario": "dr_hemmerick@hotmail.com",
+        "nombre_destinatario": "roman",
+        "nombre_remitente": "man",
+        "mensaje": "Test 12-10-2023 10:00",
+        "postergar": "1",
+        "fecha_envio": "2023-09-12 15:00:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1767",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-11T14:37:07+00:00 INFO Encontró resultado: Entró if
+2023-10-11T14:37:07+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "95",
+    "id_producto": "510",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "roman",
+    "nombre_remitente": "man",
+    "mensaje": "Test 12-10-2023 10:00",
+    "postergar": "1",
+    "fecha_envio": "2023-09-12 15:00:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1767",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-11T14:37:07+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-11T14:37:07+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '89',
+     'user_login' => 'dr_hemmerick@hotmail.com',
+     'user_pass' => '$P$BYJB.wFsiH.DqfXmN8.8U3N.OQs7Ko1',
+     'user_nicename' => 'dr_hemmerickhotmail-com',
+     'user_email' => 'dr_hemmerick@hotmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-09-12 17:01:03',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'dr_hemmerick@hotmail.com',
+  ),
+   'ID' => 89,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-10-11T14:37:07+00:00 INFO Busco si postergar está en 0 para enviar: '1'
+2023-10-11T15:51:24+00:00 INFO Entra a completar regalo: ok
+2023-10-11T15:51:24+00:00 INFO resultado de tabla: []
+2023-10-11T16:17:19+00:00 INFO Entra a completar regalo: ok
+2023-10-11T16:17:19+00:00 INFO resultado de tabla: []
+2023-10-11T20:45:00+00:00 INFO Entra a completar regalo: ok
+2023-10-11T20:45:00+00:00 INFO resultado de tabla: []
+2023-10-11T21:34:57+00:00 INFO Entra a completar regalo: ok
+2023-10-11T21:34:57+00:00 INFO resultado de tabla: []
+2023-10-11T21:47:30+00:00 INFO Entra a completar regalo: ok
+2023-10-11T21:52:21+00:00 INFO Entra a completar regalo: ok
+2023-10-11T21:52:21+00:00 INFO resultado de tabla: []
+2023-10-11T22:04:00+00:00 INFO Entra a completar regalo: ok
+2023-10-11T22:04:00+00:00 INFO resultado de tabla: []
+2023-10-11T22:08:08+00:00 INFO Entra a completar regalo: ok
+2023-10-11T22:08:08+00:00 INFO resultado de tabla: []
+2023-10-11T22:48:31+00:00 INFO Entra a completar regalo: ok
+2023-10-11T22:52:13+00:00 INFO Entra a completar regalo: ok
+2023-10-11T22:52:13+00:00 INFO resultado de tabla: []

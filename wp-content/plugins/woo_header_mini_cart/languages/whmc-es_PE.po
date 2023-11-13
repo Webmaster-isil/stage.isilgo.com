@@ -1,0 +1,725 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Header Mini Cart\n"
+"POT-Creation-Date: 2022-11-24 12:23+0600\n"
+"PO-Revision-Date: 2023-11-07 03:42+0000\n"
+"Last-Translator: ISIL GO\n"
+"Language-Team: Español de Perú\n"
+"Language: es_PE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_html__;esc_html;__;_e\n"
+"X-Poedit-SearchPath-0: public\n"
+"X-Poedit-SearchPath-1: admin\n"
+"X-Poedit-SearchPath-2: inc\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.6; wp-6.3.2"
+
+#: admin/class-whmc-admin-sidepanel.php:44
+msgid "Change sidebar position?"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:49
+msgid "Stop Auto Open?"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:54
+#: admin/class-whmc-admin-sidepanel.php:459
+msgid "Background"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:59
+msgid "Top Part"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:66
+msgid "Color Setting"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:71
+msgid " Middle Part"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:78
+msgid "Separator Color"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:83
+msgid "Product Round Image?"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:88
+msgid "Product Title"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:93
+msgid "Product Price"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:98
+msgid "Item Remove icon"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:104
+msgid " Bottom Part"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:112
+msgid "Coupon icon"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:118
+msgid "Sub Total"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:123
+#: public/frontend/class-whmc-frontend.php:112
+msgid "Shipping"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:128
+msgid "Tax "
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:133
+msgid "Discount "
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:138
+#: admin/class-whmc-admin-sidepanel.php:431
+msgid "Total "
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:143
+msgid "Button"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:148
+msgid "Footer Button"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:187
+#: admin/class-whmc-admin-sidepanel.php:257
+msgid "Choose a Icon "
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:242
+#: admin/class-whmc-admin-sidepanel.php:289
+#: admin/class-whmc-admin-sidepanel.php:311
+#: admin/class-whmc-notofication.php:80
+msgid "Icon Color"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:291
+msgid "Text"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:291
+msgid "Apply Coupon?"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:293
+#: admin/class-whmc-admin-sidepanel.php:352
+#: admin/class-whmc-admin-sidepanel.php:372
+#: admin/class-whmc-admin-sidepanel.php:396
+msgid "Disable this field"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:308
+msgid "Top Background"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:314
+#: admin/class-whmc-admin-sidepanel.php:391
+#: admin/class-whmc-admin-sidepanel.php:413
+#: admin/class-whmc-admin-sidepanel.php:433
+#: admin/class-whmc-admin-sidepanel.php:472
+#: admin/class-whmc-admin-sidepanel.php:484
+msgid "Text Color"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:317
+msgid "Change Text?"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:317
+msgid "Cart Items"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:345
+#: admin/class-whmc-admin-sidepanel.php:366
+#: admin/class-whmc-admin-sidepanel.php:388
+#: admin/class-whmc-admin-sidepanel.php:410
+#: admin/class-whmc-admin-sidepanel.php:431
+msgid "Title"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:348
+#: admin/class-whmc-admin-sidepanel.php:368
+#: admin/class-whmc-admin-sidepanel.php:461
+msgid "Color"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:350
+msgid "Font Size (Px)"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:370
+#: admin/class-whmc-admin-sidepanel.php:415
+#: admin/class-whmc-admin-sidepanel.php:435
+#: admin/class-whmc-admin-sidepanel.php:474
+msgid "Font Size"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:393
+#: admin/class-whmc-admin-sidepanel.php:486
+msgid "Font size"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:451
+msgid "Change the title of the Cart  button"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:454
+msgid "Change the title of the checkout button "
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:457
+msgid "Keep Shopping Text"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:497
+msgid "Change the text of the 'Empty Cart Message'"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:499
+msgid "Remove Cart Buton"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:501
+msgid "Remove Keep Shopping Button"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:503
+msgid "Button inline"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:511
+msgid ""
+"The sidebar opens automatically after carting a product, click to close it"
+msgstr ""
+
+#: admin/class-whmc-admin-sidepanel.php:532
+msgid "Click to change sidebar from left to right,Default:Left"
+msgstr ""
+
+#: admin/class-whmc-admin.php:113
+msgid "Settings"
+msgstr ""
+
+#: admin/class-whmc-admin.php:135
+msgid ""
+"Woo Header Minicart Plugin is activated but not effective. It requires "
+"WooCommerce in order to work"
+msgstr ""
+
+#: admin/class-whmc-admin.php:144
+msgid "Woo Header Mini Cart "
+msgstr ""
+
+#: admin/class-whmc-admin.php:162
+msgid "Plugin Page"
+msgstr ""
+
+#: admin/class-whmc-admin.php:163
+msgid "Docs"
+msgstr ""
+
+#: admin/class-whmc-admin.php:165
+msgid "Demo"
+msgstr ""
+
+#: admin/class-whmc-admin.php:167
+msgid "Support"
+msgstr ""
+
+#: admin/class-whmc-admin.php:169
+msgid "Our More Plugin"
+msgstr ""
+
+#: admin/class-whmc-admin.php:171 admin/class-whmc-admin.php:229
+msgid "Licence"
+msgstr ""
+
+#: admin/class-whmc-admin.php:177 inc/class-whmc-in-menus.php:287
+msgid "Woo Header Mini Cart"
+msgstr ""
+
+#: admin/class-whmc-admin.php:178
+msgid "Boost the sales of products & services"
+msgstr ""
+
+#: admin/class-whmc-admin.php:188
+msgid "Menu Cart & Footer Cart "
+msgstr ""
+
+#: admin/class-whmc-admin.php:197 admin/class-whmc-admin.php:210
+#: admin/class-whmc-admin.php:223 admin/class-whmc-admin.php:238
+msgid "Save Changes"
+msgstr ""
+
+#: admin/class-whmc-admin.php:203
+msgid "Sidebar Settings"
+msgstr ""
+
+#: admin/class-whmc-admin.php:216
+msgid "Notification box"
+msgstr ""
+
+#: admin/class-whmc-admin.php:232
+msgid "Please go to"
+msgstr ""
+
+#: admin/class-whmc-admin.php:232
+msgid " My account page"
+msgstr ""
+
+#: admin/class-whmc-admin.php:232
+msgid " and collect the license key"
+msgstr ""
+
+#: admin/class-whmc-licencefile.php:48
+msgid "Licence Key"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:45
+msgid "Disable Notification Box?"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:50
+msgid "Box Position"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:55
+msgid "Added Text Modify"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:60
+msgid "Title Color"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:65
+msgid "Box Background"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:70
+msgid "Box Shadow Color"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:75
+msgid "Display Time"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:85
+msgid "Progress Bar Color"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:90
+msgid "Round Box Design"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:131
+msgid "Change the 'Added' Text after the Product Title"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:141
+msgid "Change Text Color Default"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:151
+msgid "Background Color of the Notification Box"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:160
+msgid "Box Shadow Color of the Notification Box"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:170
+msgid "ProgressBar Color Color,Default:"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:179
+msgid "Sign Icon Color,Default:, click to close it"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:198
+msgid "Top"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:201
+msgid "Top Start"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:204
+msgid "top-end"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:207
+msgid "center"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:210
+msgid "center start"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:213
+msgid "center end"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:216
+msgid "Bottom"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:219
+msgid "bottom start"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:222
+msgid "bottom end"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:224
+msgid "Notofication position,Default:Bottom End"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:243
+msgid "1.5s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:246
+msgid "2s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:249
+msgid "3s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:253
+msgid "4s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:256
+msgid "5s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:259 admin/class-whmc-notofication.php:262
+msgid "6s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:265
+msgid "7s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:268
+msgid "8s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:271
+msgid "9s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:274
+msgid "10s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:276
+msgid "Notification Timining in Second,Default:3s"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:292
+msgid "No"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:295
+msgid "Yes"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:298
+msgid "Turn off Notification function, Default: On"
+msgstr ""
+
+#: admin/class-whmc-notofication.php:309
+msgid "Notification Round Design,Default:on"
+msgstr ""
+
+#: admin/class-whmc-settings.php:37
+msgid "Menu Shopping Cart"
+msgstr ""
+
+#: admin/class-whmc-settings.php:44
+msgid "Choose Menu Cart Icon"
+msgstr ""
+
+#: admin/class-whmc-settings.php:47
+msgid "Choose a Design."
+msgstr ""
+
+#: admin/class-whmc-settings.php:52
+msgid "Menu Cart icon Position"
+msgstr ""
+
+#: admin/class-whmc-settings.php:57
+msgid "Color Settings"
+msgstr ""
+
+#: admin/class-whmc-settings.php:62
+msgid "Remove Amount from the Menu Cart Icon"
+msgstr ""
+
+#: admin/class-whmc-settings.php:67
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-whmc-settings.php:72
+msgid "Footer Shopping Cart"
+msgstr ""
+
+#: admin/class-whmc-settings.php:79
+msgid "Choose Icon"
+msgstr ""
+
+#: admin/class-whmc-settings.php:84
+msgid "Remove Icon"
+msgstr ""
+
+#: admin/class-whmc-settings.php:89
+msgid "Icon Size"
+msgstr ""
+
+#: admin/class-whmc-settings.php:94
+msgid "Icon Loaction"
+msgstr ""
+
+#: admin/class-whmc-settings.php:99
+msgid "Footer Cart Icon Position"
+msgstr ""
+
+#: admin/class-whmc-settings.php:104
+msgid "Color Seting"
+msgstr ""
+
+#: admin/class-whmc-settings.php:110
+msgid "Hide Footer Cart icon"
+msgstr ""
+
+#: admin/class-whmc-settings.php:133
+msgid " Pages:"
+msgstr ""
+
+#: admin/class-whmc-settings.php:144
+msgid "Front Page"
+msgstr ""
+
+#: admin/class-whmc-settings.php:146
+msgid "Shop / Store Page (WooCommerce)"
+msgstr ""
+
+#: admin/class-whmc-settings.php:148
+msgid "Blog Page"
+msgstr ""
+
+#: admin/class-whmc-settings.php:163
+msgid " Post Type:"
+msgstr ""
+
+#: admin/class-whmc-settings.php:318
+msgid "Go to the menu section "
+msgstr ""
+
+#: admin/class-whmc-settings.php:318
+msgid ""
+", and Click the 'Screen Options' at the top and tick \"Woo Header Mini "
+"Cart\", then add it to the menu structure, details in "
+msgstr ""
+
+#: admin/class-whmc-settings.php:318
+msgid " docs"
+msgstr ""
+
+#: admin/class-whmc-settings.php:521
+msgid "Left"
+msgstr ""
+
+#: admin/class-whmc-settings.php:524
+msgid "Right"
+msgstr ""
+
+#: admin/class-whmc-settings.php:526
+msgid "Footer Cart Icon Position Left/right ,Default:right"
+msgstr ""
+
+#: admin/class-whmc-settings.php:613
+msgid "Click on for hide menu cart amount option "
+msgstr ""
+
+#: admin/class-whmc-settings.php:622
+msgid "Click on for remove Footer cart icon"
+msgstr ""
+
+#: inc/class-whmc-in-menus.php:196
+msgid "WHMC"
+msgstr ""
+
+#: inc/class-whmc-in-menus.php:215
+msgid "Woo Header Mini cart"
+msgstr ""
+
+#: public/class-whmc-public.php:204 public/frontend/class-whmc-frontend.php:92
+msgid "Keep Shopping"
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:98
+#: public/frontend/class-whmc-frontend.php:456
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:99
+#: public/frontend/class-whmc-frontend.php:457
+msgid "Change address"
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:101
+#: public/frontend/class-whmc-frontend.php:459
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:111
+#: public/frontend/class-whmc-fragments.php:165
+#: public/frontend/class-whmc-frontend.php:469
+msgid "Calculate"
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:113
+#: public/frontend/class-whmc-frontend.php:471
+msgid "Calculate Shipping"
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:117
+#: public/frontend/class-whmc-fragments.php:167
+#: public/frontend/class-whmc-frontend.php:475
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:118
+#: public/frontend/class-whmc-frontend.php:476
+msgid "Enter a different address"
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:211
+msgid "Product Update Successfully"
+msgstr "Producto actualizado Correctamente"
+
+#: public/frontend/class-whmc-fragments.php:230
+msgid "Coupon Removed Successfully."
+msgstr "Cupón quitado Correctamente"
+
+#: public/frontend/class-whmc-fragments.php:262
+msgid "Coupon Code Field is Empty!"
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:278
+msgid "Coupon Code Already Applied."
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:286
+msgid "Invalid code entered. Please try again."
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:296
+msgid "Coupon Applied Successfully."
+msgstr "Cupón aplicado Correctamente"
+
+#: public/frontend/class-whmc-fragments.php:343
+#: public/frontend/class-whmc-frontend.php:211
+msgid "Remove this item"
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:377
+msgid "empty cart"
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:378
+#: public/frontend/class-whmc-frontend.php:246
+msgid "Return to shop"
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:463
+msgid "Quantity: "
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:464
+msgid "Items: "
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:472
+msgid "item"
+msgstr ""
+
+#: public/frontend/class-whmc-fragments.php:472
+msgid "items"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:35
+msgid "Cart"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:36
+msgid "Checkout"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:38
+msgid "No product in the cart."
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:68
+msgid "Sub total"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:86
+msgid "Cart items"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:103
+msgid "Apply Code?"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:117
+msgid "Tax"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:125
+msgid "Discount"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:131
+msgid "Total"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:288
+msgid "Write coupon code"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:289
+msgid "Apply Coupon"
+msgstr ""
+
+#: public/frontend/class-whmc-frontend.php:333
+#, php-format
+msgid "Get %s off"
+msgstr ""

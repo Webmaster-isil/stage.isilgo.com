@@ -1,0 +1,327 @@
+2023-10-10T18:09:15+00:00 INFO Entra a completar regalo: ok
+2023-10-10T18:09:15+00:00 INFO resultado de tabla: [
+    {
+        "id": "87",
+        "id_producto": "1470",
+        "correo_destinatario": "dr_hemmerick@hotmail.com",
+        "nombre_destinatario": "Romero",
+        "nombre_remitente": "Manujel",
+        "mensaje": "Regalo membresia\r\n",
+        "postergar": "0",
+        "fecha_envio": "2023-10-10 18:08:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1756",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-10T18:09:15+00:00 INFO Encontró resultado: Entró if
+2023-10-10T18:09:15+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "87",
+    "id_producto": "1470",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "Romero",
+    "nombre_remitente": "Manujel",
+    "mensaje": "Regalo membresia\r\n",
+    "postergar": "0",
+    "fecha_envio": "2023-10-10 18:08:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1756",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T18:09:15+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-10T18:09:15+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '89',
+     'user_login' => 'dr_hemmerick@hotmail.com',
+     'user_pass' => '$P$BYJB.wFsiH.DqfXmN8.8U3N.OQs7Ko1',
+     'user_nicename' => 'dr_hemmerickhotmail-com',
+     'user_email' => 'dr_hemmerick@hotmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-09-12 17:01:03',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'dr_hemmerick@hotmail.com',
+  ),
+   'ID' => 89,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-10-10T18:09:15+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-10T18:09:15+00:00 INFO Envío inmediato correo: ok
+2023-10-10T18:59:21+00:00 INFO Entra a completar regalo: ok
+2023-10-10T18:59:21+00:00 INFO resultado de tabla: [
+    {
+        "id": "88",
+        "id_producto": "500",
+        "correo_destinatario": "dekuraptor@gmail.com",
+        "nombre_destinatario": "Usuario dekuraptor",
+        "nombre_remitente": "Cuenta administrador",
+        "mensaje": "Esta es una prueba.",
+        "postergar": "0",
+        "fecha_envio": "2023-10-10 18:58:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1757",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-10T18:59:21+00:00 INFO Encontró resultado: Entró if
+2023-10-10T18:59:21+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "88",
+    "id_producto": "500",
+    "correo_destinatario": "dekuraptor@gmail.com",
+    "nombre_destinatario": "Usuario dekuraptor",
+    "nombre_remitente": "Cuenta administrador",
+    "mensaje": "Esta es una prueba.",
+    "postergar": "0",
+    "fecha_envio": "2023-10-10 18:58:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1757",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T18:59:21+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-10T18:59:21+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '12',
+     'user_login' => 'dekuraptor@gmail.com',
+     'user_pass' => '$P$BtWA3bnoGKYZx0rEJBA0eMoTflMWSI.',
+     'user_nicename' => 'dekuraptorgmail-com',
+     'user_email' => 'dekuraptor@gmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-08-03 16:11:16',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'dekuraptor@gmail.com',
+  ),
+   'ID' => 12,
+   'caps' => 
+  array (
+    'profesor' => true,
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    1 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'profesor' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-10-10T18:59:21+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-10T18:59:21+00:00 INFO Envío inmediato correo: ok
+2023-10-10T19:28:07+00:00 INFO Entra a completar regalo: ok
+2023-10-10T19:28:07+00:00 INFO resultado de tabla: [
+    {
+        "id": "89",
+        "id_producto": "467",
+        "correo_destinatario": "tiprueba15@gmail.com",
+        "nombre_destinatario": "tiprueba15",
+        "nombre_remitente": "dultanagna",
+        "mensaje": "Esto es un regalo!! Disfr\u00fatalo!!",
+        "postergar": "0",
+        "fecha_envio": "2023-10-10 19:25:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1759",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-10T19:28:07+00:00 INFO Encontró resultado: Entró if
+2023-10-10T19:28:07+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "89",
+    "id_producto": "467",
+    "correo_destinatario": "tiprueba15@gmail.com",
+    "nombre_destinatario": "tiprueba15",
+    "nombre_remitente": "dultanagna",
+    "mensaje": "Esto es un regalo!! Disfr\u00fatalo!!",
+    "postergar": "0",
+    "fecha_envio": "2023-10-10 19:25:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1759",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T19:28:07+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-10T19:28:07+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '37950',
+     'user_login' => 'tiprueba15@gmail.com',
+     'user_pass' => '$P$BK/VREXDaEMdg69N6/e3YUg6NkM/.F/',
+     'user_nicename' => 'tiprueba15gmail-com',
+     'user_email' => 'tiprueba15@gmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-09-22 19:54:40',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'tiprueba15@gmail.com',
+  ),
+   'ID' => 37950,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-10-10T19:28:07+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-10T19:28:07+00:00 INFO Envío inmediato correo: ok
+2023-10-10T21:02:31+00:00 INFO Entra a completar regalo: ok
+2023-10-10T21:02:31+00:00 INFO resultado de tabla: [
+    {
+        "id": "90",
+        "id_producto": "402",
+        "correo_destinatario": "tiprueba18@gmail.com",
+        "nombre_destinatario": "Elizabeth",
+        "nombre_remitente": "Katya",
+        "mensaje": "Estimada Elizabeth,\r\n\r\nTe acabo de regalar un curso de ISILGO, espero que lo disfrutes al m\u00e1ximo!!\r\n\r\nCon mucho cari\u00f1o,\r\n\r\nKatya",
+        "postergar": "0",
+        "fecha_envio": "2023-10-10 21:00:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1760",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-10T21:02:31+00:00 INFO Encontró resultado: Entró if
+2023-10-10T21:02:31+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "90",
+    "id_producto": "402",
+    "correo_destinatario": "tiprueba18@gmail.com",
+    "nombre_destinatario": "Elizabeth",
+    "nombre_remitente": "Katya",
+    "mensaje": "Estimada Elizabeth,\r\n\r\nTe acabo de regalar un curso de ISILGO, espero que lo disfrutes al m\u00e1ximo!!\r\n\r\nCon mucho cari\u00f1o,\r\n\r\nKatya",
+    "postergar": "0",
+    "fecha_envio": "2023-10-10 21:00:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1760",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T21:02:31+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-10T21:02:31+00:00 INFO Busco si existe usuario: false
+2023-10-10T21:02:31+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-10T21:02:31+00:00 INFO Envío inmediato correo: ok
+2023-10-10T21:31:41+00:00 INFO Entra a completar regalo: ok
+2023-10-10T21:31:41+00:00 INFO resultado de tabla: [
+    {
+        "id": "91",
+        "id_producto": "494",
+        "correo_destinatario": "tiprueba18@gmail.com",
+        "nombre_destinatario": "tiprueba18",
+        "nombre_remitente": "dultanagna",
+        "mensaje": "Esto es un regalo.",
+        "postergar": "1",
+        "fecha_envio": "2023-10-10 17:00:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1761",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-10T21:31:41+00:00 INFO Encontró resultado: Entró if
+2023-10-10T21:31:41+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "91",
+    "id_producto": "494",
+    "correo_destinatario": "tiprueba18@gmail.com",
+    "nombre_destinatario": "tiprueba18",
+    "nombre_remitente": "dultanagna",
+    "mensaje": "Esto es un regalo.",
+    "postergar": "1",
+    "fecha_envio": "2023-10-10 17:00:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1761",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-10T21:31:41+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-10T21:31:41+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '37956',
+     'user_login' => 'tiprueba18@gmail.com',
+     'user_pass' => '$P$BRhu87RV0VbfZm4.8RFVeZOT9gMNin1',
+     'user_nicename' => 'tiprueba18gmail-com',
+     'user_email' => 'tiprueba18@gmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-10-10 21:19:35',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'tiprueba18@gmail.com',
+  ),
+   'ID' => 37956,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-10-10T21:31:41+00:00 INFO Busco si postergar está en 0 para enviar: '1'

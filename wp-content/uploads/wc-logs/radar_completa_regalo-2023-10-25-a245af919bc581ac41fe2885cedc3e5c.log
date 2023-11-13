@@ -1,0 +1,47 @@
+2023-10-25T07:23:08+00:00 INFO Entra a completar regalo: ok
+2023-10-25T07:23:08+00:00 INFO resultado de tabla: [
+    {
+        "id": "100",
+        "id_producto": "330",
+        "correo_destinatario": "palominoeduardo01@gmail.com",
+        "nombre_destinatario": "Wilfredo",
+        "nombre_remitente": "Eduardo",
+        "mensaje": "Te regalo este curso disfrutalo",
+        "postergar": "0",
+        "fecha_envio": "2023-10-25 07:20:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9443",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-25T07:23:08+00:00 INFO Encontró resultado: Entró if
+2023-10-25T07:23:08+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "100",
+    "id_producto": "330",
+    "correo_destinatario": "palominoeduardo01@gmail.com",
+    "nombre_destinatario": "Wilfredo",
+    "nombre_remitente": "Eduardo",
+    "mensaje": "Te regalo este curso disfrutalo",
+    "postergar": "0",
+    "fecha_envio": "2023-10-25 07:20:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9443",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-25T07:23:08+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-25T07:23:08+00:00 INFO Busco si existe usuario: false
+2023-10-25T07:23:08+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-25T07:23:08+00:00 INFO Envío inmediato correo: ok
+2023-10-25T18:29:49+00:00 INFO Entra a completar regalo: ok
+2023-10-25T18:29:49+00:00 INFO resultado de tabla: []
+2023-10-25T18:32:57+00:00 INFO Entra a completar regalo: ok
+2023-10-25T18:32:57+00:00 INFO resultado de tabla: []
+2023-10-25T18:43:40+00:00 INFO Entra a completar regalo: ok
+2023-10-25T18:45:07+00:00 INFO Entra a completar regalo: ok
+2023-10-25T21:46:12+00:00 INFO Entra a completar regalo: ok
+2023-10-25T21:46:12+00:00 INFO resultado de tabla: []
+2023-10-25T23:10:46+00:00 INFO Entra a completar regalo: ok

@@ -1,0 +1,182 @@
+2023-11-06T20:17:48+00:00 INFO 9567 : {
+    "brand": "",
+    "business_address": "",
+    "business_identifier": "",
+    "business_name": "",
+    "doc_number": "989338407",
+    "doc_type": "4",
+    "email": "tiprueba20@gmail.com",
+    "family_name": "TIPRUEBA",
+    "given_name": "Katysita",
+    "operation_number": "",
+    "paid": true,
+    "purchase_date": "2023-11-06T20:17:32+00:00",
+    "phone_number": "989338407",
+    "country": "AS",
+    "state": "Samoa",
+    "city": "Rumania",
+    "purchase_amount": "0.00",
+    "purchase_id": 9567,
+    "tc": true,
+    "app": "ISILGO",
+    "coupon_description": "ISILGO MEMBRESIA 1 MES0 - ISILGO MEMBRESIA 1 MES",
+    "purchaseDetails": [
+        {
+            "item_amount": "0",
+            "item_desc": "Premium 12 meses",
+            "item_id": 113,
+            "item_seq": 1,
+            "purchase_id": 9567,
+            "purchase_item_id": "9567-113-39540",
+            "quantity": 1,
+            "add": "Membres\u00eda",
+            "status_date": "2023-11-06T20:17:32+00:00",
+            "discount_description": "mb11bw7wxwb"
+        }
+    ]
+}
+2023-11-06T20:28:04+00:00 INFO 9568 : {
+    "brand": "",
+    "business_address": "",
+    "business_identifier": "",
+    "business_name": "",
+    "doc_number": "989338407",
+    "doc_type": "4",
+    "email": "tiprueba20@gmail.com",
+    "family_name": "TIPRUEBA",
+    "given_name": "Katysita",
+    "operation_number": "",
+    "paid": true,
+    "purchase_date": "2023-11-06T20:27:48+00:00",
+    "phone_number": "989338407",
+    "country": "AS",
+    "state": "Samoa",
+    "city": "Rumania",
+    "purchase_amount": "0.00",
+    "purchase_id": 9568,
+    "tc": true,
+    "app": "ISILGO",
+    "coupon_description": "ISILGO MEMBRESIA 1 MES0 - ISILGO MEMBRESIA 1 MES",
+    "purchaseDetails": [
+        {
+            "item_amount": "0",
+            "item_desc": "Premium 12 meses",
+            "item_id": 113,
+            "item_seq": 1,
+            "purchase_id": 9568,
+            "purchase_item_id": "9568-113-39540",
+            "quantity": 1,
+            "add": "Membres\u00eda",
+            "status_date": "2023-11-06T20:27:48+00:00",
+            "discount_description": "mb11bw7wxwb"
+        }
+    ]
+}
+2023-11-06T21:55:57+00:00 INFO 9572 : {
+    "brand": "",
+    "business_address": "",
+    "business_identifier": "",
+    "business_name": "",
+    "doc_number": "989338407",
+    "doc_type": "4",
+    "email": "tiprueba20@gmail.com",
+    "family_name": "TIPRUEBA",
+    "given_name": "Katysita",
+    "operation_number": "",
+    "paid": true,
+    "purchase_date": "2023-11-06T21:55:41+00:00",
+    "phone_number": "989338407",
+    "country": "AS",
+    "state": "Samoa",
+    "city": "Rumania",
+    "purchase_amount": "0.00",
+    "purchase_id": 9572,
+    "tc": true,
+    "app": "ISILGO",
+    "coupon_description": "ISILGO MEMBRESIA 1 MES0 - ISILGO MEMBRESIA 1 MES",
+    "purchaseDetails": [
+        {
+            "item_amount": "0",
+            "item_desc": "Premium 12 meses",
+            "item_id": 113,
+            "item_seq": 1,
+            "purchase_id": 9572,
+            "purchase_item_id": "9572-113-39540",
+            "quantity": 1,
+            "add": "Membres\u00eda",
+            "status_date": "2023-11-06T21:55:41+00:00"
+        }
+    ]
+}
+2023-11-06T22:10:02+00:00 INFO 9573 : {
+    "brand": "",
+    "business_address": "",
+    "business_identifier": "",
+    "business_name": "",
+    "doc_number": "989338407",
+    "doc_type": "4",
+    "email": "tiprueba20@gmail.com",
+    "family_name": "TIPRUEBA",
+    "given_name": "Katysita",
+    "operation_number": "",
+    "paid": true,
+    "purchase_date": "2023-11-06T22:09:45+00:00",
+    "phone_number": "989338407",
+    "country": "AS",
+    "state": "Samoa",
+    "city": "Rumania",
+    "purchase_amount": "0.00",
+    "purchase_id": 9573,
+    "tc": true,
+    "app": "ISILGO",
+    "coupon_description": "ISILGO MEMBRESIA 1 MES0 - ISILGO MEMBRESIA 1 MES",
+    "purchaseDetails": [
+        {
+            "item_amount": "0",
+            "item_desc": "Boost 3 meses",
+            "item_id": 105,
+            "item_seq": 1,
+            "purchase_id": 9573,
+            "purchase_item_id": "9573-105-39540",
+            "quantity": 1,
+            "add": "Membres\u00eda",
+            "status_date": "2023-11-06T22:09:45+00:00"
+        }
+    ]
+}
+2023-11-06T22:26:52+00:00 INFO 9574 : {
+    "brand": "VISA",
+    "business_address": "",
+    "business_identifier": "",
+    "business_name": "",
+    "doc_number": "44000413",
+    "doc_type": "1",
+    "email": "calfaro@isil.pe",
+    "family_name": "Alfaro Estela",
+    "given_name": "Cesar Aurelio",
+    "operation_number": "993203570048588",
+    "paid": true,
+    "purchase_date": "2023-11-06T22:25:31+00:00",
+    "phone_number": "941084170",
+    "country": "PE",
+    "state": "LMA",
+    "city": "Lima",
+    "purchase_amount": "68.87",
+    "purchase_id": 9574,
+    "tc": true,
+    "app": "ISILGO",
+    "coupon_description": "",
+    "purchaseDetails": [
+        {
+            "item_amount": "68.8725",
+            "item_desc": "Coaching Ejecutivo",
+            "item_id": 311,
+            "item_seq": 1,
+            "purchase_id": 9574,
+            "purchase_item_id": "9574-311-5",
+            "quantity": 1,
+            "add": "Curso",
+            "status_date": "2023-11-06T22:25:31+00:00"
+        }
+    ]
+}

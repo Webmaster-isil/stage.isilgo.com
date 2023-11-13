@@ -1,0 +1,948 @@
+2023-09-22T00:58:28+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T13:19:26+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T13:43:54+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T13:44:03+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T14:05:29+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_items() in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php:430
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(297): verificaItemOC('course-v1:ISIL-...', 83)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/grados.php(179): trae_oc_enrolamiento('course-v1:ISIL-...', 'shinyi_01@hotma...', NULL, 83)
+#2 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): updateCourse(Object(WP_REST_Request))
+#3 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/updateCourse/v...', Array, NULL)
+#4 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/isilgodevradar/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/updateCourse/v...')
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#7 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#11 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#12 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#13 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#14 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php en la línea 430
+
+2023-09-22T14:06:57+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_items() in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php:428
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(297): verificaItemOC('course-v1:ISIL-...', 83)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/grados.php(179): trae_oc_enrolamiento('course-v1:ISIL-...', 'shinyi_01@hotma...', NULL, 83)
+#2 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): updateCourse(Object(WP_REST_Request))
+#3 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/updateCourse/v...', Array, NULL)
+#4 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/isilgodevradar/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/updateCourse/v...')
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#7 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#11 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#12 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#13 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#14 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php en la línea 428
+
+2023-09-22T14:14:11+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T15:04:16+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T15:35:12+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T15:38:16+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T15:38:26+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T15:50:43+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T16:31:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_private_order_notes() in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:110
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): sa_wc_after_order_complete(1493)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 110
+
+2023-09-22T16:56:51+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T17:46:51+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T17:47:00+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T18:14:50+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_items() in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php:428
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(297): verificaItemOC('course-v1:ISIL-...', 83)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/grados.php(179): trae_oc_enrolamiento('course-v1:ISIL-...', 'shinyi_01@hotma...', NULL, 83)
+#2 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): updateCourse(Object(WP_REST_Request))
+#3 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/updateCourse/v...', Array, NULL)
+#4 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/isilgodevradar/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/updateCourse/v...')
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#7 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#11 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#12 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#13 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#14 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php en la línea 428
+
+2023-09-22T18:17:39+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_items() in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php:429
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(297): verificaItemOC('course-v1:ISIL-...', 83)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/grados.php(179): trae_oc_enrolamiento('course-v1:ISIL-...', 'shinyi_01@hotma...', NULL, 83)
+#2 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): updateCourse(Object(WP_REST_Request))
+#3 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/updateCourse/v...', Array, NULL)
+#4 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/isilgodevradar/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/updateCourse/v...')
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#7 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#11 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#12 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#13 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#14 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php en la línea 429
+
+2023-09-22T18:24:17+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_items() in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php:432
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(297): verificaItemOC('course-v1:ISIL-...', 83)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/grados.php(179): trae_oc_enrolamiento('course-v1:ISIL-...', 'shinyi_01@hotma...', NULL, 83)
+#2 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): updateCourse(Object(WP_REST_Request))
+#3 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/updateCourse/v...', Array, NULL)
+#4 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/isilgodevradar/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/updateCourse/v...')
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#7 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#11 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#12 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#13 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#14 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php en la línea 432
+
+2023-09-22T18:26:43+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_items() in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php:433
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(297): verificaItemOC('course-v1:ISIL-...', 83)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/grados.php(179): trae_oc_enrolamiento('course-v1:ISIL-...', 'shinyi_01@hotma...', NULL, 83)
+#2 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): updateCourse(Object(WP_REST_Request))
+#3 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/updateCourse/v...', Array, NULL)
+#4 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/isilgodevradar/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/updateCourse/v...')
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#7 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#11 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#12 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#13 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#14 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php en la línea 433
+
+2023-09-22T18:30:23+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php:428
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(297): verificaItemOC('course-v1:ISIL-...', 83)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/grados.php(179): trae_oc_enrolamiento('course-v1:ISIL-...', 'shinyi_01@hotma...', NULL, 83)
+#2 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): updateCourse(Object(WP_REST_Request))
+#3 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/updateCourse/v...', Array, NULL)
+#4 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/isilgodevradar/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/updateCourse/v...')
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#7 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#11 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#12 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#13 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#14 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php en la línea 428
+
+2023-09-22T18:30:29+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php:428
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(297): verificaItemOC('course-v1:ISIL-...', 83)
+#1 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/grados.php(179): trae_oc_enrolamiento('course-v1:ISIL-...', 'shinyi_01@hotma...', NULL, 83)
+#2 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): updateCourse(Object(WP_REST_Request))
+#3 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/updateCourse/v...', Array, NULL)
+#4 /home/isilgodevradar/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/isilgodevradar/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/updateCourse/v...')
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#7 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#11 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#12 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#13 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#14 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php en la línea 428
+
+2023-09-22T19:22:39+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T19:29:18+00:00 CRITICAL Uncaught Error: Call to a member function add_order_note() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:250
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(240): cursoStatus('402', false, 37943, 1)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): checkUser('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_checkUs...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 250
+
+2023-09-22T19:38:27+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T19:42:39+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T20:09:48+00:00 CRITICAL Uncaught Error: Call to a member function add_order_note() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:250
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(270): cursoStatus('402', false, 37950, 1)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): checkUser('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_checkUs...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 250
+
+2023-09-22T20:24:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:25:12+00:00 CRITICAL Uncaught Error: Call to a member function add_order_note() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:252
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(270): cursoStatus('330', false, 80, 1)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): checkUser('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_checkUs...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 252
+
+2023-09-22T20:25:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:26:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:26:27+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:27:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:27:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:28:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:29:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:29:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:30:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:30:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:30:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:31:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:34:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sa_wc_after_order_complete" not found or invalid function name in /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ejemplo')
+#3 {main}
+  thrown en /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php en la línea 310
+
+2023-09-22T20:45:17+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T20:49:25+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T20:51:31+00:00 CRITICAL Uncaught Error: Call to a member function add_order_note() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:258
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(240): cursoStatus('438', false, 83, 1)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): checkUser('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_checkUs...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 258
+
+2023-09-22T21:01:11+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T21:01:24+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T21:02:25+00:00 CRITICAL Uncaught Error: Call to a member function add_order_note() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:258
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(240): cursoStatus('330', false, 37948, 1)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): checkUser('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_checkUs...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 258
+
+2023-09-22T21:04:37+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T21:12:26+00:00 CRITICAL Uncaught Error: Call to a member function add_order_note() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:263
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(240): cursoStatus('416', false, 83, 1)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): checkUser('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_checkUs...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 263
+
+2023-09-22T21:33:36+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T21:57:56+00:00 CRITICAL Uncaught Error: Call to a member function add_order_note() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:258
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(240): cursoStatus('492', false, 83, 1)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): checkUser('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_checkUs...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 258
+
+2023-09-22T22:10:51+00:00 CRITICAL Uncaught Error: Call to a member function add_order_note() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:261
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(241): cursoStatus('313', false, 83, 1)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): checkUser('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_checkUs...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 261
+
+2023-09-22T22:16:17+00:00 CRITICAL Uncaught Error: Call to a member function add_order_note() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:261
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(222): cursoStatus('313', false, 83, 1)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): checkUser('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_checkUs...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 261
+
+2023-09-22T22:17:52+00:00 CRITICAL Uncaught Error: Call to a member function add_order_note() on bool in /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php:261
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/integracion.php(220): cursoStatus('313', false, 83, 1)
+#1 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): checkUser('')
+#2 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/isilgodevradar/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_checkUs...')
+#5 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/themes/isilgo/integraciones/api-isil.php en la línea 261
+
+2023-09-22T22:46:24+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T22:55:28+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-09-22T22:56:39+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/isilgodevradar/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/isilgodevradar/public_html/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /home/isilgodevradar/public_html/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#11 /home/isilgodevradar/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /home/isilgodevradar/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /home/isilgodevradar/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#14 /home/isilgodevradar/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#15 /home/isilgodevradar/public_html/wp-includes/functions.php(1335): WP->main('')
+#16 /home/isilgodevradar/public_html/wp-blog-header.php(16): wp()
+#17 /home/isilgodevradar/public_html/index.php(17): require('/home/isilgodev...')
+#18 {main}
+  thrown en /home/isilgodevradar/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+

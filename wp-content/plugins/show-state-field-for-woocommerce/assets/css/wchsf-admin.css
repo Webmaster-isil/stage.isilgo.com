@@ -1,0 +1,13 @@
+/* .country_drop {
+    height: 218px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.country_drop ul{
+    height: 218px;
+} */
+.country_drop li a{
+   text-decoration: none;
+   color: #000;
+   font-weight: 600;
+}

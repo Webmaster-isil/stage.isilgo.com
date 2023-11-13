@@ -1,0 +1,100 @@
+2023-10-31T19:29:19+00:00 INFO registro: : {
+    "id": "118",
+    "id_producto": "112",
+    "correo_destinatario": "katyagarvich@gmail.com",
+    "nombre_destinatario": "katyagarvich",
+    "nombre_remitente": "Prueba15",
+    "mensaje": "Esto es un prueba.",
+    "postergar": "0",
+    "fecha_envio": "2023-10-31 19:26:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9503",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-31T19:29:19+00:00 INFO recurrencia dato]: : BIANNUAL
+2023-10-31T19:29:19+00:00 INFO Body principal: : Prueba15 te ha regalado una membresía "Advance 6 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/suscripciones/advance-6-meses/">aquí</a>
+2023-10-31T19:29:20+00:00 INFO Envio de correo: : bool(true)
+
+2023-10-31T19:29:20+00:00 INFO Envío correcto: ok
+2023-10-31T19:31:13+00:00 INFO registro: : {
+    "id": "119",
+    "id_producto": "373",
+    "correo_destinatario": "vicevaldes.bravo@gmail.com",
+    "nombre_destinatario": "radar",
+    "nombre_remitente": "pruebas",
+    "mensaje": "rpruebas",
+    "postergar": "0",
+    "fecha_envio": "2023-10-31 19:30:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9504",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-31T19:31:13+00:00 INFO recurrencia dato]: : 
+2023-10-31T19:31:13+00:00 INFO Body principal: : pruebas te ha regalado un curso online "Aprendizaje Ágil con ISIL Go" puedes iniciar tu aprendizaje iniciando sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/cursos-educacion/aprendizaje-agil-con-isil-go/">aquí</a>
+2023-10-31T19:31:13+00:00 INFO Envio de correo: : bool(true)
+
+2023-10-31T19:31:13+00:00 INFO Envío correcto: ok
+2023-10-31T19:31:14+00:00 INFO registro: : {
+    "id": "119",
+    "id_producto": "373",
+    "correo_destinatario": "vicevaldes.bravo@gmail.com",
+    "nombre_destinatario": "radar",
+    "nombre_remitente": "pruebas",
+    "mensaje": "rpruebas",
+    "postergar": "0",
+    "fecha_envio": "2023-10-31 19:30:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9504",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-31T19:31:14+00:00 INFO recurrencia dato]: : 
+2023-10-31T19:31:14+00:00 INFO Body principal: : pruebas te ha regalado un curso online "Aprendizaje Ágil con ISIL Go" puedes iniciar tu aprendizaje iniciando sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/cursos-educacion/aprendizaje-agil-con-isil-go/">aquí</a>
+2023-10-31T19:31:14+00:00 INFO Envio de correo: : bool(true)
+
+2023-10-31T19:31:14+00:00 INFO Envío correcto: ok
+2023-10-31T20:31:14+00:00 INFO registro: : {
+    "id": "120",
+    "id_producto": "340",
+    "correo_destinatario": "vicente.valdes@radar.cl",
+    "nombre_destinatario": "radar",
+    "nombre_remitente": "vicente",
+    "mensaje": "radarpruebas",
+    "postergar": "0",
+    "fecha_envio": "2023-10-31 20:30:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9507",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-31T20:31:14+00:00 INFO recurrencia dato]: : 
+2023-10-31T20:31:14+00:00 INFO Body principal: : vicente te ha regalado un curso online "Cómo crear una campaña publicitaria que trascienda" puedes iniciar tu aprendizaje iniciando sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/masterclass/como-crear-una-campana-publicitaria-que-trascienda/">aquí</a>
+2023-10-31T20:31:14+00:00 INFO Envio de correo: : bool(true)
+
+2023-10-31T20:31:14+00:00 INFO Envío correcto: ok
+2023-10-31T20:31:15+00:00 INFO registro: : {
+    "id": "120",
+    "id_producto": "340",
+    "correo_destinatario": "vicente.valdes@radar.cl",
+    "nombre_destinatario": "radar",
+    "nombre_remitente": "vicente",
+    "mensaje": "radarpruebas",
+    "postergar": "0",
+    "fecha_envio": "2023-10-31 20:30:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9507",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-31T20:31:15+00:00 INFO recurrencia dato]: : 
+2023-10-31T20:31:15+00:00 INFO Body principal: : vicente te ha regalado un curso online "Cómo crear una campaña publicitaria que trascienda" puedes iniciar tu aprendizaje iniciando sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/masterclass/como-crear-una-campana-publicitaria-que-trascienda/">aquí</a>
+2023-10-31T20:31:15+00:00 INFO Envio de correo: : bool(true)
+
+2023-10-31T20:31:15+00:00 INFO Envío correcto: ok

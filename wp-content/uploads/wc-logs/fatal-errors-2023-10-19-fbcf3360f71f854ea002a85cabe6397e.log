@@ -1,0 +1,249 @@
+2023-10-19T20:06:33+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T20:10:34+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T20:11:45+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T20:19:13+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T20:22:10+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T20:25:55+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T20:33:57+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:02:57+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-19T21:03:58+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-19T21:10:47+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:11:25+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:15:18+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:18:12+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:20:49+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:21:16+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:35:41+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:36:10+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:36:32+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:37:11+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:41:04+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-19T21:56:13+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+

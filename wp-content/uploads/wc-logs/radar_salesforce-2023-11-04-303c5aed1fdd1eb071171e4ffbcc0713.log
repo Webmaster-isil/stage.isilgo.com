@@ -1,0 +1,32 @@
+2023-11-04T20:57:03+00:00 INFO nuevo usuario:
+{
+    "first_name": "Cristi\u00e1n",
+    "last_name": "Frenkel",
+    "company": "Cristi\u00e1n Frenkel",
+    "email": "cristian.frenkel@radar.cl",
+    "00Nf400000TUbiN": "+56990029433",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "04\/11\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-11-04T20:59:51+00:00 INFO nuevo usuario:
+{
+    "first_name": "Cristi\u00e1n",
+    "last_name": "Frenkel",
+    "company": "Cristi\u00e1n Frenkel",
+    "email": "cristian.frenkel@radar.cl",
+    "00Nf400000TUbiN": "+56990029433",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "04\/11\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}

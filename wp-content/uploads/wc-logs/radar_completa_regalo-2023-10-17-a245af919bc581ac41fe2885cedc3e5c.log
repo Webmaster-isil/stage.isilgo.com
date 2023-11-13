@@ -1,0 +1,84 @@
+2023-10-17T13:26:27+00:00 INFO Entra a completar regalo: ok
+2023-10-17T13:26:27+00:00 INFO resultado de tabla: []
+2023-10-17T14:31:35+00:00 INFO Entra a completar regalo: ok
+2023-10-17T14:31:35+00:00 INFO resultado de tabla: [
+    {
+        "id": "98",
+        "id_producto": "516",
+        "correo_destinatario": "calfaroest@gmail.com",
+        "nombre_destinatario": "Cesar Alfaro Estela",
+        "nombre_remitente": "Cesar Alfaro Estela",
+        "mensaje": "Esto es un regalo ISILGO",
+        "postergar": "0",
+        "fecha_envio": "2023-10-17 14:27:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1930",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-17T14:31:35+00:00 INFO Encontró resultado: Entró if
+2023-10-17T14:31:35+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "98",
+    "id_producto": "516",
+    "correo_destinatario": "calfaroest@gmail.com",
+    "nombre_destinatario": "Cesar Alfaro Estela",
+    "nombre_remitente": "Cesar Alfaro Estela",
+    "mensaje": "Esto es un regalo ISILGO",
+    "postergar": "0",
+    "fecha_envio": "2023-10-17 14:27:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1930",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-17T14:31:35+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-17T14:31:35+00:00 INFO Busco si existe usuario: false
+2023-10-17T14:31:35+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-17T14:31:35+00:00 INFO Envío inmediato correo: ok
+2023-10-17T14:51:41+00:00 INFO Entra a completar regalo: ok
+2023-10-17T14:51:41+00:00 INFO resultado de tabla: [
+    {
+        "id": "100",
+        "id_producto": "402",
+        "correo_destinatario": "calfaroest@gmail.com",
+        "nombre_destinatario": "Cesar Alfaro",
+        "nombre_remitente": "Cesar Alfaro",
+        "mensaje": "Este es un regalo para t\u00ed",
+        "postergar": "0",
+        "fecha_envio": "2023-10-17 14:50:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "1932",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-10-17T14:51:41+00:00 INFO Encontró resultado: Entró if
+2023-10-17T14:51:41+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "100",
+    "id_producto": "402",
+    "correo_destinatario": "calfaroest@gmail.com",
+    "nombre_destinatario": "Cesar Alfaro",
+    "nombre_remitente": "Cesar Alfaro",
+    "mensaje": "Este es un regalo para t\u00ed",
+    "postergar": "0",
+    "fecha_envio": "2023-10-17 14:50:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1932",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-17T14:51:41+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-10-17T14:51:41+00:00 INFO Busco si existe usuario: false
+2023-10-17T14:51:41+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-10-17T14:51:41+00:00 INFO Envío inmediato correo: ok
+2023-10-17T15:06:56+00:00 INFO Entra a completar regalo: ok
+2023-10-17T15:10:53+00:00 INFO Entra a completar regalo: ok
+2023-10-17T15:10:53+00:00 INFO resultado de tabla: []
+2023-10-17T15:33:28+00:00 INFO Entra a completar regalo: ok
+2023-10-17T15:46:50+00:00 INFO Entra a completar regalo: ok
+2023-10-17T15:46:50+00:00 INFO resultado de tabla: []

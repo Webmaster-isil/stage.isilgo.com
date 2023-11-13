@@ -1,0 +1,39 @@
+2023-10-17T12:22:07+00:00 INFO asociacion regalo: entra
+2023-10-17T12:22:07+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T12:22:07+00:00 INFO resultado consulta: []
+2023-10-17T12:29:07+00:00 INFO asociacion regalo: entra
+2023-10-17T12:29:07+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='rojoca1485@xgh6.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T12:29:07+00:00 INFO resultado consulta: []
+2023-10-17T12:36:08+00:00 INFO asociacion regalo: entra
+2023-10-17T12:36:08+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='dr_hemmerick@hotmail.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T12:36:08+00:00 INFO resultado consulta: []
+2023-10-17T13:09:00+00:00 INFO asociacion regalo: entra
+2023-10-17T13:09:00+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='xepixi4072@chambile.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T13:09:00+00:00 INFO resultado consulta: []
+2023-10-17T13:17:27+00:00 INFO asociacion regalo: entra
+2023-10-17T13:17:27+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='tiprueba19@gmail.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T13:17:27+00:00 INFO resultado consulta: []
+2023-10-17T14:00:46+00:00 INFO asociacion regalo: entra
+2023-10-17T14:00:46+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='kgarvich@isil.pe' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T14:00:46+00:00 INFO resultado consulta: []
+2023-10-17T14:24:30+00:00 INFO asociacion regalo: entra
+2023-10-17T14:24:30+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='tiprueba19@gmail.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T14:24:30+00:00 INFO resultado consulta: []
+2023-10-17T15:01:44+00:00 INFO asociacion regalo: entra
+2023-10-17T15:01:44+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T15:01:44+00:00 INFO resultado consulta: []
+2023-10-17T15:03:03+00:00 INFO asociacion regalo: entra
+2023-10-17T15:03:03+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='fideyi7503@ibtrades.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T15:03:03+00:00 INFO resultado consulta: []
+2023-10-17T15:36:19+00:00 INFO asociacion regalo: entra
+2023-10-17T15:36:19+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='fideyi7503@ibtrades.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T15:36:19+00:00 INFO resultado consulta: []
+2023-10-17T15:56:13+00:00 INFO asociacion regalo: entra
+2023-10-17T15:56:13+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T15:56:13+00:00 INFO resultado consulta: []
+2023-10-17T16:19:43+00:00 INFO asociacion regalo: entra
+2023-10-17T16:19:43+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='fideyi7503@ibtrades.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T16:19:43+00:00 INFO resultado consulta: []
+2023-10-17T16:20:02+00:00 INFO asociacion regalo: entra
+2023-10-17T16:20:02+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='fideyi7503@ibtrades.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-17T16:20:02+00:00 INFO resultado consulta: []

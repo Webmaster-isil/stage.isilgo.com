@@ -1,0 +1,180 @@
+2023-11-06T20:17:33+00:00 INFO registro: : {
+    "id": "123",
+    "id_producto": "113",
+    "correo_destinatario": "Katyagarvich@gmail.com",
+    "nombre_destinatario": "Katya",
+    "nombre_remitente": "Eli",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 20:17:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9567",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T20:17:33+00:00 INFO recurrencia dato]: : ANNUAL
+2023-11-06T20:17:33+00:00 INFO Body principal: : Eli te ha regalado una membresía "Premium 12 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/suscripciones/premium-12-meses/">aquí</a>
+2023-11-06T20:17:33+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-06T20:17:33+00:00 INFO Envío correcto: ok
+2023-11-06T20:17:35+00:00 INFO registro: : {
+    "id": "123",
+    "id_producto": "113",
+    "correo_destinatario": "Katyagarvich@gmail.com",
+    "nombre_destinatario": "Katya",
+    "nombre_remitente": "Eli",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 20:17:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9567",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T20:17:35+00:00 INFO recurrencia dato]: : ANNUAL
+2023-11-06T20:17:35+00:00 INFO Body principal: : Eli te ha regalado una membresía "Premium 12 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/suscripciones/premium-12-meses/">aquí</a>
+2023-11-06T20:17:35+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-06T20:17:35+00:00 INFO Envío correcto: ok
+2023-11-06T20:27:50+00:00 INFO registro: : {
+    "id": "124",
+    "id_producto": "113",
+    "correo_destinatario": "paquita.barrios1512@gmail.com",
+    "nombre_destinatario": "Eli",
+    "nombre_remitente": "Kat",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 20:27:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9568",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T20:27:50+00:00 INFO recurrencia dato]: : ANNUAL
+2023-11-06T20:27:50+00:00 INFO Body principal: : Kat te ha regalado una membresía "Premium 12 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/suscripciones/premium-12-meses/">aquí</a>
+2023-11-06T20:27:50+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-06T20:27:50+00:00 INFO Envío correcto: ok
+2023-11-06T20:27:51+00:00 INFO registro: : {
+    "id": "124",
+    "id_producto": "113",
+    "correo_destinatario": "paquita.barrios1512@gmail.com",
+    "nombre_destinatario": "Eli",
+    "nombre_remitente": "Kat",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 20:27:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9568",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T20:27:51+00:00 INFO recurrencia dato]: : ANNUAL
+2023-11-06T20:27:51+00:00 INFO Body principal: : Kat te ha regalado una membresía "Premium 12 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/suscripciones/premium-12-meses/">aquí</a>
+2023-11-06T20:27:51+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-06T20:27:51+00:00 INFO Envío correcto: ok
+2023-11-06T21:55:43+00:00 INFO registro: : {
+    "id": "125",
+    "id_producto": "113",
+    "correo_destinatario": "lupe-watanabe@hotmail.com",
+    "nombre_destinatario": "Lupe",
+    "nombre_remitente": "Katya",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 21:55:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9572",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T21:55:43+00:00 INFO recurrencia dato]: : ANNUAL
+2023-11-06T21:55:43+00:00 INFO Body principal: : Katya te ha regalado una membresía "Premium 12 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/suscripciones/premium-12-meses/">aquí</a>
+2023-11-06T21:55:43+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-06T21:55:43+00:00 INFO Envío correcto: ok
+2023-11-06T21:55:44+00:00 INFO registro: : {
+    "id": "125",
+    "id_producto": "113",
+    "correo_destinatario": "lupe-watanabe@hotmail.com",
+    "nombre_destinatario": "Lupe",
+    "nombre_remitente": "Katya",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 21:55:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9572",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T21:55:44+00:00 INFO recurrencia dato]: : ANNUAL
+2023-11-06T21:55:44+00:00 INFO Body principal: : Katya te ha regalado una membresía "Premium 12 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/suscripciones/premium-12-meses/">aquí</a>
+2023-11-06T21:55:44+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-06T21:55:44+00:00 INFO Envío correcto: ok
+2023-11-06T22:09:47+00:00 INFO registro: : {
+    "id": "126",
+    "id_producto": "105",
+    "correo_destinatario": "kgarvich@hotmail.com",
+    "nombre_destinatario": "Katysita",
+    "nombre_remitente": "Kat",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 22:09:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9573",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T22:09:47+00:00 INFO recurrencia dato]: : QUARTERLY
+2023-11-06T22:09:47+00:00 INFO Body principal: : Kat te ha regalado una membresía "Boost 3 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/suscripciones/boost-3-meses/">aquí</a>
+2023-11-06T22:09:47+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-06T22:09:47+00:00 INFO Envío correcto: ok
+2023-11-06T22:09:48+00:00 INFO registro: : {
+    "id": "126",
+    "id_producto": "105",
+    "correo_destinatario": "kgarvich@hotmail.com",
+    "nombre_destinatario": "Katysita",
+    "nombre_remitente": "Kat",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 22:09:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9573",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T22:09:48+00:00 INFO recurrencia dato]: : QUARTERLY
+2023-11-06T22:09:48+00:00 INFO Body principal: : Kat te ha regalado una membresía "Boost 3 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/suscripciones/boost-3-meses/">aquí</a>
+2023-11-06T22:09:49+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-06T22:09:49+00:00 INFO Envío correcto: ok
+2023-11-06T22:26:39+00:00 INFO registro: : {
+    "id": "127",
+    "id_producto": "311",
+    "correo_destinatario": "calfaroest@gmail.com",
+    "nombre_destinatario": "Cesar A.",
+    "nombre_remitente": "cesar",
+    "mensaje": "Es una prueba. ",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 22:25:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9574",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T22:26:39+00:00 INFO recurrencia dato]: : 
+2023-11-06T22:26:39+00:00 INFO Body principal: : cesar te ha regalado un curso online "Coaching Ejecutivo" puedes iniciar tu aprendizaje iniciando sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/cursos-habilidades-blandas/coaching-ejecutivo/">aquí</a>
+2023-11-06T22:26:39+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-06T22:26:39+00:00 INFO Envío correcto: ok

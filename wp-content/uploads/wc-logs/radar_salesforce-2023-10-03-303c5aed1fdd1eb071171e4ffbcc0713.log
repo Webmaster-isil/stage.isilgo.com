@@ -1,0 +1,968 @@
+2023-10-03T00:00:47+00:00 INFO nuevo usuario:
+{
+    "first_name": "Manuel",
+    "last_name": "Romero",
+    "company": "Manuel Romero",
+    "email": "dr_hemmerick@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T00:04:33+00:00 INFO nuevo usuario:
+{
+    "first_name": "Manuel",
+    "last_name": "Romero",
+    "company": "Manuel Romero",
+    "email": "dr_hemmerick@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:08:12+00:00 INFO nuevo usuario:
+{
+    "first_name": "MANUEL",
+    "last_name": "ARANGUIZ",
+    "company": "MANUEL ARANGUIZ",
+    "email": "rojoca1485@xgh6.com",
+    "00Nf400000TUbiN": "78945613",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:10:07+00:00 INFO actualiza usuario:
+{
+    "first_name": "Francisco",
+    "last_name": "Aranguiz Romero",
+    "email": "rojoca1485@xgh6.com",
+    "company": "",
+    "00Nf400000TUbiN": "78945613",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "79879798",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Lima",
+    "state": "LMA",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:12:56+00:00 INFO actualiza usuario:
+{
+    "first_name": "Francisco",
+    "last_name": "Aranguiz Romero",
+    "email": "rojoca1485@xgh6.com",
+    "company": "",
+    "00Nf400000TUbiN": "78945613",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "79879798",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Lima",
+    "state": "LMA",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:20:37+00:00 INFO actualiza usuario:
+{
+    "first_name": "Francisco",
+    "last_name": "Aranguiz Romero",
+    "email": "rojoca1485@xgh6.com",
+    "company": "",
+    "00Nf400000TUbiN": "78945613",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "79879798",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Lima",
+    "state": "LMA",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:28:05+00:00 INFO actualiza usuario:
+{
+    "first_name": "Francisco",
+    "last_name": "Aranguiz Romero",
+    "email": "rojoca1485@xgh6.com",
+    "company": "",
+    "00Nf400000TUbiN": "78945613",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "79879798",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Lima",
+    "state": "LMA",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:30:26+00:00 INFO nuevo usuario:
+{
+    "first_name": "Manuel",
+    "last_name": "Romero",
+    "company": "Manuel Romero",
+    "email": "dr_hemmerick@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:35:39+00:00 INFO nuevo usuario:
+{
+    "first_name": "Manuel",
+    "last_name": "Romero",
+    "company": "Manuel Romero",
+    "email": "dr_hemmerick@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:38:45+00:00 INFO nuevo usuario:
+{
+    "first_name": "Manuel",
+    "last_name": "Romero",
+    "company": "Manuel Romero",
+    "email": "dr_hemmerick@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:40:52+00:00 INFO nuevo usuario:
+{
+    "first_name": "MANUEL",
+    "last_name": "ARANGUIZ",
+    "company": "MANUEL ARANGUIZ",
+    "email": "rojoca1485@xgh6.com",
+    "00Nf400000TUbiN": "78945613",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:42:37+00:00 INFO actualiza usuario:
+{
+    "first_name": "Francisco",
+    "last_name": "Aranguiz Romero",
+    "email": "rojoca1485@xgh6.com",
+    "company": "",
+    "00Nf400000TUbiN": "78945613",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "79879798",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Lima",
+    "state": "LMA",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:46:06+00:00 INFO nuevo usuario:
+{
+    "first_name": "MANUEL",
+    "last_name": "ARANGUIZ",
+    "company": "MANUEL ARANGUIZ",
+    "email": "rojoca1485@xgh6.com",
+    "00Nf400000TUbiN": "78945613",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:49:54+00:00 INFO actualiza usuario:
+{
+    "first_name": "Francisco",
+    "last_name": "Aranguiz Romero",
+    "email": "rojoca1485@xgh6.com",
+    "company": "",
+    "00Nf400000TUbiN": "78945613",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "79879798",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Lima",
+    "state": "LMA",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T11:56:09+00:00 INFO nuevo usuario:
+{
+    "first_name": "Manuel",
+    "last_name": "Romero",
+    "company": "Manuel Romero",
+    "email": "dr_hemmerick@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T13:48:57+00:00 INFO nuevo usuario:
+{
+    "first_name": "DEKURAPTOR",
+    "last_name": "DEKURAPTOR",
+    "company": "DEKURAPTOR DEKURAPTOR",
+    "email": "dekuraptor@gmail.com",
+    "00Nf400000TUbiN": "+56948421832",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T13:51:46+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "dekuraptor@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "+56948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "16952438",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RS",
+    "city": "PUDAHUEL",
+    "state": "RS24",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T13:54:43+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "dekuraptor@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "+56948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "16952438",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RS",
+    "city": "PUDAHUEL",
+    "state": "RS24",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T13:54:44+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "dekuraptor@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "+56948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "16952438",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RS",
+    "city": "PUDAHUEL",
+    "state": "RS24",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T13:59:37+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "dekuraptor@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "+56948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "16952438",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RS",
+    "city": "PUDAHUEL",
+    "state": "RS24",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T14:03:34+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "dekuraptor@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "+56948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "16952438",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RS",
+    "city": "PUDAHUEL",
+    "state": "RS24",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T14:06:09+00:00 INFO nuevo usuario:
+{
+    "first_name": "YERKO",
+    "last_name": "SOTO",
+    "company": "YERKO SOTO",
+    "email": "jewoyej487@htoal.com",
+    "00Nf400000TUbiN": "948421832",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T14:07:40+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "jewoyej487@htoal.com",
+    "company": "",
+    "00Nf400000TUbiN": "948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12345678",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "CL",
+    "city": "PUDAHUEL",
+    "state": "CL-RM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T14:08:11+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "jewoyej487@htoal.com",
+    "company": "",
+    "00Nf400000TUbiN": "948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12345678",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "CL",
+    "city": "PUDAHUEL",
+    "state": "CL-RM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T14:16:11+00:00 INFO nuevo usuario:
+{
+    "first_name": "YERKO",
+    "last_name": "SOTO",
+    "company": "YERKO SOTO",
+    "email": "soporte@radar.cl",
+    "00Nf400000TUbiN": "+56948421832",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T14:20:21+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "soporte@radar.cl",
+    "company": "",
+    "00Nf400000TUbiN": "+56948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12345678",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "CL",
+    "city": "PUDAHUEL",
+    "state": "CL-RM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T14:26:51+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "soporte@radar.cl",
+    "company": "",
+    "00Nf400000TUbiN": "+56948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12345678",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "CL",
+    "city": "PUDAHUEL",
+    "state": "CL-RM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T16:00:05+00:00 INFO nuevo usuario:
+{
+    "first_name": "Manuel",
+    "last_name": "Romero",
+    "company": "Manuel Romero",
+    "email": "dr_hemmerick@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T16:01:15+00:00 INFO nuevo usuario:
+{
+    "first_name": "DEKURAPTOR",
+    "last_name": "DEKURAPTOR",
+    "company": "DEKURAPTOR DEKURAPTOR",
+    "email": "dekuraptor@gmail.com",
+    "00Nf400000TUbiN": "+56948421832",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T16:03:25+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "dekuraptor@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "+56948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "16952438",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RS",
+    "city": "PUDAHUEL",
+    "state": "RS24",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T16:03:56+00:00 INFO actualiza usuario:
+{
+    "first_name": "Yerko",
+    "last_name": "Soto",
+    "email": "dekuraptor@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "+56948421832",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "16952438",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RS",
+    "city": "PUDAHUEL",
+    "state": "RS24",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T16:05:59+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T16:19:23+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T16:29:28+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T16:40:06+00:00 INFO actualiza usuario:
+{
+    "first_name": "Lunes dos",
+    "last_name": "veinticinco de septiembre",
+    "email": "vesip92563@bnovel.com",
+    "company": "",
+    "00Nf400000TUbiN": "968696502",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568946",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T17:58:37+00:00 INFO nuevo usuario:
+{
+    "first_name": "Manuel",
+    "last_name": "Romero",
+    "company": "Manuel Romero",
+    "email": "dr_hemmerick@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T18:07:30+00:00 INFO nuevo usuario:
+{
+    "first_name": "Manuel",
+    "last_name": "Romero",
+    "company": "Manuel Romero",
+    "email": "dr_hemmerick@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T18:18:54+00:00 INFO nuevo usuario:
+{
+    "first_name": "Manuel",
+    "last_name": "Romero",
+    "company": "Manuel Romero",
+    "email": "dr_hemmerick@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T18:27:16+00:00 INFO nuevo usuario:
+{
+    "first_name": "MANUEL",
+    "last_name": "ARANGUIZ",
+    "company": "MANUEL ARANGUIZ",
+    "email": "rojoca1485@xgh6.com",
+    "00Nf400000TUbiN": "78945613",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T18:28:40+00:00 INFO actualiza usuario:
+{
+    "first_name": "Francisco",
+    "last_name": "Aranguiz Romero",
+    "email": "rojoca1485@xgh6.com",
+    "company": "",
+    "00Nf400000TUbiN": "78945613",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "79879798",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Lima",
+    "state": "LMA",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T18:31:27+00:00 INFO actualiza usuario:
+{
+    "first_name": "Francisco",
+    "last_name": "Aranguiz Romero",
+    "email": "rojoca1485@xgh6.com",
+    "company": "",
+    "00Nf400000TUbiN": "78945613",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "79879798",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Lima",
+    "state": "LMA",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T20:12:26+00:00 INFO nuevo usuario:
+{
+    "first_name": "KATIA",
+    "last_name": "GARVICH SAN MARTIN",
+    "company": "KATIA GARVICH SAN MARTIN",
+    "email": "kgarvich@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T20:13:59+00:00 INFO nuevo usuario:
+{
+    "first_name": "KATIA",
+    "last_name": "GARVICH SAN MARTIN",
+    "company": "KATIA GARVICH SAN MARTIN",
+    "email": "kgarvich@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T20:36:36+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES PRUEBA",
+    "last_name": "VEITICINCO SEPTIEMBRE",
+    "company": "LUNES PRUEBA VEITICINCO SEPTIEMBRE",
+    "email": "yhar.rhyhf75@cikue.com",
+    "00Nf400000TUbiN": "900118855",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T21:01:06+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T21:26:02+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T21:31:29+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-03T22:43:14+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "03\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}

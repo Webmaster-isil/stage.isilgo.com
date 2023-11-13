@@ -1,0 +1,206 @@
+2023-10-09T10:53:15+00:00 INFO nuevo usuario:
+{
+    "first_name": "RODOLFO",
+    "last_name": "ARANGUIZ",
+    "company": "RODOLFO ARANGUIZ",
+    "email": "shinyi_01@hotmail.com",
+    "00Nf400000TUbiN": "63496774",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "09\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-09T14:59:44+00:00 INFO nuevo usuario:
+{
+    "first_name": "Cesar Aurelio",
+    "last_name": "Alfaro Estela",
+    "company": "Cesar Aurelio Alfaro Estela",
+    "email": "calfaro@isil.pe",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "09\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-09T15:03:43+00:00 INFO nuevo usuario:
+{
+    "first_name": "KATYA",
+    "last_name": "SAN MARTIN COTERA",
+    "company": "KATYA SAN MARTIN COTERA",
+    "email": "jatabi7666@tipent.com",
+    "00Nf400000TUbiN": "989338422",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "09\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-09T15:09:25+00:00 INFO nuevo usuario:
+{
+    "first_name": "KATYA",
+    "last_name": "SAN MARTIN COTERA",
+    "company": "KATYA SAN MARTIN COTERA",
+    "email": "jatabi7666@tipent.com",
+    "00Nf400000TUbiN": "989338422",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "09\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-09T15:13:59+00:00 INFO actualiza usuario:
+{
+    "first_name": "Katya Test",
+    "last_name": "Prueba Test",
+    "email": "jatabi7666@tipent.com",
+    "company": "",
+    "00Nf400000TUbiN": "989338422",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "45508144",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "CO",
+    "city": "Barranquilla",
+    "state": "CO-BOL",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-09T15:38:31+00:00 INFO nuevo usuario:
+{
+    "first_name": "KATYA PRUEBA",
+    "last_name": "GARVICH PRUEBA",
+    "company": "KATYA PRUEBA GARVICH PRUEBA",
+    "email": "tiprueba15@gmail.com",
+    "00Nf400000TUbiN": "989338405",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "09\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-09T15:45:19+00:00 INFO actualiza usuario:
+{
+    "first_name": "Katya Test",
+    "last_name": "Prueba Test",
+    "email": "jatabi7666@tipent.com",
+    "company": "",
+    "00Nf400000TUbiN": "989338422",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "45508144",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "CO",
+    "city": "Barranquilla",
+    "state": "CO-BOL",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-09T20:30:59+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "09\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-09T22:38:32+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "09\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-09T23:03:17+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "09\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-09T23:40:19+00:00 INFO actualiza usuario:
+{
+    "first_name": "Lunes dos",
+    "last_name": "veinticinco de septiembre",
+    "email": "vesip92563@bnovel.com",
+    "company": "",
+    "00Nf400000TUbiN": "968696502",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568946",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}

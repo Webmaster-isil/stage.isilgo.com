@@ -1,0 +1,658 @@
+2023-09-27T12:03:27+00:00 INFO nuevo usuario:
+{
+    "first_name": "MANUEL",
+    "last_name": "ARANGUIZ",
+    "company": "MANUEL ARANGUIZ",
+    "email": "rojoca1485@xgh6.com",
+    "00Nf400000TUbiN": "78945613",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T12:08:01+00:00 INFO actualiza usuario:
+{
+    "first_name": "Francisco",
+    "last_name": "Aranguiz Romero",
+    "email": "rojoca1485@xgh6.com",
+    "company": "",
+    "00Nf400000TUbiN": "78945613",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "79879798",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Lima",
+    "state": "LMA",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T13:40:22+00:00 INFO nuevo usuario:
+{
+    "first_name": "ELIZABETH",
+    "last_name": "TEST PRUEBITA",
+    "company": "ELIZABETH TEST PRUEBITA",
+    "email": "dultanagna@gufum.com",
+    "00Nf400000TUbiN": "989338403",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T13:45:05+00:00 INFO actualiza usuario:
+{
+    "first_name": "ELIZABETHXX",
+    "last_name": "TEST PRUEBITAXXX",
+    "email": "dultanagna@gufum.com",
+    "company": "ELIZABETHXX TEST PRUEBITAXXX",
+    "00Nf400000TUbiN": "989338403",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "36463363",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RU",
+    "city": "Rusia",
+    "state": "Rusia",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T14:45:40+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T14:56:40+00:00 INFO nuevo usuario:
+{
+    "first_name": "Katia Elizabeth",
+    "last_name": "Garvich San Martin",
+    "company": "Katia Elizabeth Garvich San Martin",
+    "email": "kgarvich@isil.pe",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T14:59:09+00:00 INFO nuevo usuario:
+{
+    "first_name": "KATIA ELIZABETH",
+    "last_name": "GARVICH SAN MARTIN",
+    "company": "KATIA ELIZABETH GARVICH SAN MARTIN",
+    "email": "katyae16@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T15:09:07+00:00 INFO nuevo usuario:
+{
+    "first_name": "KATIA ELIZABETH",
+    "last_name": "GARVICH SAN MARTIN",
+    "company": "KATIA ELIZABETH GARVICH SAN MARTIN",
+    "email": "katyae16@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T15:18:41+00:00 INFO actualiza usuario:
+{
+    "first_name": "ELIZABETHXX",
+    "last_name": "TEST PRUEBITAXXX",
+    "email": "dultanagna@gufum.com",
+    "company": "ELIZABETHXX TEST PRUEBITAXXX",
+    "00Nf400000TUbiN": "989338403",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "36463363",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RU",
+    "city": "Rusia",
+    "state": "Rusia",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T15:23:49+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T15:29:18+00:00 INFO actualiza usuario:
+{
+    "first_name": "ELIZABETHXX",
+    "last_name": "TEST PRUEBITAXXX",
+    "email": "dultanagna@gufum.com",
+    "company": "ELIZABETHXX TEST PRUEBITAXXX",
+    "00Nf400000TUbiN": "989338403",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "36463363",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RU",
+    "city": "Rusia",
+    "state": "Rusia",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T16:55:50+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T16:56:30+00:00 INFO actualiza usuario:
+{
+    "first_name": "ELIZABETHXX",
+    "last_name": "TEST PRUEBITAXXX",
+    "email": "dultanagna@gufum.com",
+    "company": "ELIZABETHXX TEST PRUEBITAXXX",
+    "00Nf400000TUbiN": "989338403",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "36463363",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RU",
+    "city": "Rusia",
+    "state": "Rusia",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T17:10:44+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES PRUEBA",
+    "last_name": "VEITICINCO SEPTIEMBRE",
+    "company": "LUNES PRUEBA VEITICINCO SEPTIEMBRE",
+    "email": "yhar.rhyhf75@cikue.com",
+    "00Nf400000TUbiN": "900118855",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T17:16:22+00:00 INFO actualiza usuario:
+{
+    "first_name": "ELIZABETHXX",
+    "last_name": "TEST PRUEBITAXXX",
+    "email": "dultanagna@gufum.com",
+    "company": "ELIZABETHXX TEST PRUEBITAXXX",
+    "00Nf400000TUbiN": "989338403",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "36463363",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RU",
+    "city": "Rusia",
+    "state": "Rusia",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T17:24:02+00:00 INFO actualiza usuario:
+{
+    "first_name": "LUNES PRUEBAGG",
+    "last_name": "VEITICINCO SEPTIEMBREGG",
+    "email": "yhar.rhyhf75@cikue.com",
+    "company": "LUNES PRUEBA VEITICINCO SEPTIEMBRE",
+    "00Nf400000TUbiN": "900118855",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "7",
+    "00Nf400000TUZxq": "9923832",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "QA",
+    "city": "Qatar",
+    "state": "Qatara",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T17:50:22+00:00 INFO actualiza usuario:
+{
+    "first_name": "ELIZABETH",
+    "last_name": "TEST PRUEBITAXXX",
+    "email": "dultanagna@gufum.com",
+    "company": "ELIZABETHXX TEST PRUEBITAXXX",
+    "00Nf400000TUbiN": "989338403",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "36463363",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RU",
+    "city": "Rusia",
+    "state": "Rusia",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T18:09:04+00:00 INFO actualiza usuario:
+{
+    "first_name": "ELIZABETH",
+    "last_name": "TEST PRUEBITAXXX",
+    "email": "dultanagna@gufum.com",
+    "company": "ELIZABETHXX TEST PRUEBITAXXX",
+    "00Nf400000TUbiN": "989338403",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "36463363",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "VC",
+    "city": "San Vicente",
+    "state": "San Vicente",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T18:15:05+00:00 INFO actualiza usuario:
+{
+    "first_name": "ELIZABETH",
+    "last_name": "TEST PRUEBITAXXX",
+    "email": "dultanagna@gufum.com",
+    "company": "ELIZABETHXX TEST PRUEBITAXXX",
+    "00Nf400000TUbiN": "989338403",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "36463363",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "ZW",
+    "city": "Zimbabue",
+    "state": "Zimbabue",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T19:51:00+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T20:48:33+00:00 INFO nuevo usuario:
+{
+    "first_name": "ELIZABETH",
+    "last_name": "TEST PRUEBITA",
+    "company": "ELIZABETH TEST PRUEBITA",
+    "email": "dultanagna@gufum.com",
+    "00Nf400000TUbiN": "989338403",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T20:51:12+00:00 INFO actualiza usuario:
+{
+    "first_name": "ELIZABETH",
+    "last_name": "TEST PRUEBITAXXX",
+    "email": "dultanagna@gufum.com",
+    "company": "ELIZABETHXX TEST PRUEBITAXXX",
+    "00Nf400000TUbiN": "989338403",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "36463363",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "VN",
+    "city": "Vietnam",
+    "state": "",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T20:55:38+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES PRUEBA",
+    "last_name": "VEITICINCO SEPTIEMBRE",
+    "company": "LUNES PRUEBA VEITICINCO SEPTIEMBRE",
+    "email": "yhar.rhyhf75@cikue.com",
+    "00Nf400000TUbiN": "900118855",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T21:12:27+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T21:20:40+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T21:22:44+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T21:23:28+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T21:24:02+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T21:29:55+00:00 INFO actualiza usuario:
+{
+    "first_name": "Lunes dos",
+    "last_name": "veinticinco de septiembre",
+    "email": "vesip92563@bnovel.com",
+    "company": "",
+    "00Nf400000TUbiN": "968696502",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568946",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T21:37:00+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T22:19:30+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES DOS",
+    "last_name": "VEINTICINCO DE SEPTIEMBRE",
+    "company": "LUNES DOS VEINTICINCO DE SEPTIEMBRE",
+    "email": "vesip92563@bnovel.com",
+    "00Nf400000TUbiN": "968696502",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T23:04:28+00:00 INFO actualiza usuario:
+{
+    "first_name": "Lunes dos",
+    "last_name": "veinticinco de septiembre",
+    "email": "vesip92563@bnovel.com",
+    "company": "",
+    "00Nf400000TUbiN": "968696502",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568946",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-09-27T23:36:48+00:00 INFO nuevo usuario:
+{
+    "first_name": "LUNES PRUEBA",
+    "last_name": "VEITICINCO SEPTIEMBRE",
+    "company": "LUNES PRUEBA VEITICINCO SEPTIEMBRE",
+    "email": "yhar.rhyhf75@cikue.com",
+    "00Nf400000TUbiN": "900118855",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "27\/09\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}

@@ -1,0 +1,9 @@
+2023-10-21T00:03:34+00:00 INFO asociacion regalo: entra
+2023-10-21T00:03:34+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='fideyi7503@ibtrades.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-21T00:03:34+00:00 INFO resultado consulta: []
+2023-10-21T00:03:40+00:00 INFO asociacion regalo: entra
+2023-10-21T00:03:40+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='kgarvich@isil.pe' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-21T00:03:40+00:00 INFO resultado consulta: []
+2023-10-21T01:03:49+00:00 INFO asociacion regalo: entra
+2023-10-21T01:03:49+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-21T01:03:49+00:00 INFO resultado consulta: []

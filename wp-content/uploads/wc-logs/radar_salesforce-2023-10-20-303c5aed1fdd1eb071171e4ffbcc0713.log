@@ -1,0 +1,406 @@
+2023-10-20T14:17:59+00:00 INFO nuevo usuario:
+{
+    "first_name": "TI19",
+    "last_name": "PRUEBA",
+    "company": "TI19 PRUEBA",
+    "email": "tiprueba19@gmail.com",
+    "00Nf400000TUbiN": "989338407",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T14:36:47+00:00 INFO actualiza usuario:
+{
+    "first_name": "Katia Elizabeth",
+    "last_name": "San Martin",
+    "email": "tiprueba19@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "989338407",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "45508148",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PL",
+    "city": "Polonia",
+    "state": "",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T14:36:49+00:00 INFO actualiza usuario:
+{
+    "first_name": "Katia Elizabeth",
+    "last_name": "San Martin",
+    "email": "tiprueba19@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "989338407",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "45508148",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PL",
+    "city": "Polonia",
+    "state": "",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T15:27:29+00:00 INFO nuevo usuario:
+{
+    "first_name": "Cesar Aurelio",
+    "last_name": "Alfaro Estela",
+    "company": "Cesar Aurelio Alfaro Estela",
+    "email": "calfaro@isil.pe",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T16:02:53+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "00Nf400000TUbiN": "968696501",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T16:04:56+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "00Nf400000TUbiN": "968696501",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T19:38:20+00:00 INFO actualiza usuario:
+{
+    "first_name": "VIERNES DOS PRUEBAAA",
+    "last_name": "VEINTIDOS DE SEPTIEMBRE",
+    "email": "biyiron882@apxby.com",
+    "company": "VIERNES DOS PRUEBAAA VEINTIDOS DE SEPTIEMBRE",
+    "00Nf400000TUbiN": "968696501",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568945",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T20:26:41+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES",
+    "last_name": "TRECE DE OCTUBRE",
+    "company": "VIERNES TRECE DE OCTUBRE",
+    "email": "fideyi7503@ibtrades.com",
+    "00Nf400000TUbiN": "968696503",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T20:52:30+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES",
+    "last_name": "TRECE DE OCTUBRE",
+    "company": "VIERNES TRECE DE OCTUBRE",
+    "email": "fideyi7503@ibtrades.com",
+    "00Nf400000TUbiN": "968696503",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T20:52:48+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES",
+    "last_name": "TRECE DE OCTUBRE",
+    "company": "VIERNES TRECE DE OCTUBRE",
+    "email": "fideyi7503@ibtrades.com",
+    "00Nf400000TUbiN": "968696503",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T20:52:50+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES",
+    "last_name": "TRECE DE OCTUBRE",
+    "company": "VIERNES TRECE DE OCTUBRE",
+    "email": "fideyi7503@ibtrades.com",
+    "00Nf400000TUbiN": "968696503",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T20:53:05+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES",
+    "last_name": "TRECE DE OCTUBRE",
+    "company": "VIERNES TRECE DE OCTUBRE",
+    "email": "fideyi7503@ibtrades.com",
+    "00Nf400000TUbiN": "968696503",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T20:56:59+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "00Nf400000TUbiN": "968696501",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T21:13:12+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "00Nf400000TUbiN": "968696501",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T22:45:37+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "00Nf400000TUbiN": "968696501",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T22:48:48+00:00 INFO actualiza usuario:
+{
+    "first_name": "VIERNES DOS PRUEBAa",
+    "last_name": "VEINTE Y DOS DEL NUEVEe",
+    "email": "biyiron882@apxby.com",
+    "company": "VIERNES DOS PRUEBAAA VEINTIDOS DE SEPTIEMBRE",
+    "00Nf400000TUbiN": "968696501",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568945",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T22:48:49+00:00 INFO actualiza usuario:
+{
+    "first_name": "VIERNES DOS PRUEBAa",
+    "last_name": "VEINTE Y DOS DEL NUEVEe",
+    "email": "biyiron882@apxby.com",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "00Nf400000TUbiN": "968696501",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568945",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T22:48:49+00:00 INFO actualiza usuario:
+{
+    "first_name": "VIERNES DOS PRUEBAa",
+    "last_name": "VEINTE Y DOS DEL NUEVEe",
+    "email": "biyiron882@apxby.com",
+    "company": "VIERNES DOS PRUEBAAA VEINTIDOS DE SEPTIEMBRE",
+    "00Nf400000TUbiN": "968696501",
+    "00Nf400000TUZxw": "12\/01\/2000",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568945",
+    "00N2S000006lxYR": "Universitario completo",
+    "00N2S000006lxYW": "Trabajo independiente",
+    "country": "PE",
+    "city": "Chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "Administraci\u00f3n",
+    "00N2S000007RuME": "Administraci\u00f3n Bancaria",
+    "00N2S000007RuMT": "Dise\u00f1o de Interiores",
+    "00N2S000007RuMP": "Operaciones y Log\u00edstica",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T22:58:13+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "00Nf400000TUbiN": "968696501",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T23:03:03+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "00Nf400000TUbiN": "968696501",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "20\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-20T23:05:40+00:00 INFO actualiza usuario:
+{
+    "first_name": "VIERNES DOS PRUEBAa",
+    "last_name": "VEINTE Y DOS DEL NUEVEe",
+    "email": "biyiron882@apxby.com",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "00Nf400000TUbiN": "968696501",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568945",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}

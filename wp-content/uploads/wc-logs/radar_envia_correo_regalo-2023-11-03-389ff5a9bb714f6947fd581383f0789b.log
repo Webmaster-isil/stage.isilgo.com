@@ -1,0 +1,40 @@
+2023-11-03T15:52:21+00:00 INFO registro: : {
+    "id": "121",
+    "id_producto": "330",
+    "correo_destinatario": "calfaroest@gmail.com",
+    "nombre_destinatario": "Cesar Alfaro",
+    "nombre_remitente": "Cesar",
+    "mensaje": "Este es un regalo",
+    "postergar": "0",
+    "fecha_envio": "2023-11-03 15:48:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9518",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-03T15:52:21+00:00 INFO recurrencia dato]: : 
+2023-11-03T15:52:21+00:00 INFO Body principal: : Cesar te ha regalado un curso online "Business Model Canvas y Nuevos Modelos de Negocio" puedes iniciar tu aprendizaje iniciando sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/cursos-innovacion-y-transformacion-digital/business-model-canvas-y-nuevos-modelos-de-negocio/">aquí</a>
+2023-11-03T15:52:21+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-03T15:52:21+00:00 INFO Envío correcto: ok
+2023-11-03T15:56:46+00:00 INFO registro: : {
+    "id": "122",
+    "id_producto": "447",
+    "correo_destinatario": "disegrafdot@gmail.com",
+    "nombre_destinatario": "Cesar A",
+    "nombre_remitente": "Cesar",
+    "mensaje": "Esta es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-03 15:55:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9520",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-03T15:56:46+00:00 INFO recurrencia dato]: : 
+2023-11-03T15:56:46+00:00 INFO Body principal: : Cesar te ha regalado un curso online "Responsabilidad social empresarial" puedes iniciar tu aprendizaje iniciando sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/cursos-administracion/responsabilidad-social-empresarial/">aquí</a>
+2023-11-03T15:56:46+00:00 INFO Envio de correo: : bool(true)
+
+2023-11-03T15:56:46+00:00 INFO Envío correcto: ok

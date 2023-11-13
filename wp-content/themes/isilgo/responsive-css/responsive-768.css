@@ -1,0 +1,1258 @@
+@media (max-width: 768px) {
+  header.header .header_global .carrito {
+    padding-left: 0 !important;
+  }
+  li.usuario_logueado a {
+    display: none !important;
+  }
+  li.usuario_logueado > div {
+    width: 100% !important;
+  }
+  .menu-mi-cuenta {
+    right: 0;
+  }
+  .woocommerce-MyAccount-content {
+    margin-bottom: 1rem;
+  }
+  .woocommerce-MyAccount-content ul.products li {
+    width: 100% !important;
+  }
+  .especiales_membresias li {
+    width: 100% !important;
+  }
+  .membresias ul.products li {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+  li.membresia_plp_mobile .txt {
+    margin: 15px 0;
+    font-size: 80%;
+  }
+  li.membresia_plp_mobile p {
+    margin: 0;
+  }
+  li.membresia_plp_mobile img {
+    width: 35px;
+    margin: 10px;
+  }
+
+  li.membresia_plp_mobile a {
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    background: rgb(255, 45, 45);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 45, 45, 1) 0%,
+      rgba(255, 115, 0, 1) 100%
+    );
+    margin: 1rem 0 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .membresia_plp_mobile {
+    display: block;
+  }
+  ul.menu_header a {
+    padding: 5px 0 0 0 !important;
+  }
+
+  .contenedor-filtros {
+    display: none;
+  }
+  .contenedor-filtros .filtros {
+    height: 100%;
+    width: 80% !important;
+    background: white;
+    left: 0;
+    position: absolute;
+  }
+  .contenedor-filtros {
+    position: fixed;
+    top: 0;
+    z-index: 3123123;
+    height: 100%;
+    width: 100% !important;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  li.login_header a.register {
+    display: none;
+  }
+  .cerrar_filtros {
+    position: absolute;
+    right: 10px;
+    background: var(--rojo);
+    color: white;
+    font-weight: 900;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 7px;
+  }
+  /* Footer */
+  footer .accordion-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .content_acordeon {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+  }
+
+  footer .accordion-header {
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .accordion-icon {
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  footer .accordion-content {
+    display: none;
+    padding: 0px 20px;
+  }
+
+  footer .content_acordeon.active .accordion-content {
+    display: block;
+  }
+  footer .accordion-footer {
+    order: 1;
+    margin-bottom: 20px;
+  }
+  footer .redes-footer {
+    order: 2;
+  }
+  footer .logo-footer {
+    order: 3;
+  }
+  .footer {
+    padding: 1rem 0;
+  }
+  footer .accordion-header p,
+  .titulo-footer-rrss,
+  .titulo-footer-newsletter {
+    margin-bottom: 0;
+  }
+  footer .menus_footer ul {
+    margin: 0px 10px;
+  }
+  footer .accordion-content a {
+    line-height: 2rem;
+    font-weight: 400;
+  }
+  footer p {
+    font-size: 14px !important;
+  }
+  footer .menus_footer ul li::before {
+    font-size: 19px;
+  }
+  footer p.titulo-footer-rrss {
+    margin-bottom: 1rem;
+  }
+  footer .footer .logo-footer img {
+    width: 40% !important;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+  }
+  /* Footer */
+  body.woocommerce.woocommerce-page ul.products li {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+  body.woocommerce.woocommerce-page ul.products ul.products {
+    padding: 0 5%;
+  }
+  body.woocommerce.woocommerce-page ul.products li .detalles_loop {
+    min-height: 280px;
+  }
+  .volver a {
+    padding: 0.2rem 0.2rem;
+    font-size: 13px;
+    min-width: 120px;
+  }
+  body.woocommerce.woocommerce-page ul.products ul.products {
+    padding: 0 5%;
+  }
+  .pop_membresia {
+    bottom: 80px;
+  }
+  .dgwt-wcas-search-wrapp {
+    max-width: 100% !important;
+    min-width: 100% !important;
+  }
+
+  div#mostrarFiltros {
+    font-weight: 700;
+    color: var(--azul);
+  }
+  /* #mostrarFiltros:hover {
+      background-color: var(--naranjo) !important;
+      color: white !important;
+    } */
+  .filtros_plp {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    left: 5%;
+    width: 90%;
+    background: #f1f2f2;
+    z-index: 100;
+    padding: 15px 0;
+    border-radius: 15px;
+  }
+
+  .filtros_plp {
+    overflow: hidden;
+  }
+  .ordenamiento_desk {
+    display: none;
+  }
+  .filtros_plp form {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .filtros_plp #mostrarFiltros {
+    width: 100% !important;
+  }
+  .filtros_plp li:first-child {
+    border-right: 1px solid;
+  }
+  .filtros_plp li {
+    width: 50%;
+    padding: 0 10px;
+  }
+  .filtros_plp ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .filtros_plp p.woocommerce-result-count {
+    display: none !important;
+  }
+  .filtros_plp form select {
+    width: 100%;
+  }
+  #pm_menu {
+    width: 90% !important;
+  }
+  .filtros {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  span#closeButton {
+    display: block;
+    float: right;
+    cursor: pointer;
+  }
+  #closeButton img.emoji {
+    filter: invert(53%) sepia(49%) saturate(7380%) hue-rotate(338deg)
+      brightness(112%) contrast(102%);
+  }
+
+  .contenedor_filtros {
+    overflow-y: auto;
+    max-height: 90%;
+  }
+
+  .contenedor_filtros::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .contenedor_filtros::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  .contenedor_filtros::-webkit-scrollbar-thumb {
+    background-color: #0b5ed7;
+    border-radius: 5px;
+  }
+  div#video-home {
+    text-align: center;
+  }
+  div#video-home h3 {
+    font-size: 1.3rem;
+  }
+  div#video-home h5 {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  div#video-home .wpb_text_column.wpb_content_element {
+    margin-bottom: 0;
+  }
+  div#video-home div.video_home {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  div#video-home h3,
+  div#video-home h5 {
+    margin-bottom: 0.7rem;
+  }
+  .navegacion {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  body.woocommerce-shop.woocommerce ul.products {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .woocommerce ul.products {
+    padding: 0 7%;
+  }
+  img.img_404 {
+    width: 300px;
+  }
+  .cursos {
+    width: 50%;
+  }
+  .cursos_404 {
+    place-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .cursos_404 a {
+    padding: 10px 10px;
+    white-space: nowrap;
+    font-size: 0.7rem !important;
+  }
+  .cursos_404.row {
+    width: 100% !important;
+  }
+  body.error404 p.p_404 {
+    margin: 20px 0px;
+  }
+  .wpb_wrapper .img-contacto {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .membresias-botones.d-flex {
+    display: unset !important;
+    text-align: center !important;
+    float: left;
+  }
+  main .llamado_registro {
+    /* height: 50px; */
+    font-size: 12px;
+    margin-top: 20px !important;
+  }
+
+  main .llamado_registro a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 145px;
+    margin-top: 5px;
+  }
+
+  .membresias-botones.d-flex > div {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  ul.login_header li a.login {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 0 !important;
+    font-size: 9px;
+    padding: 5px;
+    white-space: nowrap;
+  }
+  header.header .menu_header > li:not(:first-child) {
+    display: none;
+  }
+  .busqueda_mobile_header {
+    display: block;
+  }
+  .header_global {
+    padding: 10px 5px;
+  }
+  .header .wmc-current-currency {
+    padding: 0 0 0 18px !important;
+  }
+
+  li.usuario_logueado {
+    display: none;
+  }
+  .header .menu {
+    order: 1;
+  }
+  .header .logo {
+    order: 2;
+    display: flex;
+    align-items: center;
+  }
+  .header .carrito {
+    order: 3;
+  }
+  .educacion_online_home .img-educacion {
+    display: inline-block !important;
+  }
+  .educacion_online_home > div {
+    text-align: center !important;
+  }
+  .cursos_gratis_mobile_home {
+    display: block;
+  }
+  .cursos_gratis_desktop_home {
+    display: none;
+  }
+  ul#menu-hamburguesa li:first-child a {
+    font-weight: 900;
+  }
+  ul#menu-hamburguesa li {
+    border-bottom: 1px solid;
+    padding: 10px 0;
+  }
+  ul#menu-hamburguesa:after {
+    border: 0px !important;
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  ul#menu-hamburguesa {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    width: 80%;
+    height: 100%;
+    background: white;
+    z-index: 9999;
+  }
+  .header .login_especial a.register_burger {
+    background: var(--azul);
+    color: white !important;
+    border: 1px solid var(--azul);
+  }
+
+  li.mobile_adicionales {
+    border: 0px !important;
+  }
+  .header .login_especial {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-top: 20px;
+  }
+  a.first_back {
+    background: var(--rojo);
+    color: white !important;
+  }
+  .header .login_especial a:first-child {
+    color: var(--celeste) !important;
+    border: 1px solid;
+  }
+  .header .login_especial a {
+    display: flex !important;
+    width: 100% !important;
+    margin: 5px 0 !important;
+    justify-content: center !important;
+    align-items: center;
+    height: auto;
+    font-weight: 900 !important;
+    padding: 8px !important;
+  }
+
+  .header .first_back a {
+    display: flex !important;
+    width: 100% !important;
+    margin: 5px 0 !important;
+    justify-content: center !important;
+    align-items: center;
+    height: auto;
+    font-weight: 900 !important;
+    padding: 8px !important;
+  }
+
+  .header .login_especial a:last-child ul#menu-hamburguesa li:last-child {
+    border: 0;
+  }
+
+  .esconde_desktop_menu_burger {
+    display: block !important;
+  }
+  .esconde_desktop_menu_burger ul.sub-menu {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  body ul li.esconde_desktop_menu_burger .current-menu-item a {
+    background: var(--azul);
+    color: white !important;
+    font-weight: 900 !important;
+    padding: 5px !important;
+    display: inline-block !important;
+  }
+
+  #menu-hamburguesa .sub-menu li a {
+    display: inline-block;
+  }
+  #menu-hamburguesa .sub-menu li a:hover {
+    background: var(--celeste);
+    color: white !important;
+    font-weight: 900 !important;
+    padding: 5px !important;
+    display: inline-block !important;
+  }
+
+  .carrusel_docentes ul {
+    padding: 0;
+  }
+
+  .carrusel_docentes a {
+    padding: 0;
+  }
+
+  .imagen_carrusel_profe {
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    border: 3px solid var(--celeste);
+  }
+
+  .carrusel_docentes .owl-dots {
+    position: absolute;
+    bottom: -30px;
+    top: auto;
+    width: 60%;
+    right: calc(100% - 80%);
+    text-align: center;
+  }
+  .docentes .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    font-weight: 700 !important;
+    right: auto;
+    top: auto;
+  }
+  .docentes .owl-nav .owl-next {
+    position: absolute;
+    right: 20px;
+    bottom: -30px;
+    font-weight: 700 !important;
+    left: auto;
+    top: auto;
+  }
+
+  .carrusel_mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .carrusel_desktop {
+    display: none;
+    width: 100%;
+  }
+  .esconde_desktop {
+    display: none;
+  }
+  .esconde_mobile {
+    display: block;
+  }
+
+  ul.login_header li a {
+    font-size: 9px;
+    height: auto;
+  }
+
+  .lateral_responsive {
+    display: none;
+  }
+  .especial_pdp_mobile {
+    display: block;
+    margin-bottom: 1rem;
+    float: left;
+  }
+  .especial_pdp_mobile .lateral {
+    box-shadow: none !important;
+    background: white;
+    padding: 0;
+  }
+
+  .video_imagen {
+    display: none;
+  }
+  .video_imagen .lateral {
+    background: white;
+    padding: 0;
+    box-shadow: none !important;
+    margin-bottom: 1rem;
+  }
+
+  .muestra_imagen_mobile,
+  .muestra_imagen_mobile .video_imagen {
+    display: block;
+  }
+  .title_summary h1 {
+    font-size: 1.2rem;
+  }
+  .caracteristicas_curso ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .caracteristicas_curso {
+    border: 0px;
+    margin: 0;
+    padding-bottom: 0;
+  }
+  .lineas_porcentaje {
+    width: 60%;
+  }
+  .single h2,
+  .single h3 {
+    font-size: 1.2rem;
+  }
+  div#comments h2,
+  span#reply-title,
+  section.related.products .tit {
+    font-size: 1.2rem !important;
+  }
+  div#review_form_wrapper {
+    margin-top: 1rem;
+  }
+  .title_sesion p:nth-child(2) {
+    display: block;
+    padding-top: 10px;
+  }
+  .rating_single ul li:last-child {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rating_single ul li:last-child p {
+    margin: 0;
+  }
+  .rating_single ul li {
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rating_single ul {
+    display: block;
+    padding: 10px 0;
+  }
+  .rating_single {
+    display: flex;
+  }
+  .video-home {
+    margin-top: 2rem;
+  }
+  ul.listado_profe {
+    grid-template-columns: 1fr;
+  }
+  ul.listado_profe li {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    border: 1px solid var(--gris-lineas);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  .muestra_filtro {
+    display: none;
+  }
+  .filtro_especialistas .h3_filtros {
+    font-weight: 900;
+    color: var(--azul-oscuro) !important;
+    font-size: 1rem;
+    border: 0px;
+    padding: 0;
+    margin: 0;
+  }
+  .lupa_docente {
+    margin-top: 20px;
+  }
+  .cerrar_filtro_especialista {
+    display: inline-flex;
+    position: absolute;
+    top: -43px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: var(--rojo);
+    z-index: 20;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+    opacity: 1 !important;
+  }
+  .display_video > div {
+    width: 390px !important;
+    margin: auto !important;
+    height: 220px !important;
+  }
+  .cont_video video,
+  .cont_video div#mep_0 {
+    width: 390px !important;
+    height: 220px !important;
+  }
+
+  .cabezales_mobile {
+    display: block !important;
+  }
+  .cabezal_desktop {
+    display: none !important;
+  }
+  #preguntas_frecuentes_membresia > div > div > div.wpb_wrapper {
+    border: 0px;
+  }
+
+  #preguntas_frecuentes_membresia .vc_toggle_content {
+    background: #f9f3f3;
+    padding: 1rem;
+  }
+  #preguntas_frecuentes_membresia h5 {
+    border-bottom: 1px solid var(--gris-lineas);
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+  }
+  .centra_info .imagen_profe {
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+  }
+  .centra_info h1 {
+    font-size: 1.2rem;
+  }
+  .categoria_profe_pdp {
+    font-size: 12px !important;
+  }
+
+  .centra_info h4 {
+    font-size: 1.1rem;
+  }
+  .ordenamiento h4.cargo {
+    min-height: auto;
+  }
+  .ordenamiento {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ordenamiento .categoria_profe_pdp {
+    order: 3;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+  }
+  .ordenamiento h4 {
+    order: 1;
+  }
+  .ordenamiento h1 {
+    order: 0;
+  }
+  .ordenamiento {
+    display: flex;
+    flex-flow: wrap;
+  }
+  .ordenamiento p {
+    order: 2;
+    display: flex;
+    font-size: 14px;
+  }
+  .linkedin a {
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+
+  .by {
+    display: block;
+    border: 0px;
+  }
+  .by ul {
+    margin-bottom: 1rem;
+  }
+  .bg_centro_desktop {
+    display: none;
+  }
+  .bg_centro_mobile {
+    display: block;
+  }
+  .filtro_especialistas {
+    display: none;
+  }
+
+  .muestra_filtro_profe_mobile:after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+  }
+  .muestra_filtro_profe_mobile {
+    display: none;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    overflow: auto;
+    left: 0;
+    width: 80%;
+    background: white;
+    z-index: 123123;
+    padding: 1rem;
+  }
+
+  .muestra_filtro_profe_mobile .cerrar_filtro_profe img {
+    width: 12px;
+  }
+  .muestra_filtro_profe_mobile h3 {
+    font-size: 1rem;
+    font-weight: 900;
+    color: var(--azul-oscuro);
+  }
+  .muestra_filtro_profe_mobile .cerrar_filtro_profe {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+
+    display: inline-block;
+    padding: 0 0 1rem 1rem;
+  }
+  .muestra_filtro_profe_mobile img {
+    width: 20px;
+  }
+  .muestra_filtro_profe_mobile input.btn_filtrar_docentes {
+    height: 50px;
+    border-radius: 3px;
+  }
+  .filtros_plp_docentes ul img {
+    width: 25px;
+  }
+
+  .filtros_plp_docentes ul li:last-child {
+    margin-left: 30px;
+    border-left: 1px solid var(--gris-lineas);
+    padding-left: 30px;
+  }
+  .filtros_plp_docentes ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--gris-claro);
+    font-weight: 700;
+    position: relative;
+    color: var(--azul-oscuro);
+  }
+  .filtros_plp_docentes {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+  }
+  .ordena_docentes_mobile {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    display: none;
+  }
+
+  .listado_docentes {
+    height: 400px;
+    overflow: auto;
+  }
+
+  .btns_mobile_filtro_docente {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+  }
+  a.btn_limpiar_docentes {
+    background-color: var(--rojo);
+  }
+  .btns_mobile_filtro_docente input,
+  a.btn_limpiar_docentes {
+    color: white !important;
+    border: 0px;
+    width: 100%;
+    height: 40px !important;
+    border-radius: 3px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .conteo_mobile_docentes {
+    font-weight: 700;
+    font-size: 80%;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  input.btn_limpiar_docentes {
+    background: var(--rojo);
+  }
+  .resultados_listado_docentes {
+    display: none;
+  }
+  .page-template-listado-docentes .mi_membresia {
+    border-top: 1px solid var(--gris-lineas);
+    padding: 0.5rem 0;
+  }
+  .fondo_especial_abajo_docentes {
+    background: none;
+  }
+  .fondo_especial_abajo_docentes .mi_membresia {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .paginacion_listado_docentes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--gris-lineas);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--gris-lineas);
+  }
+  .pag_docentes div#pagination a.back_top {
+    width: 30%;
+    white-space: nowrap;
+    font-size: 0.7rem;
+  }
+
+  .pag_docentes div#pagination .back_top:before {
+    margin-right: 5px !important;
+    margin-left: -9px !important;
+    height: auto;
+  }
+
+  .pag_docentes div#pagination ul {
+    width: auto;
+  }
+  .pag_docentes div#pagination ul {
+    justify-content: end;
+  }
+  .woocommerce.especial_autores ul {
+    grid-template-columns: 1fr;
+  }
+  .woocommerce.membresias ul.products {
+    grid-template-columns: 1fr;
+  }
+  .listado_membresia {
+    font-size: 80%;
+  }
+  .listado_membresia img {
+    width: 20px;
+  }
+  .listado_membresia td {
+    padding: 5px;
+  }
+  .decide_membresia p {
+    font-size: 1rem !important;
+    margin: 20px 0 !important;
+  }
+
+  .decide_membresia {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 0px;
+  }
+  .decide_membresia img {
+    width: 50px;
+  }
+  .imagen_profe {
+    height: 250px;
+  }
+  .contenido_pop_alerta {
+    padding: 1rem;
+    width: 90%;
+  }
+  .contenido_pop_alerta h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .contenido_pop_alerta p {
+    margin: 0;
+  }
+  .contenido_pop_alerta a.back_cart {
+    margin-top: 1rem;
+  }
+  ul.contenido_carrito li button {
+    width: 35% !important;
+  }
+  ul.contenido_carrito li .coupon input {
+    width: 60%;
+  }
+  ul.contenido_carrito li .coupon {
+    width: 100%;
+  }
+  span.dcto_cart {
+    left: 10px;
+  }
+  a.custom_image_cart {
+    width: 50px;
+    height: 50px;
+  }
+  #tab_especial_membresia li {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #tab_especial_membresia {
+    margin: 2rem 0;
+    padding: 0 1rem;
+    min-height: 10px;
+    max-height: 50px;
+    font-size: 80%;
+  }
+  .muestraSoloMobile {
+    display: block !important;
+    width: 90%;
+    margin: 0 auto 1rem auto !important;
+  }
+  .muestraSoloDesktop {
+    display: none !important;
+  }
+  .muestraSoloMobile li,
+  .muestraSoloMobile li button {
+    width: 100% !important;
+  }
+  .muestraSoloMobile#tab_especial_membresia button,
+  .muestraSoloMobile#tab_especial_membresia li {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 50px;
+  }
+  .muestraSoloMobile button.owl-next {
+    position: absolute !important;
+    top: 0;
+    right: -15px;
+  }
+
+  .muestraSoloMobile button.owl-prev {
+    position: absolute !important;
+    top: 0;
+    left: -15px;
+  }
+  .muestraSoloMobile button.owl-prev span,
+  .muestraSoloMobile button.owl-next span {
+    font-size: 25px;
+  }
+  #customer_details .bg-checkout {
+    border: 0;
+    background: none;
+    padding: 5%;
+  }
+  .centra_compartir {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  button.compartir_custom_mobile {
+    display: inline-block;
+    border: 1px solid;
+    margin-right: 1rem;
+    border-radius: 5px;
+    color: var(--azul);
+    background: none;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+  }
+  button.compartir_custom_mobile img {
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  #pm_menu .wc_remove_btn {
+    right: -20px;
+  }
+
+  #pm_menu .whmc-cart-items .whmc-item-desc {
+    width: 90%;
+  }
+  #pm_menu .cart_image_iem {
+    width: 80px;
+  }
+
+  #pm_menu .whmc-cart-items-inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .woocommerce-MyAccount-content label,
+  .woocommerce-MyAccount-content input,
+  .woocommerce-MyAccount-content textarea,
+  .woocommerce-MyAccount-content select,
+  .woocommerce-MyAccount-content span {
+    font-size: 80%;
+  }
+
+  .woocommerce-MyAccount-content ul,
+  ul.products.columns-3 {
+    grid-template-columns: 1fr;
+  }
+
+  body .row .info_contacto_sobreisil {
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+    width: 92% !important;
+  }
+  .item_buscar.relative {
+    width: 80%;
+  }
+
+  body .row .info_contacto_sobreisil .wpb_content_element p strong img {
+    max-width: 35px !important;
+  }
+
+  body .row .info_contacto_sobreisil .wpb_content_element,
+  body .row .info_contacto_sobreisil .wpb_content_element p {
+    width: 100% !important;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .info_contacto_sobreisil .vc_column_container > .vc_column-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  ul.listado_certificados a.descargar_certificado {
+    font-size: 10px;
+  }
+
+  ul.testimonio_empresas .owl-next,
+  ul.testimonio_empresas .owl-prev {
+    display: none;
+  }
+  .detalle_pedido {
+    margin-top: 0;
+  }
+  #menuiconwrap {
+    width: 40px;
+  }
+  .bg-checkout.mb-3.cupon_checkout {
+    border: 0;
+    padding: 0;
+    background: none;
+  }
+  form.checkout_coupon.woocommerce-form-coupon.cupon {
+    padding: 0;
+    border: 0;
+  }
+  .woocommerce .form-row.form-row-first,
+  .woocommerce .form-row.form-row-last {
+    width: 100%;
+    float: none;
+  }
+  li.smobile {
+    width: 40px;
+  }
+  .page-id-263 .wpb_single_image .vc_figure,
+  .page-id-263 .wpb_single_image .vc_single_image-wrapper,
+  .page-id-263 .wpb_single_image img {
+    width: 100%;
+  }
+  .descubre-img {
+    width: 35%;
+    float: left;
+    margin-top: 10px;
+  }
+  .descubre-box {
+    width: 65%;
+    float: left;
+    font-size: 0.9rem;
+  }
+  .empresas-img {
+    width: 35%;
+    float: left;
+    margin-top: 10px;
+  }
+  .empresas-box {
+    width: 65%;
+    float: left;
+    font-size: 0.9rem;
+  }
+  form.ordenaDocentes.ordena_docentes_mobile {
+    margin-top: -58px;
+    padding: 10px 5%;
+    background-color: var(--gris-claro);
+    border-radius: 20px 20px 0 0;
+    width: 80%;
+    margin-left: 7%;
+  }
+  select#archive-sort-mobile {
+    width: 100%;
+  }
+  #preguntasfrecuentesBakery .vc_toggle_title {
+    padding: 0;
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  #info_contacto ul {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  #info_contacto ul li {
+    margin: 30px 0;
+  }
+  #info_contacto .wpb_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    text-align: center;
+  }
+
+  #preguntasfrecuentesBakery .vc_toggle h4:after {
+    top: 17px;
+  }
+  #preguntasfrecuentesBakery .vc_toggle h4:before {
+    top: 24px;
+  }
+  #preguntasfrecuentesBakery .vc_toggle_title h4 {
+    width: 60%;
+  }
+  #preguntasfrecuentesBakery h4 {
+    position: initial;
+  }
+}

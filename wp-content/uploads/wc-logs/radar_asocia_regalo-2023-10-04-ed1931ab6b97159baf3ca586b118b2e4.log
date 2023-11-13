@@ -1,0 +1,30 @@
+2023-10-04T15:15:40+00:00 INFO asociacion regalo: entra
+2023-10-04T15:15:40+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='calfaro@isil.pe' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-04T15:15:40+00:00 INFO resultado consulta: []
+2023-10-04T19:35:23+00:00 INFO asociacion regalo: entra
+2023-10-04T19:35:23+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='vesip92563@bnovel.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-04T19:35:23+00:00 INFO resultado consulta: []
+2023-10-04T20:09:55+00:00 INFO asociacion regalo: entra
+2023-10-04T20:09:55+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-04T20:09:55+00:00 INFO resultado consulta: []
+2023-10-04T20:33:33+00:00 INFO asociacion regalo: entra
+2023-10-04T20:33:33+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='vesip92563@bnovel.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-04T20:33:33+00:00 INFO resultado consulta: []
+2023-10-04T20:33:58+00:00 INFO asociacion regalo: entra
+2023-10-04T20:33:58+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='vesip92563@bnovel.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-04T20:33:58+00:00 INFO resultado consulta: []
+2023-10-04T20:34:24+00:00 INFO asociacion regalo: entra
+2023-10-04T20:34:24+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='vesip92563@bnovel.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-04T20:34:24+00:00 INFO resultado consulta: []
+2023-10-04T20:36:00+00:00 INFO asociacion regalo: entra
+2023-10-04T20:36:00+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-04T20:36:00+00:00 INFO resultado consulta: []
+2023-10-04T20:37:02+00:00 INFO asociacion regalo: entra
+2023-10-04T20:37:02+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='biyiron882@apxby.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-04T20:37:02+00:00 INFO resultado consulta: []
+2023-10-04T20:40:50+00:00 INFO asociacion regalo: entra
+2023-10-04T20:40:50+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-04T20:40:50+00:00 INFO resultado consulta: []
+2023-10-04T21:46:53+00:00 INFO asociacion regalo: entra
+2023-10-04T21:46:53+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='vesip92563@bnovel.com' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-04T21:46:53+00:00 INFO resultado consulta: []

@@ -1,0 +1,396 @@
+2023-10-30T14:01:17+00:00 INFO nuevo usuario:
+{
+    "first_name": "PRUEBA18",
+    "last_name": "TEST18",
+    "company": "PRUEBA18 TEST18",
+    "email": "tiprueba18@gmail.com",
+    "00Nf400000TUbiN": "989338406",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T14:03:24+00:00 INFO actualiza usuario:
+{
+    "first_name": "PRUEBAS18",
+    "last_name": "TESTS18",
+    "email": "tiprueba18@gmail.com",
+    "company": "PRUEBAS18 TESTS18",
+    "00Nf400000TUbiN": "989338406",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "4",
+    "00Nf400000TUZxq": "989338406",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PY",
+    "city": "Amazonas",
+    "state": "PY-1",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T14:20:58+00:00 INFO nuevo usuario:
+{
+    "first_name": "Cesar Aurelio",
+    "last_name": "Alfaro Estela",
+    "company": "Cesar Aurelio Alfaro Estela",
+    "email": "calfaro@isil.pe",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T15:33:21+00:00 INFO nuevo usuario:
+{
+    "first_name": "Cesar Aurelio",
+    "last_name": "Alfaro Estela",
+    "company": "Cesar Aurelio Alfaro Estela",
+    "email": "calfaro@isil.pe",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T15:58:39+00:00 INFO nuevo usuario:
+{
+    "first_name": "Cesar Aurelio",
+    "last_name": "Alfaro Estela",
+    "company": "Cesar Aurelio Alfaro Estela",
+    "email": "calfaro@isil.pe",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T19:04:09+00:00 INFO nuevo usuario:
+{
+    "first_name": "TI19",
+    "last_name": "PRUEBA",
+    "company": "TI19 PRUEBA",
+    "email": "tiprueba19@gmail.com",
+    "00Nf400000TUbiN": "989338407",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T19:23:14+00:00 INFO nuevo usuario:
+{
+    "first_name": "TI19",
+    "last_name": "PRUEBA",
+    "company": "TI19 PRUEBA",
+    "email": "tiprueba19@gmail.com",
+    "00Nf400000TUbiN": "989338407",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T20:38:39+00:00 INFO nuevo usuario:
+{
+    "first_name": "TI19",
+    "last_name": "PRUEBA",
+    "company": "TI19 PRUEBA",
+    "email": "tiprueba19@gmail.com",
+    "00Nf400000TUbiN": "989338407",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T20:50:07+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "00Nf400000TUbiN": "968696501",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T20:58:17+00:00 INFO nuevo usuario:
+{
+    "first_name": "TI19",
+    "last_name": "PRUEBA",
+    "company": "TI19 PRUEBA",
+    "email": "tiprueba19@gmail.com",
+    "00Nf400000TUbiN": "989338407",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T21:07:17+00:00 INFO nuevo usuario:
+{
+    "first_name": "TI19",
+    "last_name": "PRUEBA",
+    "company": "TI19 PRUEBA",
+    "email": "tiprueba19@gmail.com",
+    "00Nf400000TUbiN": "989338407",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T21:15:28+00:00 INFO nuevo usuario:
+{
+    "first_name": "TI19",
+    "last_name": "PRUEBA",
+    "company": "TI19 PRUEBA",
+    "email": "tiprueba19@gmail.com",
+    "00Nf400000TUbiN": "989338407",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T21:26:27+00:00 INFO actualiza usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "00Nf400000TUbiN": "968696501",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "12568945",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Chiclayo",
+    "state": "LAM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T21:28:23+00:00 INFO nuevo usuario:
+{
+    "first_name": "KATIA",
+    "last_name": "GARVICH SAN MARTIN",
+    "company": "KATIA GARVICH SAN MARTIN",
+    "email": "kgarvich@hotmail.com",
+    "00Nf400000TUbiN": "",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T21:30:38+00:00 INFO actualiza usuario:
+{
+    "first_name": "Katia Elizabeth",
+    "last_name": "San Martin",
+    "email": "kgarvich@hotmail.com",
+    "company": "KATIA GARVICH SAN MARTIN",
+    "00Nf400000TUbiN": "",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "4",
+    "00Nf400000TUZxq": "989338413",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "PE",
+    "city": "Santiago de Surco",
+    "state": "LIM",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T21:30:54+00:00 INFO nuevo usuario:
+{
+    "first_name": "VIERNES DOS PRUEBA",
+    "last_name": "VEINTE Y DOS DEL NUEVE",
+    "company": "VIERNES DOS PRUEBA VEINTE Y DOS DEL NUEVE",
+    "email": "biyiron882@apxby.com",
+    "00Nf400000TUbiN": "968696501",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T21:55:02+00:00 INFO nuevo usuario:
+{
+    "first_name": "TI19",
+    "last_name": "PRUEBA",
+    "company": "TI19 PRUEBA",
+    "email": "tiprueba19@gmail.com",
+    "00Nf400000TUbiN": "989338407",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T22:52:51+00:00 INFO nuevo usuario:
+{
+    "first_name": "TIPRUEBA",
+    "last_name": "TI20",
+    "company": "TIPRUEBA TI20",
+    "email": "tiprueba20@gmail.com",
+    "00Nf400000TUbiN": "989338407",
+    "00N2S000007Bt0I": 1,
+    "00Nf400000TUZxy": "f077",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "00N2S000007S7ro": "30\/10\/2023",
+    "lead_source": "Web to Lead",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T22:54:36+00:00 INFO actualiza usuario:
+{
+    "first_name": "Katya",
+    "last_name": "Prueba20",
+    "email": "tiprueba20@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "989338407",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "45508149",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "EH",
+    "city": "Sahara",
+    "state": "Sahara",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T22:55:16+00:00 INFO actualiza usuario:
+{
+    "first_name": "Katya",
+    "last_name": "Prueba20",
+    "email": "tiprueba20@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "989338407",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "1",
+    "00Nf400000TUZxq": "45508149",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "EH",
+    "city": "Sahara",
+    "state": "Sahara",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}
+2023-10-30T22:57:09+00:00 INFO actualiza usuario:
+{
+    "first_name": "Katya",
+    "last_name": "Prueba20",
+    "email": "tiprueba20@gmail.com",
+    "company": "",
+    "00Nf400000TUbiN": "989338407",
+    "00Nf400000TUZxw": "",
+    "00N2S000006lwOz": "4",
+    "00Nf400000TUZxq": "989338407",
+    "00N2S000006lxYR": "",
+    "00N2S000006lxYW": "",
+    "country": "RO",
+    "city": "Rumania",
+    "state": "AG",
+    "00Nf400000TUZxy": "f078",
+    "00Nf400000TUZy9": "82",
+    "00Nf400000TUZyL": "s751",
+    "recordType": "0122S000000DLhf",
+    "lead_source": "Web to Lead",
+    "00N2S000007RuM4": "",
+    "00N2S000007RuME": "",
+    "00N2S000007RuMT": "",
+    "00N2S000007RuMP": "",
+    "oid": "00D3I0000008lXO"
+}

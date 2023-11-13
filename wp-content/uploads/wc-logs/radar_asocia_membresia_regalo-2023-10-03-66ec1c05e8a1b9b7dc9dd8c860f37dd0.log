@@ -1,0 +1,53 @@
+2023-10-03T17:58:37+00:00 INFO datos asociacion: viene desde asocia regalo
+2023-10-03T17:58:37+00:00 INFO datos que se asociaran: {
+    "fecha_base": null,
+    "fecha_suscripcion": "1970-01-01",
+    "fecha_expiracion": "2023-11-03"
+}
+2023-10-03T17:58:37+00:00 INFO id comprador: 79879798
+2023-10-03T17:58:38+00:00 INFO resultado id: 
+2023-10-03T18:07:31+00:00 INFO datos asociacion: viene desde asocia regalo
+2023-10-03T18:07:31+00:00 INFO datos row para full_response: '{"header":{"ecoreTransactionUUID":"9c2224ae-6478-4bae-bf80-d0907a01a03e","ecoreTransactionDate":1696333832273,"millis":2532},"fulfillment":{"channel":"web","merchantId":"522591303","terminalId":"00000001","captureType":"manual","countable":true,"fastPayment":false,"signature":"9c2224ae-6478-4bae-bf80-d0907a01a03e"},"order":{"tokenId":"F645EF605C794F8185EF605C791F810F","purchaseNumber":"1700","productId":"105","amount":40,"installment":0,"currency":"PEN","authorizedAmount":40,"authorizationCode":"065025","actionCode":"000","traceNumber":"931472","transactionDate":"231003065030","transactionId":"991232760004628"},"token":{"tokenId":"7000010039476019","ownerId":null,"expireOn":"280331235959"},"dataMap":{"TERMINAL":"00000001","BRAND_ACTION_CODE":"00","BRAND_HOST_DATE_TIME":"231003070448","TRACE_NUMBER":"931472","RECURRENCE_MAX_AMOUNT":"40.0","CARD_TYPE":"C","ECI_DESCRIPTION":"Transaccion no autenticada pero enviada en canal seguro","SIGNATURE":"9c2224ae-6478-4bae-bf80-d0907a01a03e","CARD":"455170******8059","MERCHANT":"522591303","EXPIRATION_MONTH":"03","STATUS":"Authorized","ACTION_DESCRIPTION":"Aprobado y completado con exito","ID_UNICO":"991232760004628","AMOUNT":"40.00","EXPIRATION_YEAR":"2028","BRAND_HOST_ID":"012368","AUTHORIZATION_CODE":"065025","YAPE_ID":"","CURRENCY":"0604","TRANSACTION_DATE":"231003065030","ACTION_CODE":"000","CARD_TOKEN":"7000010039476019","ECI":"07","ID_RESOLUTOR":"620231003065025","BRAND":"visa","ADQUIRENTE":"570002","RECURRENCE_SRV_MESSAGE":"Registro de afiliacion con exito","BRAND_NAME":"VI","PROCESS_CODE":"000000","RECURRENCE_SRV_CODE":"000","RECURRENCE_STATUS":"Registered","TRANSACTION_ID":"991232760004628"}}'
+2023-10-03T18:07:31+00:00 INFO membresia info (row[full_response]): (object) array(
+   'TERMINAL' => '00000001',
+   'BRAND_ACTION_CODE' => '00',
+   'BRAND_HOST_DATE_TIME' => '231003070448',
+   'TRACE_NUMBER' => '931472',
+   'RECURRENCE_MAX_AMOUNT' => '40.0',
+   'CARD_TYPE' => 'C',
+   'ECI_DESCRIPTION' => 'Transaccion no autenticada pero enviada en canal seguro',
+   'SIGNATURE' => '9c2224ae-6478-4bae-bf80-d0907a01a03e',
+   'CARD' => '455170******8059',
+   'MERCHANT' => '522591303',
+   'EXPIRATION_MONTH' => '03',
+   'STATUS' => 'Authorized',
+   'ACTION_DESCRIPTION' => 'Aprobado y completado con exito',
+   'ID_UNICO' => '991232760004628',
+   'AMOUNT' => '40.00',
+   'EXPIRATION_YEAR' => '2028',
+   'BRAND_HOST_ID' => '012368',
+   'AUTHORIZATION_CODE' => '065025',
+   'YAPE_ID' => '',
+   'CURRENCY' => '0604',
+   'TRANSACTION_DATE' => '231003065030',
+   'ACTION_CODE' => '000',
+   'CARD_TOKEN' => '7000010039476019',
+   'ECI' => '07',
+   'ID_RESOLUTOR' => '620231003065025',
+   'BRAND' => 'visa',
+   'ADQUIRENTE' => '570002',
+   'RECURRENCE_SRV_MESSAGE' => 'Registro de afiliacion con exito',
+   'BRAND_NAME' => 'VI',
+   'PROCESS_CODE' => '000000',
+   'RECURRENCE_SRV_CODE' => '000',
+   'RECURRENCE_STATUS' => 'Registered',
+   'TRANSACTION_ID' => '991232760004628',
+)
+2023-10-03T18:07:31+00:00 INFO datos asociacion: viene desde asocia regalo
+2023-10-03T18:07:31+00:00 INFO datos que se asociaran: {
+    "fecha_base": null,
+    "fecha_suscripcion": "1970-01-01",
+    "fecha_expiracion": "2023-11-03"
+}
+2023-10-03T18:07:31+00:00 INFO id comprador: 79879798
+2023-10-03T18:07:32+00:00 INFO resultado id: 

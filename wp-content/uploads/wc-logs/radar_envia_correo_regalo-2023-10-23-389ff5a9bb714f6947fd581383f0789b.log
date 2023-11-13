@@ -1,0 +1,15 @@
+2023-10-23T15:45:23+00:00 INFO registro: : {
+    "id": "16",
+    "id_producto": "113",
+    "correo_suscripcion": "katyae16@hotmail.com",
+    "pagado": "0",
+    "id_orden": "9432",
+    "asociado": "0",
+    "id_usuario_asociado": null,
+    "id_suscriptor": "39536"
+}
+2023-10-23T15:45:23+00:00 INFO recurrencia dato]: : ANNUAL
+2023-10-23T15:45:23+00:00 INFO Body principal: : Katia Elizabeth San Martin te ha regalado una membresía "Premium 12 meses" puedes potenciar tu perfil profesional desde ahora, inicia sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/suscripciones/premium-12-meses/">aquí</a>
+2023-10-23T15:45:24+00:00 INFO Envio de correo: : bool(true)
+
+2023-10-23T15:45:24+00:00 INFO Envío correcto: ok

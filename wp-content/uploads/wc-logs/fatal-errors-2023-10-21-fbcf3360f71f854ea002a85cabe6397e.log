@@ -1,0 +1,691 @@
+2023-10-21T00:03:48+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-21T01:03:56+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-21T04:07:46+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-21T04:29:14+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(370): rest_do_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(407): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_stats_data()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_items()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#13 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php(479): rest_do_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php(138): WC_Admin_Dashboard->get_wc_admin_performance_data()
+#15 /usr/share/nginx/stage.isilgo.com/wp-admin/includes/template.php(1443): WC_Admin_Dashboard->status_widget()
+#16 /usr/share/nginx/stage.isilgo.com/wp-admin/includes/dashboard.php(271): do_meta_boxes()
+#17 /usr/share/nginx/stage.isilgo.com/wp-admin/index.php(203): wp_dashboard()
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:29:43+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(370): rest_do_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(407): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_stats_data()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_items()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#13 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php(479): rest_do_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php(138): WC_Admin_Dashboard->get_wc_admin_performance_data()
+#15 /usr/share/nginx/stage.isilgo.com/wp-admin/includes/template.php(1443): WC_Admin_Dashboard->status_widget()
+#16 /usr/share/nginx/stage.isilgo.com/wp-admin/includes/dashboard.php(271): do_meta_boxes()
+#17 /usr/share/nginx/stage.isilgo.com/wp-admin/index.php(203): wp_dashboard()
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:30:10+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(370): rest_do_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(407): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_stats_data()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_items()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#13 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php(479): rest_do_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php(138): WC_Admin_Dashboard->get_wc_admin_performance_data()
+#15 /usr/share/nginx/stage.isilgo.com/wp-admin/includes/template.php(1443): WC_Admin_Dashboard->status_widget()
+#16 /usr/share/nginx/stage.isilgo.com/wp-admin/includes/dashboard.php(271): do_meta_boxes()
+#17 /usr/share/nginx/stage.isilgo.com/wp-admin/index.php(203): wp_dashboard()
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:30:40+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-21T04:30:45+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-21T04:32:23+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(370): rest_do_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(407): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_stats_data()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_items()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#13 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php(479): rest_do_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php(138): WC_Admin_Dashboard->get_wc_admin_performance_data()
+#15 /usr/share/nginx/stage.isilgo.com/wp-admin/includes/template.php(1443): WC_Admin_Dashboard->status_widget()
+#16 /usr/share/nginx/stage.isilgo.com/wp-admin/includes/dashboard.php(271): do_meta_boxes()
+#17 /usr/share/nginx/stage.isilgo.com/wp-admin/index.php(203): wp_dashboard()
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:32:58+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-21T04:33:02+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(370): rest_do_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(407): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_stats_data()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_items()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#16 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#17 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#18 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#19 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#20 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#21 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#22 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:33:03+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#15 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#16 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#17 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:33:04+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Orders/Stats/Query.php(59): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Orders/Stats/Controller.php(82): Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#15 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#16 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#17 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:33:05+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(370): rest_do_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(407): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_stats_data()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_items()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#16 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#17 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#18 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#19 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#20 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#21 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#22 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:33:09+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#15 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#16 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#17 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:33:10+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#15 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#16 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#17 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:33:10+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#15 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#16 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#17 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:33:10+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+
+2023-10-21T04:33:14+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(370): rest_do_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(407): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_stats_data()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_items()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#16 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#17 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#18 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#19 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#20 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#21 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#22 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:33:15+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#15 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#16 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#17 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:33:16+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Orders/Stats/Query.php(59): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Orders/Stats/Controller.php(82): Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#15 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#16 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#17 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:33:16+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(370): rest_do_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(407): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_stats_data()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_items()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(418): WP_REST_Server->serve_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#16 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#17 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#18 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#19 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#20 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#21 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#22 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T04:39:38+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php:95
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php(166): WOOMULTI_CURRENCY_F_Admin_Analytics::get_converted_order()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(312): WOOMULTI_CURRENCY_F_Admin_Analytics->convert_orders_stats()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Query.php(65): apply_filters()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Revenue/Stats/Controller.php(71): Automattic\WooCommerce\Admin\API\Reports\Revenue\Query->get_data()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\Revenue\Stats\Controller->get_items()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#8 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(370): rest_do_request()
+#9 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(407): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_stats_data()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1194): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_items()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(545): WP_REST_Server->dispatch()
+#13 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php(479): rest_do_request()
+#14 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php(138): WC_Admin_Dashboard->get_wc_admin_performance_data()
+#15 /usr/share/nginx/stage.isilgo.com/wp-admin/includes/template.php(1443): WC_Admin_Dashboard->status_widget()
+#16 /usr/share/nginx/stage.isilgo.com/wp-admin/includes/dashboard.php(271): do_meta_boxes()
+#17 /usr/share/nginx/stage.isilgo.com/wp-admin/index.php(203): wp_dashboard()
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woo-multi-currency/admin/analytics.php en la línea 95
+
+2023-10-21T07:24:22+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:24:33+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:24:37+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:24:42+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:24:48+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:24:52+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:25:08+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:25:14+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:25:23+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:25:32+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:25:43+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:25:50+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T07:25:54+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php:1193
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php(1193): array_diff()
+#1 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): recientesVistos()
+#2 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /usr/share/nginx/stage.isilgo.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/themes/isilgo/functions.php en la línea 1193
+
+2023-10-21T08:21:33+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php:134
+Stack trace:
+#0 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(255): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_analytics_report_data()
+#1 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(631): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_indicator_data()
+#2 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php(48): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->get_collection_params()
+#3 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php(85): WC_REST_Reports_V1_Controller->register_routes()
+#4 /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(147): Automattic\WooCommerce\Admin\API\Reports\PerformanceIndicators\Controller->register_routes()
+#5 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(587): do_action()
+#9 /usr/share/nginx/stage.isilgo.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /usr/share/nginx/stage.isilgo.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /usr/share/nginx/stage.isilgo.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /usr/share/nginx/stage.isilgo.com/wp-includes/functions.php(1335): WP->main()
+#16 /usr/share/nginx/stage.isilgo.com/wp-blog-header.php(16): wp()
+#17 /usr/share/nginx/stage.isilgo.com/index.php(17): require('...')
+#18 {main}
+  thrown en /usr/share/nginx/stage.isilgo.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/PerformanceIndicators/Controller.php en la línea 134
+

@@ -1,0 +1,347 @@
+@media (min-width: 769px) and (max-width: 1000px) {
+  .header .menu {
+    width: 10%;
+  }
+  .header .carrito {
+    width: 65%;
+  }
+  .busqueda_mobile_header {
+    display: block;
+  }
+  header.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  header.header .container-fluid.ancla_preheader .container {
+    margin: 0px;
+    max-width: 100%;
+  }
+
+  header.header .ancla_preheader {
+    padding: 0;
+  }
+
+  header.header .ancla_preheader::after {
+    height: 30px;
+  }
+
+  header.header .ancla_preheader .preheader_01 {
+    width: 70%;
+    display: flex;
+  }
+
+  header.header .ancla_preheader .preheader_02 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30px;
+  }
+
+  header.header .ancla_preheader .preheader_01 p {
+    font-size: 0.4rem;
+    font-weight: 800;
+    padding-top: 2px;
+    text-align: left;
+  }
+
+  header.header .ancla_preheader .preheader_01 a {
+    padding: 0px 10px;
+    font-size: 0.4rem;
+    margin: 0;
+    line-height: 0.8rem;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+  header.header .ancla_preheader .preheader_02 span#timerHeader {
+    font-size: 0.5rem;
+    font-weight: 700;
+  }
+
+  header.header .ancla_preheader .preheader_02 .cerrar_preheader {
+    padding: 0px 20px 0px 5px;
+    font-size: 10px;
+    top: 7px;
+  }
+
+  header.header .header_global {
+    padding: 1rem 0rem;
+    z-index: 99999;
+    position: sticky;
+  }
+
+  header.header .menu_header > li:not(:first-child) {
+    display: none;
+  }
+
+  header.header li.register {
+    /* display: none; */
+  }
+
+  header.header input#dgwt-wcas-search-input-1 {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding-left: 0px !important;
+  }
+
+  header.header .buscador,
+  .buscador div,
+  .buscador form.dgwt-wcas-search-form,
+  .dgwt-wcas-search-wrapp {
+    width: 12%;
+  }
+
+  header.header .buscador button.dgwt-wcas-search-submit::after {
+    display: none;
+  }
+
+  header.header .dgwt-wcas-ico-magnifier {
+    filter: none !important;
+    max-width: 25px;
+  }
+
+  header.header .container-fluid.header_global > div {
+    padding: 0 8px;
+  }
+
+  header.header .header_global .menu {
+    order: 1;
+  }
+
+  header.header .header_global .logo {
+    order: 2;
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+
+  header.header .header_global .buscador {
+    order: 3;
+    width: 12%;
+  }
+
+  header.header .header_global .carrito {
+    order: 4;
+  }
+
+  header.header .header_global .carrito .cart_menu_li.li_two {
+    padding: 5px;
+    height: 30px;
+  }
+
+  header.header .header_global .carrito .cart_menu_li #menuiconid,
+  .cart_menu_li.li_two #menuiconid {
+    padding-right: 1px;
+  }
+
+  header.header .carrito ul.login_header li a.login {
+    margin-right: 5px;
+  }
+  header.header .carrito ul.login_header li a {
+    font-size: 11px;
+    margin: 0;
+    padding: 10px;
+
+    border-radius: 3px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  header.header
+    .woo-multi-currency.wmc-shortcode.plain-vertical
+    .wmc-currency-wrapper
+    span.wmc-current-currency {
+    padding: 5px 15px;
+  }
+
+  header.header
+    .woo-multi-currency.wmc-shortcode
+    .wmc-currency-wrapper
+    .wmc-current-currency-arrow {
+    font-size: 12px;
+  }
+
+  .busqueda_mobile_header {
+    width: 7%;
+  }
+
+  header.header li.usuario_logueado div {
+    width: 50%;
+    font-size: 10px;
+  }
+
+  header.header li.usuario_logueado a {
+    width: 50%;
+  }
+  .llamado_registro p {
+    font-size: 15px;
+  }
+  .llamado_registro a {
+    padding: 7px 10px;
+  }
+  main .llamado_registro {
+    /* height: 50px; */
+    margin-top: 20px !important;
+  }
+  .vc_custom_1691430045095 {
+    margin-top: -25px !important;
+  }
+  div#educacion_online .wpb_wrapper h5 {
+    font-size: 1rem;
+  }
+  .container-educacion .vc_column-inner .wpb_wrapper {
+    display: flex;
+  }
+  .container-educacion .vc_column-inner .wpb_wrapper .wpb_wrapper {
+    display: block;
+  }
+  .container-educacion img {
+    width: 55px;
+  }
+  .container-educacion .wpb_text_column.wpb_content_element {
+    margin-bottom: 0;
+  }
+  .container-educacion.wpb_column.vc_column_container.vc_col-sm-3
+    p:first-child {
+    margin-bottom: 0px;
+    font-size: 0.8rem;
+  }
+
+  .container-educacion.wpb_column.vc_column_container.vc_col-sm-3
+    p:nth-child(2) {
+    font-size: 0.7rem;
+  }
+  .wpb_single_image.wpb_content_element.vc_align_left.img-educacion {
+    display: flex;
+    place-self: center;
+    margin-bottom: 0px;
+  }
+  .container-educacion {
+    margin: 20px 0px;
+  }
+  div#educacion_online .wpb_wrapper .wpb_text_column.wpb_content_element {
+    margin-bottom: 0px;
+  }
+  .container-educacion .vc_column-inner .wpb_wrapper .txt-educacion {
+    width: 80%;
+  }
+  .container-educacion .vc_column-inner .wpb_wrapper .img-educacion {
+    width: 20%;
+  }
+  .docentes .owl-nav .owl-prev {
+    position: absolute;
+    right: auto;
+    left: 25%;
+    top: 103%;
+    font-weight: 700 !important;
+  }
+  .docentes .owl-nav .owl-next {
+    position: absolute;
+    left: auto;
+    right: 25%;
+    top: 103%;
+    font-weight: 700 !important;
+  }
+  .carrusel_docentes .owl-dots {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+  }
+  .carrusel_docentes {
+    padding-top: 0;
+  }
+
+  .caracteristicas_curso ul li {
+    width: 50%;
+  }
+
+  ul.listado_profe li {
+    width: 100%;
+  }
+
+  header.header .ancla_preheader .preheader_01 p,
+  header.header .ancla_preheader .preheader_02 span#timerHeader {
+    font-size: 0.6rem;
+  }
+
+  header.header .ancla_preheader .preheader_01 a {
+    padding: 0px 10px;
+    line-height: 1rem;
+  }
+
+  header.header .ancla_preheader .preheader_02 .cerrar_preheader {
+    padding: 0px 30px 0px 5px;
+    font-size: 14px;
+    top: 5px;
+  }
+  header.header .cart_menu_li.li_two {
+    width: 35px;
+  }
+  footer .logo-footer {
+    width: 100%;
+    text-align: center;
+  }
+  footer .menus_footer {
+    width: 20%;
+  }
+  footer .redes-footer {
+    width: 40%;
+  }
+  footer .logo-footer img {
+    width: 25% !important;
+    padding-bottom: 20px;
+  }
+
+  ul#menu-mi-cuenta {
+    right: 0;
+  }
+  .dgwt-wcas-search-wrapp {
+    display: block !important;
+    width: 20px !important;
+    min-width: 20px !important;
+    max-width: 20px !important;
+  }
+  .dgwt-wcas-overlay-mobile .dgwt-wcas-search-wrapp {
+    min-width: 10% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .cursos_gratis_mobile_home {
+    display: none;
+  }
+  .cursos_gratis_desktop_home {
+    display: block;
+  }
+
+  li div.listado_precio {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  ul.membresia_pdp li {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+  .esconde_desktop_menu_burger {
+    display: block !important;
+  }
+  .esconde_desktop_menu_burger ul.sub-menu {
+    border-radius: 10px;
+    width: 330px;
+    height: 350px;
+    overflow: auto;
+  }
+
+  .esconde_desktop {
+    display: none;
+  }
+  .esconde_mobile {
+    display: block;
+  }
+}

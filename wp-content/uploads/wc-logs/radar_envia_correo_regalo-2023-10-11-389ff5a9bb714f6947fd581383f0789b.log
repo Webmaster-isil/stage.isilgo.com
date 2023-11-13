@@ -1,0 +1,93 @@
+2023-10-11T14:15:38+00:00 INFO registro: : {
+    "id": "92",
+    "id_producto": "330",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "Romero",
+    "nombre_remitente": "Manuel",
+    "mensaje": "Testeando que metabien el gmt",
+    "postergar": "0",
+    "fecha_envio": "2023-10-11 19:14:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1764",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-11T14:15:38+00:00 INFO recurrencia dato]: : 
+2023-10-11T14:15:38+00:00 INFO Body principal: : Manuel te ha regalado un curso online "Business Model Canvas y Nuevos Modelos de Negocio" puedes iniciar tu aprendizaje iniciando sesión <a href="https://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/cursos-innovacion-y-transformacion-digital/business-model-canvas-y-nuevos-modelos-de-negocio/">aquí</a>
+2023-10-11T14:15:39+00:00 INFO Envio de correo: : 
+2023-10-11T14:15:39+00:00 INFO Envío correcto: ok
+2023-10-11T14:33:49+00:00 INFO registro: : {
+    "id": "94",
+    "id_producto": "493",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "Ela",
+    "nombre_remitente": "Manu",
+    "mensaje": "Lol",
+    "postergar": "0",
+    "fecha_envio": "2023-10-11 14:30:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1766",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-11T14:33:49+00:00 INFO recurrencia dato]: : 
+2023-10-11T14:33:49+00:00 INFO Body principal: : Manu te ha regalado un curso online "Gestión financiera para Banca Personas" puedes iniciar tu aprendizaje iniciando sesión <a href="https://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/cursos-administracion-bancaria/gestion-financiera-para-banca-personas/">aquí</a>
+2023-10-11T14:33:57+00:00 INFO Envio de correo: : 
+2023-10-11T14:38:03+00:00 INFO registro: : {
+    "id": "95",
+    "id_producto": "510",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "roman",
+    "nombre_remitente": "man",
+    "mensaje": "Test 12-10-2023 10:00",
+    "postergar": "1",
+    "fecha_envio": "2023-09-12 15:00:00",
+    "pagado": "1",
+    "enviado": "0",
+    "id_orden": "1767",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-11T14:38:03+00:00 INFO recurrencia dato]: : 
+2023-10-11T14:38:03+00:00 INFO Body principal: : man te ha regalado un curso online "Key Account Manager" puedes iniciar tu aprendizaje iniciando sesión <a href="http://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/cursos-comercial/key-account-manager/">aquí</a>
+2023-10-11T14:38:11+00:00 INFO Envio de correo: : 
+2023-10-11T14:39:03+00:00 INFO registro: : {
+    "id": "95",
+    "id_producto": "510",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "roman",
+    "nombre_remitente": "man",
+    "mensaje": "Test 12-10-2023 10:00",
+    "postergar": "1",
+    "fecha_envio": "2023-09-11 15:00:00",
+    "pagado": "1",
+    "enviado": "0",
+    "id_orden": "1767",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-11T14:39:03+00:00 INFO recurrencia dato]: : 
+2023-10-11T14:39:03+00:00 INFO Body principal: : man te ha regalado un curso online "Key Account Manager" puedes iniciar tu aprendizaje iniciando sesión <a href="http://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/cursos-comercial/key-account-manager/">aquí</a>
+2023-10-11T14:39:11+00:00 INFO Envio de correo: : 
+2023-10-11T14:39:11+00:00 INFO Envío correcto: ok
+2023-10-11T15:00:07+00:00 INFO registro: : {
+    "id": "95",
+    "id_producto": "510",
+    "correo_destinatario": "dr_hemmerick@hotmail.com",
+    "nombre_destinatario": "roman",
+    "nombre_remitente": "man",
+    "mensaje": "Test 12-10-2023 10:00",
+    "postergar": "1",
+    "fecha_envio": "2023-10-11 15:00:00",
+    "pagado": "1",
+    "enviado": "0",
+    "id_orden": "1767",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-11T15:00:07+00:00 INFO recurrencia dato]: : 
+2023-10-11T15:00:07+00:00 INFO Body principal: : man te ha regalado un curso online "Key Account Manager" puedes iniciar tu aprendizaje iniciando sesión <a href="http://isilgo.dev.radar.cl?option=oauthredirect&app_name=openidconnect&redirect_url=https://isilgo.dev.radar.cl/cursos-comercial/key-account-manager/">aquí</a>
+2023-10-11T15:00:14+00:00 INFO Envio de correo: : 
+2023-10-11T15:00:14+00:00 INFO Envío correcto: ok

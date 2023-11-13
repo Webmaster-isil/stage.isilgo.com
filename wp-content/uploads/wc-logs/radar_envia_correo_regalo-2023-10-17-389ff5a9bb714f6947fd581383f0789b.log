@@ -1,0 +1,40 @@
+2023-10-17T14:31:35+00:00 INFO registro: : {
+    "id": "98",
+    "id_producto": "516",
+    "correo_destinatario": "calfaroest@gmail.com",
+    "nombre_destinatario": "Cesar Alfaro Estela",
+    "nombre_remitente": "Cesar Alfaro Estela",
+    "mensaje": "Esto es un regalo ISILGO",
+    "postergar": "0",
+    "fecha_envio": "2023-10-17 14:27:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1930",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-17T14:31:35+00:00 INFO recurrencia dato]: : 
+2023-10-17T14:31:35+00:00 INFO Body principal: : Cesar Alfaro Estela te ha regalado un curso online "Diseño de E-commerce y Medios de Pago" puedes iniciar tu aprendizaje iniciando sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/cursos-marketing-digital/diseno-de-e-commerce-y-medios-de-pago/">aquí</a>
+2023-10-17T14:31:35+00:00 INFO Envio de correo: : bool(true)
+
+2023-10-17T14:31:35+00:00 INFO Envío correcto: ok
+2023-10-17T14:51:41+00:00 INFO registro: : {
+    "id": "100",
+    "id_producto": "402",
+    "correo_destinatario": "calfaroest@gmail.com",
+    "nombre_destinatario": "Cesar Alfaro",
+    "nombre_remitente": "Cesar Alfaro",
+    "mensaje": "Este es un regalo para t\u00ed",
+    "postergar": "0",
+    "fecha_envio": "2023-10-17 14:50:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "1932",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-10-17T14:51:41+00:00 INFO recurrencia dato]: : 
+2023-10-17T14:51:41+00:00 INFO Body principal: : Cesar Alfaro te ha regalado un curso online "Desarrollo de Equipos de Alto Rendimiento" puedes iniciar tu aprendizaje iniciando sesión <a href="https://stage.isilgo.com?option=oauthredirect&app_name=openidconnect&redirect_url=https://stage.isilgo.com/cyber/desarrollo-de-equipos-de-alto-rendimiento/">aquí</a>
+2023-10-17T14:51:41+00:00 INFO Envio de correo: : bool(true)
+
+2023-10-17T14:51:41+00:00 INFO Envío correcto: ok

@@ -1,0 +1,88 @@
+# Translation of Plugins - JWT Auth &#8211; WordPress JSON Web Token Authentication - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - JWT Auth &#8211; WordPress JSON Web Token Authentication - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-07 22:54:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - JWT Auth &#8211; WordPress JSON Web Token Authentication - Stable (latest release)\n"
+
+#: class-devices.php:472
+msgid "Remove"
+msgstr "Eliminar"
+
+#: class-devices.php:433
+msgid "Ops... device couldn't be removed!"
+msgstr "¡Vaya! ¡No se ha podido eliminar el dispositivo!"
+
+#: class-devices.php:364
+msgid "You have no devices connected"
+msgstr "No tienes dispositivos conectados"
+
+#: class-devices.php:326
+msgid "Connected Devices"
+msgstr "Dispositivos conectados"
+
+#: class-auth.php:417
+msgid "Token is valid"
+msgstr "El token es válido"
+
+#: class-auth.php:401
+msgid "Token is obsolete"
+msgstr "El token está obsoleto"
+
+#: class-auth.php:384
+msgid "User doesn't exist"
+msgstr "El usuario no existe"
+
+#: class-auth.php:367
+msgid "User ID not found in the token."
+msgstr "ID de usuario no encontrado en el token."
+
+#: class-auth.php:352
+msgid "The iss do not match with this server."
+msgstr "El ISS no coincide con el servidor."
+
+#: class-auth.php:220
+msgid "Credential is valid"
+msgstr "La credencial es válida"
+
+#: class-auth.php:148 class-auth.php:332
+msgid "JWT is not configured properly."
+msgstr "JWT no está configurado correctamente."
+
+#: class-auth.php:114
+msgid "Custom authentication failed."
+msgstr "Identificación personalizada fallida."
+
+#: class-auth.php:60
+msgid "Authorization header malformed."
+msgstr "La cabecera de autorización está mal formada."
+
+#: class-auth.php:59
+msgid "Authorization header not found."
+msgstr "No se ha encontrado la cabecera de autorización."
+
+#. Author URI of the plugin
+msgid "https://usefulteam.com"
+msgstr "https://usefulteam.com"
+
+#. Author of the plugin
+msgid "Useful Team"
+msgstr "Useful Team"
+
+#. Description of the plugin
+msgid "WordPress JWT Authentication."
+msgstr "Identificación de JWT para WordPress."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/usefulteam/jwt-auth"
+msgstr "https://github.com/usefulteam/jwt-auth"
+
+#. Plugin Name of the plugin
+msgid "JWT Auth"
+msgstr "JWT Auth"

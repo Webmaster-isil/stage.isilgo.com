@@ -1,0 +1,13 @@
+2023-09-27T12:08:05+00:00 INFO URL: https://apitestenv.vnforapps.com/api.security/v1/security
+2023-09-27T12:08:05+00:00 INFO Base64: : aW50ZWdyYWNpb25lc0BuaXViaXouY29tLnBlOl83ejNAOGZG
+2023-09-27T12:08:06+00:00 INFO URL: https://apitestenv.vnforapps.com/api.ecommerce/v2/ecommerce/token/session/522591303
+2023-09-27T12:08:06+00:00 INFO Request: {"amount":"86.00","antifraud":{"clientIp":"181.43.241.142","merchantDefineData":{"MDD21":"0","MDD4":"rojoca1485@xgh6.com","MDD32":"rojoca1485@xgh6.com"}},"channel":"web","recurrenceMaxAmount":null}
+2023-09-27T12:08:06+00:00 INFO Response: {"sessionKey":"80379d9a85636e609cf40594ec8e43b97dcbf77573e0f70828d721e331c4cd61","expirationTime":1695817385844}
+2023-09-27T12:09:46+00:00 INFO URL: https://apitestenv.vnforapps.com/api.authorization/v3/authorization/ecommerce/522591303
+2023-09-27T12:09:46+00:00 INFO Request: {"antifraud":null,"captureType":"manual","channel":"web","countable":"true","order":{"amount":"86.00","currency":"PEN","purchaseNumber":1600,"tokenId":"F391B912EF174BB491B912EF177BB434","productId":"105"},"cardHolder":{"documentType":"0","documentNumber":"00001600"},"recurrence":{"type":"FIXEDINITIAL","frequency":"QUARTERLY","beneficiaryId":"79879798","beneficiaryFirstName":"Francisco","beneficiaryLastName":"Aranguiz Romero","maxAmount":"86.00","amount":"86.00"}}
+2023-09-27T12:09:46+00:00 INFO Response: {"errorCode":400,"errorMessage":"Operacion Denegada. Problemas de comunicacion. Intente mas tarde.","header":{"ecoreTransactionUUID":"dcaae4fb-c917-469c-9f9f-b0c297a851e5","ecoreTransactionDate":1695816586789,"millis":63875},"data":{"YAPE_ID":"","CURRENCY":"0604","TRANSACTION_DATE":"230927070844","ACTION_CODE":"666","TRACE_NUMBER":"927612","RECURRENCE_MAX_AMOUNT":"86.0","CARD_TYPE":"C","SIGNATURE":"dcaae4fb-c917-469c-9f9f-b0c297a851e5","BRAND":"visa","MERCHANT":"522591303","STATUS":"Not Voided","ACTION_DESCRIPTION":"Operacion Denegada. Problemas de comunicacion","AMOUNT":"86.0"}}
+2023-09-27T12:17:13+00:00 INFO URL: https://apitestenv.vnforapps.com/api.security/v1/security
+2023-09-27T12:17:13+00:00 INFO Base64: : aW50ZWdyYWNpb25lc0BuaXViaXouY29tLnBlOl83ejNAOGZG
+2023-09-27T12:17:14+00:00 INFO URL: https://apitestenv.vnforapps.com/api.ecommerce/v2/ecommerce/token/session/522591303
+2023-09-27T12:17:14+00:00 INFO Request: {"amount":"86.00","antifraud":{"clientIp":"181.43.241.142","merchantDefineData":{"MDD21":"0","MDD4":"rojoca1485@xgh6.com","MDD32":"rojoca1485@xgh6.com"}},"channel":"web","recurrenceMaxAmount":null}
+2023-09-27T12:17:14+00:00 INFO Response: {"sessionKey":"97d400224ba853a44c0eaa257760709a945ab381580142e27b63738f24a59cdb","expirationTime":1695817934278}

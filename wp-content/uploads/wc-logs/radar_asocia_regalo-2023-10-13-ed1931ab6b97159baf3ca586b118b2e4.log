@@ -1,0 +1,24 @@
+2023-10-13T19:11:49+00:00 INFO asociacion regalo: entra
+2023-10-13T19:11:49+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-13T19:11:49+00:00 INFO resultado consulta: []
+2023-10-13T19:42:21+00:00 INFO asociacion regalo: entra
+2023-10-13T19:42:21+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-13T19:42:21+00:00 INFO resultado consulta: []
+2023-10-13T19:44:24+00:00 INFO asociacion regalo: entra
+2023-10-13T19:44:24+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='calfaro@isil.pe' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-13T19:44:24+00:00 INFO resultado consulta: []
+2023-10-13T20:47:39+00:00 INFO asociacion regalo: entra
+2023-10-13T20:47:39+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='calfaro@isil.pe' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-13T20:47:39+00:00 INFO resultado consulta: []
+2023-10-13T21:45:50+00:00 INFO asociacion regalo: entra
+2023-10-13T21:45:50+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-13T21:45:50+00:00 INFO resultado consulta: []
+2023-10-13T21:59:22+00:00 INFO asociacion regalo: entra
+2023-10-13T21:59:22+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-13T21:59:22+00:00 INFO resultado consulta: []
+2023-10-13T23:47:47+00:00 INFO asociacion regalo: entra
+2023-10-13T23:47:47+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-13T23:47:47+00:00 INFO resultado consulta: []
+2023-10-13T23:48:07+00:00 INFO asociacion regalo: entra
+2023-10-13T23:48:07+00:00 INFO Query tabla regalos: SELECT * FROM wp_regalos_queue WHERE correo_destinatario='yerko.soto@radar.cl' AND pagado=1 AND asociado=0 AND id_usuario_asociado IS NULL ORDER BY id DESC
+2023-10-13T23:48:07+00:00 INFO resultado consulta: []

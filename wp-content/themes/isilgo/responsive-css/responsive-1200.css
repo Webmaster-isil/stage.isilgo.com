@@ -1,0 +1,38 @@
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .b2_mobile_head {
+    display: none;
+  }
+  .busqueda_mobile_header {
+    display: block !important;
+  }
+ 
+  header.header .carrito {
+    width: 46%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  .header .menu {
+    width: 37%;
+  }
+  ul#menu-mi-cuenta {
+    right: 0;
+  }
+
+  li div.listado_precio {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  ul.membresia_pdp li {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+  .lineas_porcentaje {
+    width: 70%;
+  }
+  .woocommerce-MyAccount-content ul,
+  ul.products.columns-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,484 @@
+2023-11-06T14:19:58+00:00 INFO Entra a completar regalo: ok
+2023-11-06T14:23:09+00:00 INFO Entra a completar regalo: ok
+2023-11-06T14:50:32+00:00 INFO Entra a completar regalo: ok
+2023-11-06T14:50:32+00:00 INFO resultado de tabla: []
+2023-11-06T14:50:33+00:00 INFO Entra a completar regalo: ok
+2023-11-06T14:50:33+00:00 INFO resultado de tabla: []
+2023-11-06T15:22:24+00:00 INFO Entra a completar regalo: ok
+2023-11-06T15:22:24+00:00 INFO resultado de tabla: []
+2023-11-06T16:05:16+00:00 INFO Entra a completar regalo: ok
+2023-11-06T16:05:16+00:00 INFO resultado de tabla: []
+2023-11-06T16:20:28+00:00 INFO Entra a completar regalo: ok
+2023-11-06T16:20:28+00:00 INFO resultado de tabla: []
+2023-11-06T18:04:04+00:00 INFO Entra a completar regalo: ok
+2023-11-06T18:04:04+00:00 INFO resultado de tabla: []
+2023-11-06T20:17:33+00:00 INFO Entra a completar regalo: ok
+2023-11-06T20:17:33+00:00 INFO resultado de tabla: [
+    {
+        "id": "123",
+        "id_producto": "113",
+        "correo_destinatario": "Katyagarvich@gmail.com",
+        "nombre_destinatario": "Katya",
+        "nombre_remitente": "Eli",
+        "mensaje": "Esto es una prueba",
+        "postergar": "0",
+        "fecha_envio": "2023-11-06 20:17:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9567",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-06T20:17:33+00:00 INFO Encontró resultado: Entró if
+2023-11-06T20:17:33+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "123",
+    "id_producto": "113",
+    "correo_destinatario": "Katyagarvich@gmail.com",
+    "nombre_destinatario": "Katya",
+    "nombre_remitente": "Eli",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 20:17:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9567",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T20:17:33+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-11-06T20:17:33+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '11820',
+     'user_login' => 'katyagarvich@gmail.com',
+     'user_pass' => '$P$BCGKP5Z8Y8e2eHFu.x1HJnXHwVfh811',
+     'user_nicename' => 'katyagarvichgmail-com',
+     'user_email' => 'katyagarvich@gmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-09-13 12:05:15',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'katyagarvich@gmail.com',
+  ),
+   'ID' => 11820,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-11-06T20:17:33+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-06T20:17:33+00:00 INFO Envío inmediato correo: ok
+2023-11-06T20:17:35+00:00 INFO Entra a completar regalo: ok
+2023-11-06T20:17:35+00:00 INFO resultado de tabla: [
+    {
+        "id": "123",
+        "id_producto": "113",
+        "correo_destinatario": "Katyagarvich@gmail.com",
+        "nombre_destinatario": "Katya",
+        "nombre_remitente": "Eli",
+        "mensaje": "Esto es una prueba",
+        "postergar": "0",
+        "fecha_envio": "2023-11-06 20:17:00",
+        "pagado": "1",
+        "enviado": "1",
+        "id_orden": "9567",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-06T20:17:35+00:00 INFO Encontró resultado: Entró if
+2023-11-06T20:17:35+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "123",
+    "id_producto": "113",
+    "correo_destinatario": "Katyagarvich@gmail.com",
+    "nombre_destinatario": "Katya",
+    "nombre_remitente": "Eli",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 20:17:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9567",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T20:17:35+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-06T20:17:35+00:00 INFO Envío inmediato correo: ok
+2023-11-06T20:27:50+00:00 INFO Entra a completar regalo: ok
+2023-11-06T20:27:50+00:00 INFO resultado de tabla: [
+    {
+        "id": "124",
+        "id_producto": "113",
+        "correo_destinatario": "paquita.barrios1512@gmail.com",
+        "nombre_destinatario": "Eli",
+        "nombre_remitente": "Kat",
+        "mensaje": "Esto es una prueba",
+        "postergar": "0",
+        "fecha_envio": "2023-11-06 20:27:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9568",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-06T20:27:50+00:00 INFO Encontró resultado: Entró if
+2023-11-06T20:27:50+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "124",
+    "id_producto": "113",
+    "correo_destinatario": "paquita.barrios1512@gmail.com",
+    "nombre_destinatario": "Eli",
+    "nombre_remitente": "Kat",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 20:27:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9568",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T20:27:50+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-11-06T20:27:50+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '31201',
+     'user_login' => 'paquita.barrios1512@gmail.com',
+     'user_pass' => '$P$BSc2gxukPhrd1eHu7zBTiJlXfoztdL/',
+     'user_nicename' => 'paquita',
+     'user_email' => 'paquita.barrios1512@gmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-09-13 12:45:59',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'PAQUITA BARRIOS',
+  ),
+   'ID' => 31201,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-11-06T20:27:50+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-06T20:27:50+00:00 INFO Envío inmediato correo: ok
+2023-11-06T20:27:51+00:00 INFO Entra a completar regalo: ok
+2023-11-06T20:27:51+00:00 INFO resultado de tabla: [
+    {
+        "id": "124",
+        "id_producto": "113",
+        "correo_destinatario": "paquita.barrios1512@gmail.com",
+        "nombre_destinatario": "Eli",
+        "nombre_remitente": "Kat",
+        "mensaje": "Esto es una prueba",
+        "postergar": "0",
+        "fecha_envio": "2023-11-06 20:27:00",
+        "pagado": "1",
+        "enviado": "1",
+        "id_orden": "9568",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-06T20:27:51+00:00 INFO Encontró resultado: Entró if
+2023-11-06T20:27:51+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "124",
+    "id_producto": "113",
+    "correo_destinatario": "paquita.barrios1512@gmail.com",
+    "nombre_destinatario": "Eli",
+    "nombre_remitente": "Kat",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 20:27:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9568",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T20:27:51+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-06T20:27:51+00:00 INFO Envío inmediato correo: ok
+2023-11-06T21:55:43+00:00 INFO Entra a completar regalo: ok
+2023-11-06T21:55:43+00:00 INFO resultado de tabla: [
+    {
+        "id": "125",
+        "id_producto": "113",
+        "correo_destinatario": "lupe-watanabe@hotmail.com",
+        "nombre_destinatario": "Lupe",
+        "nombre_remitente": "Katya",
+        "mensaje": "Esto es una prueba",
+        "postergar": "0",
+        "fecha_envio": "2023-11-06 21:55:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9572",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-06T21:55:43+00:00 INFO Encontró resultado: Entró if
+2023-11-06T21:55:43+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "125",
+    "id_producto": "113",
+    "correo_destinatario": "lupe-watanabe@hotmail.com",
+    "nombre_destinatario": "Lupe",
+    "nombre_remitente": "Katya",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 21:55:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9572",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T21:55:43+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-11-06T21:55:43+00:00 INFO Busco si existe usuario: false
+2023-11-06T21:55:43+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-06T21:55:43+00:00 INFO Envío inmediato correo: ok
+2023-11-06T21:55:44+00:00 INFO Entra a completar regalo: ok
+2023-11-06T21:55:44+00:00 INFO resultado de tabla: [
+    {
+        "id": "125",
+        "id_producto": "113",
+        "correo_destinatario": "lupe-watanabe@hotmail.com",
+        "nombre_destinatario": "Lupe",
+        "nombre_remitente": "Katya",
+        "mensaje": "Esto es una prueba",
+        "postergar": "0",
+        "fecha_envio": "2023-11-06 21:55:00",
+        "pagado": "1",
+        "enviado": "1",
+        "id_orden": "9572",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-06T21:55:44+00:00 INFO Encontró resultado: Entró if
+2023-11-06T21:55:44+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "125",
+    "id_producto": "113",
+    "correo_destinatario": "lupe-watanabe@hotmail.com",
+    "nombre_destinatario": "Lupe",
+    "nombre_remitente": "Katya",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 21:55:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9572",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T21:55:44+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-06T21:55:44+00:00 INFO Envío inmediato correo: ok
+2023-11-06T22:09:46+00:00 INFO Entra a completar regalo: ok
+2023-11-06T22:09:46+00:00 INFO resultado de tabla: [
+    {
+        "id": "126",
+        "id_producto": "105",
+        "correo_destinatario": "kgarvich@hotmail.com",
+        "nombre_destinatario": "Katysita",
+        "nombre_remitente": "Kat",
+        "mensaje": "Esto es una prueba",
+        "postergar": "0",
+        "fecha_envio": "2023-11-06 22:09:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9573",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-06T22:09:46+00:00 INFO Encontró resultado: Entró if
+2023-11-06T22:09:46+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "126",
+    "id_producto": "105",
+    "correo_destinatario": "kgarvich@hotmail.com",
+    "nombre_destinatario": "Katysita",
+    "nombre_remitente": "Kat",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 22:09:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9573",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T22:09:46+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-11-06T22:09:47+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '90',
+     'user_login' => 'kgarvich@hotmail.com',
+     'user_pass' => '$P$BrpPnab80cCpjn1toHHU8SoKy9mcGp0',
+     'user_nicename' => 'kgarvichhotmail-com',
+     'user_email' => 'kgarvich@hotmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-09-12 17:02:18',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'kgarvich@hotmail.com',
+  ),
+   'ID' => 90,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-11-06T22:09:47+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-06T22:09:47+00:00 INFO Envío inmediato correo: ok
+2023-11-06T22:09:48+00:00 INFO Entra a completar regalo: ok
+2023-11-06T22:09:48+00:00 INFO resultado de tabla: [
+    {
+        "id": "126",
+        "id_producto": "105",
+        "correo_destinatario": "kgarvich@hotmail.com",
+        "nombre_destinatario": "Katysita",
+        "nombre_remitente": "Kat",
+        "mensaje": "Esto es una prueba",
+        "postergar": "0",
+        "fecha_envio": "2023-11-06 22:09:00",
+        "pagado": "1",
+        "enviado": "1",
+        "id_orden": "9573",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-06T22:09:48+00:00 INFO Encontró resultado: Entró if
+2023-11-06T22:09:48+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "126",
+    "id_producto": "105",
+    "correo_destinatario": "kgarvich@hotmail.com",
+    "nombre_destinatario": "Katysita",
+    "nombre_remitente": "Kat",
+    "mensaje": "Esto es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 22:09:00",
+    "pagado": "1",
+    "enviado": "1",
+    "id_orden": "9573",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T22:09:48+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-06T22:09:48+00:00 INFO Envío inmediato correo: ok
+2023-11-06T22:26:39+00:00 INFO Entra a completar regalo: ok
+2023-11-06T22:26:39+00:00 INFO resultado de tabla: [
+    {
+        "id": "127",
+        "id_producto": "311",
+        "correo_destinatario": "calfaroest@gmail.com",
+        "nombre_destinatario": "Cesar A.",
+        "nombre_remitente": "cesar",
+        "mensaje": "Es una prueba. ",
+        "postergar": "0",
+        "fecha_envio": "2023-11-06 22:25:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9574",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-06T22:26:39+00:00 INFO Encontró resultado: Entró if
+2023-11-06T22:26:39+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "127",
+    "id_producto": "311",
+    "correo_destinatario": "calfaroest@gmail.com",
+    "nombre_destinatario": "Cesar A.",
+    "nombre_remitente": "cesar",
+    "mensaje": "Es una prueba. ",
+    "postergar": "0",
+    "fecha_envio": "2023-11-06 22:25:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9574",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-06T22:26:39+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-11-06T22:26:39+00:00 INFO Busco si existe usuario: WP_User::__set_state(array(
+   'data' => 
+  (object) array(
+     'ID' => '39543',
+     'user_login' => 'calfaroest@gmail.com',
+     'user_pass' => '$P$B06FHxfGM9PbUPZpSXennMjd4Zl7lC.',
+     'user_nicename' => 'calfaroestgmail-com',
+     'user_email' => 'calfaroest@gmail.com',
+     'user_url' => '',
+     'user_registered' => '2023-11-06 15:01:00',
+     'user_activation_key' => '',
+     'user_status' => '0',
+     'display_name' => 'ALFARO ESTELA',
+  ),
+   'ID' => 39543,
+   'caps' => 
+  array (
+    'customer' => true,
+  ),
+   'cap_key' => 'wp_capabilities',
+   'roles' => 
+  array (
+    0 => 'customer',
+  ),
+   'allcaps' => 
+  array (
+    'read' => true,
+    'read_others_posts' => true,
+    'read_others_pages' => true,
+    'read_others_products' => true,
+    'customer' => true,
+  ),
+   'filter' => NULL,
+   'site_id' => 1,
+))
+2023-11-06T22:26:39+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-06T22:26:39+00:00 INFO Envío inmediato correo: ok

@@ -1,0 +1,135 @@
+2023-11-03T15:32:06+00:00 INFO Entra a completar regalo: ok
+2023-11-03T15:32:06+00:00 INFO resultado de tabla: []
+2023-11-03T15:37:00+00:00 INFO Entra a completar regalo: ok
+2023-11-03T15:37:00+00:00 INFO resultado de tabla: []
+2023-11-03T15:43:47+00:00 INFO Entra a completar regalo: ok
+2023-11-03T15:43:47+00:00 INFO resultado de tabla: []
+2023-11-03T15:52:21+00:00 INFO Entra a completar regalo: ok
+2023-11-03T15:52:21+00:00 INFO resultado de tabla: [
+    {
+        "id": "121",
+        "id_producto": "330",
+        "correo_destinatario": "calfaroest@gmail.com",
+        "nombre_destinatario": "Cesar Alfaro",
+        "nombre_remitente": "Cesar",
+        "mensaje": "Este es un regalo",
+        "postergar": "0",
+        "fecha_envio": "2023-11-03 15:48:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9518",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-03T15:52:21+00:00 INFO Encontró resultado: Entró if
+2023-11-03T15:52:21+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "121",
+    "id_producto": "330",
+    "correo_destinatario": "calfaroest@gmail.com",
+    "nombre_destinatario": "Cesar Alfaro",
+    "nombre_remitente": "Cesar",
+    "mensaje": "Este es un regalo",
+    "postergar": "0",
+    "fecha_envio": "2023-11-03 15:48:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9518",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-03T15:52:21+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-11-03T15:52:21+00:00 INFO Busco si existe usuario: false
+2023-11-03T15:52:21+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-03T15:52:21+00:00 INFO Envío inmediato correo: ok
+2023-11-03T15:56:46+00:00 INFO Entra a completar regalo: ok
+2023-11-03T15:56:46+00:00 INFO resultado de tabla: [
+    {
+        "id": "122",
+        "id_producto": "447",
+        "correo_destinatario": "disegrafdot@gmail.com",
+        "nombre_destinatario": "Cesar A",
+        "nombre_remitente": "Cesar",
+        "mensaje": "Esta es una prueba",
+        "postergar": "0",
+        "fecha_envio": "2023-11-03 15:55:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9520",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-03T15:56:46+00:00 INFO Encontró resultado: Entró if
+2023-11-03T15:56:46+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "122",
+    "id_producto": "447",
+    "correo_destinatario": "disegrafdot@gmail.com",
+    "nombre_destinatario": "Cesar A",
+    "nombre_remitente": "Cesar",
+    "mensaje": "Esta es una prueba",
+    "postergar": "0",
+    "fecha_envio": "2023-11-03 15:55:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9520",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-03T15:56:46+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-11-03T15:56:46+00:00 INFO Busco si existe usuario: false
+2023-11-03T15:56:46+00:00 INFO Busco si postergar está en 0 para enviar: '0'
+2023-11-03T15:56:46+00:00 INFO Envío inmediato correo: ok
+2023-11-03T16:07:48+00:00 INFO Entra a completar regalo: ok
+2023-11-03T16:07:48+00:00 INFO resultado de tabla: [
+    {
+        "id": "107",
+        "id_producto": "402",
+        "correo_destinatario": "calfaroest@gmail.com",
+        "nombre_destinatario": "Cesar",
+        "nombre_remitente": "Cesar Alf",
+        "mensaje": "Este es un regalo.",
+        "postergar": "1",
+        "fecha_envio": "2024-10-27 16:00:00",
+        "pagado": "0",
+        "enviado": "0",
+        "id_orden": "9473",
+        "asociado": "0",
+        "id_usuario_asociado": null
+    }
+]
+2023-11-03T16:07:48+00:00 INFO Encontró resultado: Entró if
+2023-11-03T16:07:48+00:00 INFO Row de regalo que se acaba de pagar: {
+    "id": "107",
+    "id_producto": "402",
+    "correo_destinatario": "calfaroest@gmail.com",
+    "nombre_destinatario": "Cesar",
+    "nombre_remitente": "Cesar Alf",
+    "mensaje": "Este es un regalo.",
+    "postergar": "1",
+    "fecha_envio": "2024-10-27 16:00:00",
+    "pagado": "0",
+    "enviado": "0",
+    "id_orden": "9473",
+    "asociado": "0",
+    "id_usuario_asociado": null
+}
+2023-11-03T16:07:48+00:00 INFO No está pagado y debería marcarla: Entró if pagado == 0
+2023-11-03T16:07:48+00:00 INFO Busco si existe usuario: false
+2023-11-03T16:07:48+00:00 INFO Busco si postergar está en 0 para enviar: '1'
+2023-11-03T19:35:33+00:00 INFO Entra a completar regalo: ok
+2023-11-03T19:37:37+00:00 INFO Entra a completar regalo: ok
+2023-11-03T19:38:55+00:00 INFO Entra a completar regalo: ok
+2023-11-03T19:38:55+00:00 INFO resultado de tabla: []
+2023-11-03T19:45:46+00:00 INFO Entra a completar regalo: ok
+2023-11-03T19:46:56+00:00 INFO Entra a completar regalo: ok
+2023-11-03T19:52:24+00:00 INFO Entra a completar regalo: ok
+2023-11-03T19:52:24+00:00 INFO resultado de tabla: []
+2023-11-03T21:03:33+00:00 INFO Entra a completar regalo: ok
+2023-11-03T21:03:33+00:00 INFO resultado de tabla: []
+2023-11-03T22:42:41+00:00 INFO Entra a completar regalo: ok
+2023-11-03T22:42:41+00:00 INFO resultado de tabla: []
+2023-11-03T23:48:03+00:00 INFO Entra a completar regalo: ok
+2023-11-03T23:48:03+00:00 INFO resultado de tabla: []
+2023-11-03T23:51:26+00:00 INFO Entra a completar regalo: ok
+2023-11-03T23:51:26+00:00 INFO resultado de tabla: []
