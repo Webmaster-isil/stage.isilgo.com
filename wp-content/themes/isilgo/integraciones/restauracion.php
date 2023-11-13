@@ -36,11 +36,12 @@ add_action('wp_ajax_nopriv_cargarCupones', 'cargarCupones');
 add_action('wp_ajax_asociarCategoriasProfe', 'asociarCategoriasProfe');
 add_action('wp_ajax_nopriv_asociarCategoriasProfe', 'asociarCategoriasProfe');
 
+
 /* codigo brindado por radar*/
-add_action('wp_ajax_cargarMetadata', 'cargarMetadata');
-add_action('wp_ajax_nopriv_cargarMetadata', 'cargarMetadata');
-add_action('wp_ajax_actualziarCuponesSegundoCheck', 'actualziarCuponesSegundoCheck');
-add_action('wp_ajax_nopriv_actualziarCuponesSegundoCheck', 'actualziarCuponesSegundoCheck');
+//add_action('wp_ajax_cargarMetadata', 'cargarMetadata');
+//add_action('wp_ajax_nopriv_cargarMetadata', 'cargarMetadata');
+//add_action('wp_ajax_actualziarCuponesSegundoCheck', 'actualziarCuponesSegundoCheck');
+//add_action('wp_ajax_nopriv_actualziarCuponesSegundoCheck', 'actualziarCuponesSegundoCheck');
 
 
 
@@ -1160,14 +1161,17 @@ function atributosCursos(){
     
 }
 
+
+
+
 /* Brindado or radar */
 function cargarMetadata(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    
-    $mysqli = new mysqli("localhost", 'ecommerce_usr', 'hSg%34fdFsre$F', 'isilgo_qa_ecommerce_db');
-    /* verificar la conexi贸n */
+
+    $mysqli = new mysqli('10.0.6.40', 'ecommerce_usr', 'hSg%34fdFsre$F', 'isilgo_qa_ecommerce_db');        
+    /* verificar la conexion */
     if ($mysqli->connect_errno) {
         printf("Conexión fallida: %s\n", $mysqli->connect_error);
         exit();
@@ -1223,3 +1227,5 @@ function actualziarCuponesSegundoCheck(){
         update_post_meta( $coupon_post->ID, 'exclude_sale_items', 'no' );
     }
 }
+
+
