@@ -59,6 +59,14 @@ if (isset($_GET['nombre']) && $_GET['nombre'] != '') {
 $users  = get_users($arg);
 $arg['offset'] = $offset;
 $arg['number'] = $number;
+
+// filter by role authors
+$roles_exclude = array('administrator','employee');
+$user_to_exclude = get_users(array('role__in'=> $roles_exclude));
+$ids_user_to_exclude = wp_list_pluck($user_to_exclude, 'ID');
+
+$arg['exclude'] = $ids_user_to_exclude;
+
 $query    = get_users($arg);
 
 $total_users = count($users);
@@ -222,7 +230,13 @@ $total_pages = intval($total_users / $number) + 1;
             <ul class="listado_profe" id="listado_profe">
 
                 <?php
-                foreach ($query as $profe) { ?>
+                foreach ($query as $profe) {
+				// if(!in_array('administrator', $profe->roles) //||!in_array('nuevo_rol_a_excluir', $profe->roles)
+				  // ){
+				?>
+					
+				
+				
                     <li>
                         <?php if (get_field('foto_autor', 'user_' . $profe->ID)) : ?>
                             <div class="imagen_profe" style="background:url('<?php echo get_field('foto_autor', 'user_' . $profe->ID); ?>')">
@@ -235,6 +249,7 @@ $total_pages = intval($total_users / $number) + 1;
                                 <div class="cont_profe">
                                     <div class="cont_profe_box">
                                         <h3><?php echo $profe->display_name; ?></h3>
+										
                                         <h4 class="cargo"><?php echo get_field('cargo', 'user_' . $profe->ID); ?></h4>
                                         <?php
                                         $args = array(
