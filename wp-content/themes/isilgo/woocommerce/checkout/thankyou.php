@@ -74,7 +74,7 @@ defined('ABSPATH') || exit;
 		?>
 			<div class="col-12 text-center">
 				<div class="logo-print"><img class="w-100" src="<?php echo get_field('logo', 'options'); ?>" alt="ISIL GO"></div>
-				<h3>Su pago se <span>realizó con éxito</span></h3>
+				<h3 style="display:none;">Su pago se <span>realizó con éxito</span></h3>
 				<p>Su número de pedido es: <strong><?php echo $order->get_order_number(); ?></strong></p>
 				<div class="linea_horizontal"></div>
 			</div>
