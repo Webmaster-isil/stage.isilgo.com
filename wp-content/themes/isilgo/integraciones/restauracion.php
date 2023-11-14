@@ -37,6 +37,13 @@ add_action('wp_ajax_asociarCategoriasProfe', 'asociarCategoriasProfe');
 add_action('wp_ajax_nopriv_asociarCategoriasProfe', 'asociarCategoriasProfe');
 
 
+/* codigo brindado por radar*/
+//add_action('wp_ajax_cargarMetadata', 'cargarMetadata');
+//add_action('wp_ajax_nopriv_cargarMetadata', 'cargarMetadata');
+//add_action('wp_ajax_actualziarCuponesSegundoCheck', 'actualziarCuponesSegundoCheck');
+//add_action('wp_ajax_nopriv_actualziarCuponesSegundoCheck', 'actualziarCuponesSegundoCheck');
+
+
 
 function cargarDNIDATA(){
     ini_set('display_errors', 1);
@@ -1153,3 +1160,72 @@ function atributosCursos(){
     }    
     
 }
+
+
+
+
+/* Brindado or radar */
+function cargarMetadata(){
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+
+    $mysqli = new mysqli('10.0.6.40', 'ecommerce_usr', 'hSg%34fdFsre$F', 'isilgo_qa_ecommerce_db');        
+    /* verificar la conexion */
+    if ($mysqli->connect_errno) {
+        printf("Conexión fallida: %s\n", $mysqli->connect_error);
+        exit();
+    }
+    
+    $consulta = "SELECT `course`.`id_curso`, `course_meta_tag`.`id_tag`, `course_meta_tag`.`title`, `course_meta_tag`.`description`, `course_meta_tag`.`keywords` FROM `course`
+    INNER JOIN `course_course_meta_tag_course_meta_tag` ON `course_course_meta_tag_course_meta_tag`.`id_course` = `course`.`id_curso`
+    INNER JOIN `course_meta_tag` ON `course_meta_tag`.`id_tag` = `course_course_meta_tag_course_meta_tag`.`id_metatag`
+    WHERE `course_meta_tag`.`estado` = 0 LIMIT 50";
+    
+    if ($resultado = $mysqli->query($consulta)) {
+        //tener un array asociativo */
+        $i = 0;
+        while ($fila = $resultado->fetch_assoc()) {
+        
+            $id_producto = wc_get_product_id_by_sku($fila['id_curso']);
+            $producto = false;
+            if($id_producto) { $producto = wc_get_product($id_producto); }                                                
+            if($producto){
+                echo $producto->get_id(). ' '. $producto->get_name();
+
+                update_post_meta($producto->get_id(), '_yoast_wpseo_title', $fila['title']); 
+                update_post_meta($producto->get_id(), '_yoast_wpseo_metadesc', $fila['description']); 
+                update_post_meta($producto->get_id(), '_yoast_wpseo_focuskw', str_replace(',', ' ', $fila['keywords'])); 
+                                    
+                $consulta = "UPDATE `course_meta_tag` SET `estado` = '1' WHERE `id_tag` = '".$fila['id_tag']."'";  
+                $mysqli->query($consulta);           
+                echo '<br>';
+
+            }else{
+                $consulta = "UPDATE `course_meta_tag` SET `estado` = '2' WHERE `id_tag` = '".$fila['id_tag']."'";  
+                $mysqli->query($consulta);           
+                echo '<br>';
+            }
+            
+        }
+    }
+}
+
+function actualziarCuponesSegundoCheck(){
+    $coupon_posts = get_posts( array(
+        'posts_per_page'   => -1,
+        'orderby'          => 'name',
+        'order'            => 'asc',
+        'post_type'        => 'shop_coupon',
+        'post_status'      => 'publish',
+    ) );
+
+    $coupon_codes = []; // Initializing
+
+    // Push to array
+    foreach ( $coupon_posts as $coupon_post ) {        
+        update_post_meta( $coupon_post->ID, 'exclude_sale_items', 'no' );
+    }
+}
+
+
