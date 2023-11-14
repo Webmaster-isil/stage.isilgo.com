@@ -297,9 +297,10 @@ $total_pages = intval($total_users / $number) + 1;
 
 
                 if ($total_users > $total_query) { ?>
-                    <div id="pagination" class="clearfix paginacion_listado_docentes">
-                        <a class="back_top" href="#listado_profe">Volver arriba</a>
-
+                    <!-- MODIFICADO POR ISIL C.A. -->
+                    <div id="pagination" class="paginacion_listado_docentes d-flex justify-content-between justify-content-md-end mt-3">
+                        <a class="back_top text-center" href="#listado_profe">Volver arriba</a>
+                    <!-- MODIFICADO POR ISIL C.A. -->
                         <?php
                         $current_page = max(1, get_query_var('paged'));
 
