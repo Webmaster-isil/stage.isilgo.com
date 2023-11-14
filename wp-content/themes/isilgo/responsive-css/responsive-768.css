@@ -950,7 +950,8 @@
     border-bottom: 1px solid var(--gris-lineas);
   }
   .pag_docentes div#pagination a.back_top {
-    width: 30%;
+    /*width: 30%;*/
+    width: auto;
     white-space: nowrap;
     font-size: 0.7rem;
   }
