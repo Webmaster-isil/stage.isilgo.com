@@ -516,6 +516,18 @@ jQuery(document).ready(function ($) {
     e.preventDefault();
     // $(".wp-video-shortcode").trigger("pause");
     $('.mejs-playpause-button.mejs-pause button').click();
+    /* MODIFICADO POR ISIL C.A */
+    let iframe_youtube = $(".mejs-mediaelement mediaelementwrapper>iframe");
+    if(iframe_youtube.length>0)
+    {
+      console.log(iframe_youtube.attr("src"));
+      let urlIframe = iframe_youtube.attr("src");
+      iframe_youtube.attr("src", "");
+      iframe_youtube.attr("src", urlIframe);
+      iframe_youtube.css("cursor", "pointer");
+      $(".mejs-overlay-button").css("display", "none");
+    }
+    /* MODIFICADO POR ISIL C.A */  
     $(".pop_video").fadeOut();
   });
 
