@@ -42,7 +42,9 @@ if ($estadoMembresia) { ?>
 	</a>
 	<div class="texto"></div>
 
-	<form action="/regalo" method="post">
+	<!-- MODIFICADO POR ISIL C.A. -->
+	<form action="/regalo" method="post" class="mt-2">
+		<!-- MODIFICADO POR ISIL C.A. -->
 		<input type="hidden" name="idRegalo" value="<?php echo get_the_ID(); ?>">
 		<div class="regalar_curso">
 			<button type="submit">Regalar Curso</button>
