@@ -269,13 +269,16 @@ $total_pages = intval($total_users / $number)+1;
                                         } else {
                                             $ids = false;
                                             $avg = 0;
+                                            $ratings = array();
+	                                        $top_ratings = 0;
                                             foreach ($posteos as $p) {
                                                 $ids .= $p->ID . ',';
                                                 $product = wc_get_product($p->ID);
-                                                $avg =  $avg  + $product->get_average_rating();
+                                                //$avg =  $avg  + $product->get_average_rating();
+                                                array_push($ratings,$product->get_average_rating());
                                             }
                                             //$promedio = number_format(($avg / count($posteos)), 2, '.', ',');
-                                            $promedio = $avg;
+                                            $top_ratings  = max($ratings);
                                         };
 
 
@@ -284,7 +287,7 @@ $total_pages = intval($total_users / $number)+1;
 
                                             <?php
 
-                                            if ($promedio != 0) { ?><span class="estrella"><?php echo $promedio;.0 ?></span>
+                                            if ($top_ratings != 0) { ?><span class="estrella"><?php echo $top_ratings; ?></span>
                                         </p>
                                     <?php } ?>
                                     </div>
