@@ -71,7 +71,8 @@ $query    = get_users($arg);
 
 $total_users = count($users);
 $total_query = count($query);
-$total_pages = intval($total_users / $number) + 1;
+//$total_pages = intval($total_users / $number);
+$total_pages = intval($total_users / $number)+1;
 
 ?>
 
@@ -273,7 +274,8 @@ $total_pages = intval($total_users / $number) + 1;
                                                 $product = wc_get_product($p->ID);
                                                 $avg =  $avg  + $product->get_average_rating();
                                             }
-                                            $promedio = number_format(($avg / count($posteos)), 2, '.', ',');
+                                            //$promedio = number_format(($avg / count($posteos)), 2, '.', ',');
+                                            $promedio = $avg;
                                         };
 
 
@@ -282,7 +284,7 @@ $total_pages = intval($total_users / $number) + 1;
 
                                             <?php
 
-                                            if ($promedio != 0) { ?><span class="estrella"><?php echo $promedio; ?></span>
+                                            if ($promedio != 0) { ?><span class="estrella"><?php echo $promedio;.0 ?></span>
                                         </p>
                                     <?php } ?>
                                     </div>

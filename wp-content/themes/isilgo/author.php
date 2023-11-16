@@ -21,12 +21,16 @@ if ($count < 1) {
 } else {
     $ids = false;
     $avg = 0;
+    $ratings = array();
+	$top_ratings = 0;
     foreach ($posteos as $p) {
         $ids .= $p->ID . ',';
         $product = wc_get_product($p->ID);
-        $avg =  $avg  + $product->get_average_rating();
+        //$avg =  $avg  + $product->get_average_rating();
+        array_push($ratings,$product->get_average_rating());
     }
-    $promedio = number_format(($avg / count($posteos)), 2, '.', ',');
+     // $promedio = number_format(($avg / count($posteos)), 2, '.', ',');
+     $top_ratings  = max($ratings);
 };
 
 
@@ -40,6 +44,9 @@ if ($count < 1) {
                     <div class="imagen_profe" style="background:url(<?php echo get_field('foto_autor', 'user_' . $author_id); ?>);"></div>
                     <div class="ordenamiento">                        
                         <h1><?php echo get_the_author_meta('display_name', $author_id); ?></h1>
+                        <pre>
+                        <?php print_r($posteos); ?>
+                        </pre>
                         <?php
                         if (get_field('cargo', 'user_' . $author_id)) { ?>
                             <h4 class="cargo"><?php echo get_field('cargo', 'user_' . $author_id); ?></h4>
@@ -49,7 +56,7 @@ if ($count < 1) {
                             <div class="categoria_profe_pdp"><?php echo get_field('categoria', 'user_' . $author_id)[0]->name; ?></div>
                         <?php } ?>
 
-                        <p>Cantidad de cursos: <strong><?php echo $count; ?> <?php if ($count > 0) { ?><span class="estrella"><?php echo $promedio ?></span> <?php } ?></strong></p>
+                        <p>Cantidad de cursos: <strong><?php echo $count; ?> <?php if ($count > 0) { ?><span class="estrella"><?php echo $top_ratings ?></span> <?php } ?></strong></p>
                     </div>
 
                 </div>

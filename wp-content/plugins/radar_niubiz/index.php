@@ -791,7 +791,7 @@ function check_membership($user_login, $user)
 				if ($radar_niubiz->hasValidCharge($from, $today, $beneficiaryId, $niubizProductId)) {
 					//                    die('encontré cargo y voy a renovar por la cantidad de meses');
 					$months = get_membership_frequency($productId);
-					update_field('fecha_expiracion', date('Y-m-d', strtotime($expiration_date . '+' . $months . ' months')), 'user_' . $user->ID);
+					update_field('fecha_expiracion', date('Y-m-d', strtotime($charge_date . '+' . $months . ' months')), 'user_' . $user->ID);
 				} elseif ($today > $expiration_date) {
 					//                    die('no encontré ningún pago y voy a cancelarle la recurrencia');
 					$unsuscribe = unsuscribe_action($user);
