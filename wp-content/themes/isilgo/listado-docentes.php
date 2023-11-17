@@ -81,13 +81,13 @@ $total_pages = intval($total_users / $number)+1;
 
 
 
-<div class="container mb-3">
+<div class="container-lg mb-3">
     <div class="row">
         <div class="col-12 mt-3">
             <?php echo get_template_part('./woocommerce/global/breadcrumb'); ?>
         </div>
 
-        <div class="col-md-3 mb-3">
+        <div class="col-md-4 col-lg-3 mb-3 ajuste-isil-sidebar">
 
 
             <div class="filtros_plp_docentes">
@@ -199,7 +199,7 @@ $total_pages = intval($total_users / $number)+1;
             </div>
 
         </div>
-        <div class="col-md-9">
+        <div class="col-md-8 col-lg-9 mb-3 ajuste-isil-contenido">
             <h3 class="mi_membresia">Especialistas <span>ISIL Go</span></h3>
             <div class="conteo_mobile_docentes">
                 <?php echo $total_users; ?> Resultados

@@ -6444,7 +6444,53 @@ body:has(.pm_open) {
   margin-left: auto;
   margin-right: auto;
 }
+.aling_center_detalle_pay [type="button"]{margin: 0 auto;
+  position: relative;
+  display: block;}
 /* AJUSTE DE LOS BREADCRUMS */
+/* MEJORAS SIDEBAR DE FILTROS Y LISTADOS */
+@media (max-width: 1200px){
+  .listado_docentes
+  {
+    font-size:12px !important;
+  }
+}
+
+@media (max-width: 768px){
+  .woocommerce-MyAccount-content ul, ul.products.columns-3
+  {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  ul.listado_profe {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .ajuste-isil-sidebar
+  {
+    position:absolute !important;
+  }
+  .ajuste-isil-contenido
+  {
+    width:100% !important;
+  }
+  .membresia_plp_mobile
+  {
+    display:none !important;
+  }
+}
+@media (max-width: 620px){
+  ul.listado_profe {
+    grid-template-columns: 1fr !important;
+  }
+  .woocommerce-MyAccount-content ul, ul.products.columns-3
+  {
+    grid-template-columns: 1fr !important;
+  }
+  .membresia_plp_mobile
+  {
+    display:block !important;
+  }
+}
+/* MEJORAS SIDEBAR DE FILTROS Y LISTADOS */
 /*****************************/
 /* MODIFICADO POR ISIL C.A. */
 /*****************************/

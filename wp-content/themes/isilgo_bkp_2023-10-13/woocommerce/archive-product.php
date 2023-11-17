@@ -31,7 +31,7 @@ do_action('woocommerce_before_main_content');
 
 ?>
 
-<div class="col-md-3 mb-3 contenedor-filtros">
+<div class="col-md-4 col-lg-3 mb-3 contenedor-filtros">
 
 	<div class="filtros">
 		<div class="cerrar_filtros">X</div>
@@ -59,7 +59,7 @@ do_action('woocommerce_before_main_content');
 	</div>
 
 </div>
-<div class="col-md-9 mb-3">
+<div class="col-md-8 col-lg-9 mb-3 ajuste-isil-contenido">
 	<div class="row">
 		<div class="col-12">
 			<header class="woocommerce-products-header">
@@ -167,6 +167,15 @@ do_action('woocommerce_before_main_content');
 
 
 </div>
+
+<style>
+	@media (max-width: 992px) {
+		main>.container {
+			max-width: 100% !important;
+		}
+	}
+</style>
+
 <?php
 
 get_footer('shop');
