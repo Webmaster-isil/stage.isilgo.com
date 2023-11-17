@@ -15,6 +15,10 @@ $args = array(
 );
 $posteos = get_posts($args);
 
+/* MODIFICADO POR ISIL C.A. */
+$categoria = get_field('categoria', 'user_' . $author_id);
+/* MODIFICADO POR ISIL C.A. */
+
 $count = count($posteos);
 if ($count < 1) {
     $count = 0;
@@ -52,9 +56,16 @@ if ($count < 1) {
                             <h4 class="cargo"><?php echo get_field('cargo', 'user_' . $author_id); ?></h4>
                         <?php } ?>
 
+                        <!-- MODIFICADO POR ISIL -->
                         <?php if (get_field('categoria', 'user_' . $author_id)) { ?>
-                            <div class="categoria_profe_pdp"><?php echo get_field('categoria', 'user_' . $author_id)[0]->name; ?></div>
+                            <!-- <div class="categoria_profe_pdp"><?php echo get_field('categoria', 'user_' . $author_id)[0]->name; ?></div> -->
+                            <?php if ($categoria) { ?>
+                                <?php foreach ($categoria as $cat) {
+                                    echo '<div class="categoria_profe_pdp mb-2 me-1">' . $cat->name . '</div>';
+                                } ?>
+                            <?php } ?>
                         <?php } ?>
+                        <!-- MODIFICADO POR ISIL -->
 
                         <p>Cantidad de cursos: <strong><?php echo $count; ?> <?php if ($count > 0) { ?><span class="estrella"><?php echo $top_ratings ?></span> <?php } ?></strong></p>
                     </div>
