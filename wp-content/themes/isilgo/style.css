@@ -6437,6 +6437,14 @@ body:has(.pm_open) {
   max-width: 600px !important;
 }
 /* AJUSTE HOME CURSOS GRATIS CARRUSEL*/
+/* AJUSTE DE LOS BREADCRUMS */
+#breadcrumbs
+{
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* AJUSTE DE LOS BREADCRUMS */
 /*****************************/
 /* MODIFICADO POR ISIL C.A. */
 /*****************************/
