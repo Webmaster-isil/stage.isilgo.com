@@ -1,5 +1,4 @@
 <?php
-
 define( 'WP_DEBUG',false);
 define('JWT_AUTH_SECRET_KEY', 'RADAR123..');
 define('JWT_AUTH_CORS_ENABLE', true);
