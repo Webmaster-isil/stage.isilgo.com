@@ -25,7 +25,9 @@ defined('ABSPATH') || exit;
 	if ($order) {
 		do_action('woocommerce_before_thankyou', $order->get_id());
 
-		if ($order->has_status('failed')) { ?>
+		if ($order->has_status('failed')) { 
+			//fallado 
+			?>
 			<p class="woocommerce-notice woocommerce-notice--error woocommerce-thankyou-order-failed"><?php esc_html_e('Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again.', 'woocommerce'); ?></p>
 			<p class="woocommerce-notice woocommerce-notice--error woocommerce-thankyou-order-failed-actions">
 				<a href="<?php echo esc_url($order->get_checkout_payment_url()); ?>" class="button pay"><?php esc_html_e('Pay', 'woocommerce'); ?></a>
@@ -36,8 +38,11 @@ defined('ABSPATH') || exit;
 
 		<?php  } else {
 
-
-
+             //exitoso
+			 if (!$order->has_status('failed') && (!$order->has_status('pending'))) {
+	            api_isil_complete($order->get_id());
+             } 			
+			
 			global $wpdb;
 			$table_name = $wpdb->prefix . 'regalos_queue';
 
@@ -70,22 +75,27 @@ defined('ABSPATH') || exit;
 				$order->update_status('completed');
 			}
 
-
+           $order_status = $order->get_status();
 		?>
 			<div class="col-12 text-center">
-				<div class="logo-print"><img class="w-100" src="<?php echo get_field('logo', 'options'); ?>" alt="ISIL GO"></div>
-				<h3 style="display:none;">Su pago se <span>realizó con éxito</span></h3>
+				<div class="logo-print"><img class="w-100" src="<?php echo get_field('logo', 'options'); ?>" alt="ISIL GO"></div>				
+				<?php  if ($order_status === 'failed') { ?>
+					<h3>Su pago <span> No se realizó  <?php echo $order_status;?></span></h3>				    
+				<?php  }else{ ?>
+					<h3>Su pago se <span>realizó con éxito   <?php echo $order_status;?></span></h3>
+				<?php  } ?>
+				
 				<p>Su número de pedido es: <strong><?php echo $order->get_order_number(); ?></strong></p>
 				<div class="linea_horizontal"></div>
 			</div>
-			<div class="col-12 text-center">
+			<div class="col-12 text-center aling_center_detalle_pay">
 				<h3>Detalles del pago</h3>
 				<?php do_action('woocommerce_thankyou_' . $order->get_payment_method(), $order->get_id()); ?>
 			</div>
 			<div class="col-md-8 mx-auto text-center">
 				<div class="linea_horizontal"></div>
 				<p>Recibirá un mensaje de correo electrónico con los detalles de su pedido y un enlace para hacer un seguimiento de su progreso</p>
-				<input type='button' onclick='window.print();' class='btn_imprimir' value='Click Acá para imprimir una copia de su boleta'>
+				<input  style="display:none;"  type='button' onclick='window.print();' class='btn_imprimir' value='Click Acá para imprimir una copia de su boleta'>
 				<p>
 					<a href="<?php echo get_bloginfo('url'); ?>" class="volver_inicio">VOLVER AL INICIO</a>
 				</p>
@@ -102,6 +112,3 @@ defined('ABSPATH') || exit;
 
 </div>
 
-<?php if (!$order->has_status('failed')) {
-	api_isil_complete($order->get_id());
-} ?>

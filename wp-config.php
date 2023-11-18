@@ -1,5 +1,4 @@
 <?php
-define('WP_MEMORY_LIMIT', '2024M');
 
 define( 'WP_DEBUG',false);
 define('JWT_AUTH_SECRET_KEY', 'RADAR123..');

@@ -493,11 +493,13 @@ jQuery(document).ready(function ($) {
   $(".precio_membresia .wpcbn-btn").attr("value", id);
   $(".precio_membresia .wpcbn-btn").attr("data-product_id", id);
   $(".precio_membresia .wpcbn-btn").text("VUÉLVETE PREMIUM");
+  // radiobutton
   $("#select_membresia").click(function (e) {
     $(".precio_normal").hide();
     $(".compraRapidaMembresia").show();
     $(this).parent("li").addClass("claseActiva");
-    $("#select_normal").parent("li").removeClass("claseActiva");
+    $("#select_normal").parent("li").removeClass("claseActiva");    
+    $("#valor_radio").val($("#select_membresia").val());
   });
 
   $("#select_normal").click(function (e) {
@@ -505,8 +507,9 @@ jQuery(document).ready(function ($) {
     $(".precio_normal").show();
     $(this).parent("li").addClass("claseActiva");
     $("#select_membresia").parent("li").removeClass("claseActiva");
+    $("#valor_radio").val($("#select_normal").val());
   });
-
+ // radiobutton
   $(".levanta_popup").click(function (e) {
     e.preventDefault();
     $(".pop_video").fadeIn();

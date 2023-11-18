@@ -75,7 +75,7 @@ verificaCursoComprado();
 		<?php } else { ?>
 			<?php if(!$product->is_type( 'variable' )){ ?>
 			<li class="claseActiva">
-				<input type="radio" name="membresia" id="select_normal" checked>
+				<input type="radio" name="membresia" value=<?php echo $product->get_regular_price();?> id="select_normal" checked>
 				<div class="w-100">
 					<p>Precio <strong>sólo</strong> para este curso</p>
 
@@ -94,12 +94,14 @@ verificaCursoComprado();
 				</div>
 			</li>
 			<li>
-				<input type="radio" name="membresia" id="select_membresia">
+				<?php $membresia = wc_get_product(get_field('id_membresia', 'options'));?>
+				<input type="radio" name="membresia" value=<?php echo $membresia->get_regular_price();?>   id="select_membresia">
+				<input type="hidden" name="valor_radio" value=<?php echo $product->get_regular_price();?>>
 				<div class="w-100">
 					<p>Acceso a <strong>todos los cursos mediante membresia</strong></p>
 					<?php
 
-					$membresia = wc_get_product(get_field('id_membresia', 'options'));
+					
 
 
 					$price_html = $membresia->get_price_html(); ?>

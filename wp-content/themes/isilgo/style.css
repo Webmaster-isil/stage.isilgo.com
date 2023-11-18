@@ -6706,7 +6706,9 @@ body:has(.pm_open) {
     margin-left: 0 !important;
   }
 }
-
+.aling_center_detalle_pay [type="button"]{margin: 0 auto;
+  position: relative;
+  display: block;}
 /* BANNER DATOS DE CONTACTO */
 
 /*****************************/
