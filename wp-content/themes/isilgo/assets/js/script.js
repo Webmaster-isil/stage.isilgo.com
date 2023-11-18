@@ -413,7 +413,7 @@ jQuery(document).ready(function ($) {
     responsive: { 0: { items: 1 }, 600: { items: 2 }, 1000: { items: 4 } },
   });
 
-  $(".docentes").owlCarousel({
+    $(".docentes").owlCarousel({
     margin: 20,
     dots: true,
     items: 3,
@@ -426,7 +426,7 @@ jQuery(document).ready(function ($) {
     navText: ["<", ">"],
     responsive: {
       0: { items: 1, dotsEach: 1 },
-      768: { items: 2, dotsEach: 2 },
+      600: { items: 2, dotsEach: 2 },
       1000: { items: 3, dotsEach: 3 },
     },
   });
@@ -517,8 +517,6 @@ jQuery(document).ready(function ($) {
 
   $(".cerrar_video").click(function (e) {
     e.preventDefault();
-    // $(".wp-video-shortcode").trigger("pause");
-    $('.mejs-playpause-button.mejs-pause button').click();
     /* MODIFICADO POR ISIL C.A */
     let iframe_youtube = $(".mejs-mediaelement mediaelementwrapper>iframe");
     if(iframe_youtube.length>0)
@@ -530,7 +528,8 @@ jQuery(document).ready(function ($) {
       iframe_youtube.css("cursor", "pointer");
       $(".mejs-overlay-button").css("display", "none");
     }
-    /* MODIFICADO POR ISIL C.A */  
+    /* MODIFICADO POR ISIL C.A */     
+    $('.mejs-playpause-button.mejs-pause button').click();
     $(".pop_video").fadeOut();
   });
 

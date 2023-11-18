@@ -16,8 +16,8 @@ if ($cabezal) { ?>
             <?php
         
             $idProducto = $_POST['idRegalo'];
-            echo $idProducto;
-            echo "<br>"."<br>";
+            //echo $idProducto;
+           //echo "<br>"."<br>";
             if ($idProducto && isset($idProducto)) {
 	            $form = do_shortcode('[contact-form-7 id="4067288" title="Regalo" html_class="contenedor_regalo"]');
                 echo str_replace('{{prodval}}', $idProducto, $form);

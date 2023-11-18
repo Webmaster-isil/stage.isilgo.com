@@ -27,12 +27,10 @@ Version: 2023.1
 *:hover {
   transition: 300ms;
 }
-
 body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
-
 body,
 body a {
   color: var(--gris-textos);
@@ -92,7 +90,7 @@ main {
   background: var(--azul);
 }
 
-.newsltetter_footer>p {
+.newsltetter_footer > p {
   margin: 0;
 }
 
@@ -137,7 +135,6 @@ main {
   color: white;
   text-decoration: none;
 }
-
 .footer {
   padding: 3rem 0 5rem 0;
   color: white;
@@ -147,11 +144,9 @@ main {
 .footer ul.rrss_footer li:last-child {
   margin: 0;
 }
-
 .footer ul.rrss_footer li {
   margin-right: 20px;
 }
-
 .footer ul.rrss_footer {
   padding: 0;
   margin: 0;
@@ -160,23 +155,16 @@ main {
 }
 
 .menus_footer ul {
-  list-style: none;
-  /* Remove default bullets */
+  list-style: none; /* Remove default bullets */
 }
 
 .menus_footer ul li::before {
-  content: "\2022";
-  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: var(--celeste);
-  /* Change the color */
-  font-weight: bold;
-  /* If you want it to be bold */
-  display: inline-block;
-  /* Needed to add space between the bullet and the text */
-  width: 1em;
-  /* Also needed for space (tweak if needed) */
-  margin-left: -1em;
-  /* Also needed for space (tweak if needed) */
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--celeste); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
 .menus_footer ul {
@@ -226,7 +214,6 @@ main {
   height: 80px;
   padding: 10px;
 }
-
 .carousel-indicators {
   margin-bottom: 50px !important;
 }
@@ -294,7 +281,6 @@ ul.products li.product {
   background: #f8f8f8;
   height: 100%;
 }
-
 .detalles_loop {
   padding: 1rem;
   position: relative;
@@ -437,12 +423,10 @@ bdi span {
 .woocommerce.membresias ul.products li.product .button {
   background: var(--rojo);
 }
-
 .woocommerce.membresias ul.products li.product .detalles_loop,
 .woocommerce.membresias ul.products li.product:hover {
   border: 1px solid var(--azul) !important;
 }
-
 .woocommerce.membresias ul.products li.product:last-child .detalles_loop,
 .woocommerce.membresias ul.products li.product:last-child:hover {
   border: 1px solid var(--azul-oscuro) !important;
@@ -460,7 +444,6 @@ bdi span {
 .woocommerce.membresias ul.products li.product:first-child h2 {
   color: var(--celeste);
 }
-
 .woocommerce.membresias ul.products li.product h2 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -515,7 +498,6 @@ bdi span {
 .relative {
   position: relative;
 }
-
 ul.login_header li a.carrito {
   background: var(--naranjo);
   display: flex;
@@ -525,7 +507,6 @@ ul.login_header li a.carrito {
   border: 1px solid var(--naranjo);
   white-space: nowrap;
 }
-
 ul.login_header li a.register {
   background: var(--azul);
   border: 1px solid var(--azul);
@@ -541,7 +522,6 @@ ul.login_header li a.register:hover {
 ul.login_header li a.login {
   border: 1px solid white;
 }
-
 ul.login_header li a {
   display: flex;
   padding: 5px 10px;
@@ -557,7 +537,6 @@ ul.login_header li a {
   align-items: center;
   justify-content: center;
 }
-
 ul.login_header {
   display: flex;
   margin: 0;
@@ -592,11 +571,9 @@ ul.login_header {
 .widget ul.wc-block-product-categories-list a {
   text-decoration: none;
 }
-
 .widget ul.wc-block-product-categories-list li {
   margin-bottom: 10px;
 }
-
 .widget ul.wc-block-product-categories-list {
   margin: 0;
   padding: 0;
@@ -624,7 +601,6 @@ header.woocommerce-products-header h1 span {
   padding: 1rem;
   position: relative;
 }
-
 .sidebar_fixed {
   position: sticky;
   top: 100px;
@@ -638,7 +614,6 @@ header.woocommerce-products-header h1 span {
 .by ul li:last-child {
   margin-left: 10px;
 }
-
 .by ul {
   margin: 0 20px 0 0;
   padding: 0;
@@ -657,11 +632,9 @@ header.woocommerce-products-header h1 span {
   padding: 1rem 0;
   margin-top: 1rem;
 }
-
 .by ul li p {
   margin: 0;
 }
-
 .by ul li img {
   width: 70px;
   border-radius: 50%;
@@ -671,7 +644,6 @@ header.woocommerce-products-header h1 span {
   -o-border-radius: 50%;
   border: 2px solid var(--celeste);
 }
-
 .title_summary h1 {
   font-weight: 700;
   color: var(--azul-oscuro);
@@ -715,7 +687,6 @@ header.woocommerce-products-header h1 span {
   margin: 1rem 0;
   padding: 0;
 }
-
 .main_content li {
   position: relative;
   list-style: none;
@@ -751,7 +722,6 @@ header.woocommerce-products-header h1 span {
   border-bottom-left-radius: 0;
   line-height: 1;
 }
-
 .destacados_single {
   display: flex;
   margin-bottom: 1rem;
@@ -775,13 +745,11 @@ header.woocommerce-products-header h1 span {
 ul.plan_de_estudio li::before {
   display: none;
 }
-
 ul.plan_de_estudio li {
   margin: 0;
   padding: 0;
   position: relative;
 }
-
 ul.plan_de_estudio {
   margin: 0 0 2rem 0;
   padding: 0;
@@ -805,7 +773,6 @@ ul.plan_de_estudio .title_sesion a {
   font-weight: 700;
   font-size: 80%;
 }
-
 ul.plan_de_estudio .title_sesion {
   position: relative;
 }
@@ -821,7 +788,6 @@ ul.plan_de_estudio .sesion_detalle {
 ul.plan_de_estudio li:last-child {
   border-bottom: 1px solid var(--gris-lineas);
 }
-
 ul.plan_de_estudio li {
   border-top: 1px solid var(--gris-lineas);
   padding: 1rem 0;
@@ -900,14 +866,12 @@ ul.listado_custom {
   padding: 0;
   list-style: none;
 }
-
 .estrellita::after {
   position: absolute;
   left: 0;
   font-family: "star";
   color: var(--amarillo);
 }
-
 .estrellita:before {
   content: "sssss";
   font-family: "star";
@@ -918,23 +882,18 @@ ul.listado_custom {
 .estrellita_5:after {
   content: "SSSSS";
 }
-
 .estrellita_4:after {
   content: "SSSS";
 }
-
 .estrellita_3:after {
   content: "SSS";
 }
-
 .estrellita_2:after {
   content: "SS";
 }
-
 .estrellita_1:after {
   content: "S";
 }
-
 .lineas_porcentaje {
   display: inline-block;
   width: 80%;
@@ -980,12 +939,10 @@ span.estrellita {
 .woocommerce .star-rating span::before {
   color: var(--amarillo) !important;
 }
-
 .woocommerce .star-rating::before {
   color: var(--amarillo) !important;
   opacity: 0.5 !important;
 }
-
 .rating_grande p {
   display: block;
   width: 100%;
@@ -1017,17 +974,14 @@ ol.commentlist {
   order: 2;
   margin-top: 1rem;
 }
-
 .comment-text p.meta {
   order: 0;
   margin-bottom: 10px !important;
 }
-
 .comment-text {
   display: flex;
   flex-direction: column;
 }
-
 .comment-text .star-rating {
   float: left;
   order: 1;
@@ -1057,7 +1011,6 @@ li .comment-text {
   width: 100%;
   margin-bottom: 10px;
 }
-
 .caracteristicas_curso ul {
   /* display: flex; */
   list-style: none;
@@ -1068,12 +1021,10 @@ li .comment-text {
   float: left;
   width: 100%;
 }
-
 .caracteristicas_curso ul li {
   float: left;
   width: 33%;
 }
-
 .caracteristicas_curso ul li span {
   font-size: 13px;
   color: #514f4f;
@@ -1090,7 +1041,6 @@ ul.membresia_pdp {
   padding: 0;
   list-style: none;
 }
-
 ul.membresia_pdp li input[type="radio"] {
   margin-right: 10px;
 }
@@ -1099,7 +1049,6 @@ ul.membresia_pdp li p {
   font-size: 80%;
   margin: 0;
 }
-
 ul.membresia_pdp li {
   display: flex;
   align-items: center;
@@ -1132,15 +1081,12 @@ ul.membresia_pdp li {
   font-weight: 700;
   font-size: 70% !important;
 }
-
 .listado_precio ins {
   order: 0 !important;
 }
-
 .listado_precio del {
   order: 1 !important;
 }
-
 .listado_precio {
   display: flex;
   align-items: center;
@@ -1154,7 +1100,6 @@ ul.membresia_pdp li {
   text-transform: uppercase;
   margin-bottom: 1rem !important;
 }
-
 .precio_normal button[name="buy-now"] {
   order: 0;
 }
@@ -1168,13 +1113,11 @@ a.ir_curso_pdp {
   color: white;
   background: var(--celeste) !important;
 }
-
 .compraRapida:hover {
   color: white;
   background-color: var(--naranjo) !important;
   border-color: var(--naranjo) !important;
 }
-
 .compraRapida,
 .ir_curso_pdp {
   background: var(--rojo) !important;
@@ -1194,13 +1137,11 @@ a.ir_curso_pdp {
   text-align: center;
   text-decoration: none;
 }
-
 .compraRapidaMembresia a:hover {
   color: white;
   background-color: var(--naranjo) !important;
   border-color: var(--naranjo) !important;
 }
-
 .compraRapidaMembresia a {
   background: var(--rojo) !important;
   display: block;
@@ -1220,11 +1161,9 @@ a.ir_curso_pdp {
   text-decoration: none;
   margin-top: 15px;
 }
-
 .precio_membresia button[name="add-to-cart"] {
   display: none !important;
 }
-
 form.cart.precio_normal {
   display: flex;
   flex-direction: column;
@@ -1343,40 +1282,33 @@ form.contenedor_regalo select {
   margin-bottom: 1rem;
   padding: 1rem;
 }
-
 form.contenedor_regalo input::placeholder,
 form.contenedor_regalo textarea::placeholder {
   color: rgba(0, 0, 0, 0.3);
 }
-
 form.contenedor_regalo label {
   width: 100%;
 }
-
 form.contenedor_regalo h3 {
   font-weight: 700;
   font-size: 1.4rem;
   margin: 1rem 0;
 }
-
 form.contenedor_regalo h2 span {
   color: var(--azul);
 }
-
 form.contenedor_regalo h2 {
   text-align: center;
   font-weight: 700;
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
-
 form.contenedor_regalo {
   background: rgba(0, 0, 0, 0.03);
   margin: 2rem 0;
   padding: 2rem;
   text-align: center;
 }
-
 .regalar_ok:disabled {
   opacity: 0.5 !important;
 }
@@ -1408,7 +1340,8 @@ form.contenedor_regalo h3 {
 }
 
 svg.dgwt-wcas-ico-magnifier {
-  filter: invert(99%) sepia(9%) saturate(91%) hue-rotate(254deg) brightness(113%) contrast(100%);
+  filter: invert(99%) sepia(9%) saturate(91%) hue-rotate(254deg)
+    brightness(113%) contrast(100%);
 }
 
 button.dgwt-wcas-search-submit {
@@ -1417,7 +1350,6 @@ button.dgwt-wcas-search-submit {
   background: none !important;
   padding: 0 !important;
 }
-
 button.dgwt-wcas-search-submit::after {
   content: "";
   border-right: 1px solid black;
@@ -1444,7 +1376,9 @@ span.wmc-current-currency {
   border: 0px !important;
 }
 
-.woo-multi-currency.wmc-shortcode .wmc-currency-wrapper .wmc-current-currency-arrow::after {
+.woo-multi-currency.wmc-shortcode
+  .wmc-currency-wrapper
+  .wmc-current-currency-arrow::after {
   color: white !important;
 }
 
@@ -1475,7 +1409,6 @@ img.destacada {
   width: 100%;
   height: 100%;
 }
-
 .cont_video {
   width: 100%;
   height: 100%;
@@ -1504,7 +1437,6 @@ img.destacada {
   padding: 5px;
   margin-top: 1rem;
 }
-
 .imagen_video {
   position: relative;
 }
@@ -1519,7 +1451,6 @@ img.destacada {
   cursor: pointer;
   transition: 300ms;
 }
-
 .play_video.levanta_popup {
   position: absolute;
   left: 0;
@@ -1557,12 +1488,10 @@ img.destacada {
   left: 0;
   top: 0;
 }
-
 .primer_bread {
   position: relative;
   padding-left: 33px;
 }
-
 #breadcrumbs {
   display: flex;
   align-items: center;
@@ -1619,7 +1548,6 @@ div#breadcrumbs a {
 ul.membresia_pdp li {
   transition: 300ms;
 }
-
 ul.membresia_pdp li:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   transition: 300ms;
@@ -1637,7 +1565,6 @@ ul.membresia_pdp input {
 ul.products li.product {
   transition: 300ms;
 }
-
 ul.products li.product:hover {
   border: 1px solid var(--azul) !important;
   transition: 300ms;
@@ -1724,7 +1651,6 @@ ul.contenido_carrito li {
   margin-bottom: 2rem;
   padding: 1rem;
 }
-
 ul.contenido_carrito {
   list-style: none;
   margin: 0;
@@ -1768,7 +1694,6 @@ ul.contenido_carrito .dictado_por {
 a.checkout-button:hover {
   background: var(--azul-oscuro) !important;
 }
-
 a.checkout-button {
   background: var(--azul) !important;
 }
@@ -1812,7 +1737,6 @@ ul#menu-header a {
   padding: 0.5rem 0;
   display: inline-block;
 }
-
 .submenu_cursos ul {
   columns: 4;
   display: none;
@@ -1876,7 +1800,6 @@ ul#menu-header a {
 .ver_cursos a::before {
   content: ">> ";
 }
-
 .ver_cursos a {
   font-weight: 700 !important;
   text-transform: uppercase;
@@ -2054,7 +1977,6 @@ ul#menu-hamburguesa::after {
 a.limpiar_filtros:hover {
   background: var(--azul) !important;
 }
-
 a.limpiar_filtros {
   font-weight: 700;
   color: white;
@@ -2074,7 +1996,6 @@ a.limpiar_filtros {
 .wc-block-attribute-filter__actions {
   display: none !important;
 }
-
 .wc-block-checkbox-list__checkbox input {
   border-radius: 50% !important;
   -webkit-border-radius: 50% !important;
@@ -2109,7 +2030,8 @@ a.limpiar_filtros {
   display: inline-block;
 }
 
-.wc-block-components-checkbox .wc-block-components-checkbox__input[type="checkbox"] {
+.wc-block-components-checkbox
+  .wc-block-components-checkbox__input[type="checkbox"] {
   min-width: 15px !important;
   min-height: 15px !important;
   width: 15px !important;
@@ -2129,7 +2051,6 @@ a.limpiar_filtros {
 .pop_membresia p {
   margin: 0;
 }
-
 .pop_membresia a {
   background: var(--naranjo);
   padding: 0.5rem 2rem;
@@ -2182,7 +2103,6 @@ a.limpiar_filtros {
   font-size: 1.5rem;
   margin: 1rem 0;
 }
-
 .login_sso {
   background: var(--gris-claro);
   border: 1px solid var(--gris-lineas);
@@ -2216,7 +2136,6 @@ a.limpiar_filtros {
   -o-border-radius: 3px;
   padding: 0.5rem;
 }
-
 .bg-checkout {
   background: var(--gris-claro);
   padding: 1rem;
@@ -2246,7 +2165,7 @@ ul.contenido_carrito li .remove img {
   position: inherit;
 }
 
-.compra_revisa .alinea_carrito>div {
+.compra_revisa .alinea_carrito > div {
   padding-right: 30px;
 }
 
@@ -2256,7 +2175,6 @@ table.totales_review th {
   display: inline-block;
   float: left;
 }
-
 table.totales_review tr {
   border-bottom: 1px solid var(--gris-lineas);
   padding: 0.5rem 0;
@@ -2269,7 +2187,6 @@ table.totales_review {
   margin: 1rem 0;
   font-size: 1.5rem;
 }
-
 table.totales_review td {
   color: var(--azul);
   font-weight: 700;
@@ -2280,7 +2197,6 @@ table.totales_review td {
   width: 100%;
   text-transform: uppercase;
 }
-
 /* 
 .woocommerce-billing-fields p {
   width: 50%!important;
@@ -2305,11 +2221,9 @@ table.totales_review td {
 .whmc-qty-minus {
   display: none !important;
 }
-
 .added_to_cart {
   display: none !important;
 }
-
 /* 
 .shopping-cart {
   display: none !important;
@@ -2333,7 +2247,6 @@ tr.woocommerce-shipping-totals.shipping {
 .woocommerce-order-received main h3 span {
   color: var(--azul);
 }
-
 .woocommerce-order-received main h3 {
   font-weight: 700;
   font-size: 1.5rem;
@@ -2392,7 +2305,6 @@ a.volver_inicio:hover {
   z-index: 1;
   bottom: 0;
 }
-
 .preheader_02 {
   z-index: 2;
   position: relative;
@@ -2476,7 +2388,6 @@ nav.woocommerce-pagination ul li a:hover {
   content: url(./assets/img/flecha_nav.svg);
   margin-right: 10px;
 }
-
 .volver a {
   color: var(--azul);
   text-decoration: none;
@@ -2514,13 +2425,11 @@ nav.woocommerce-pagination ul li a:hover {
   opacity: 0.5;
   display: inline-block;
 }
-
 .price del {
   opacity: 1 !important;
   font-size: 1rem;
   color: var(--rojo) !important;
 }
-
 span.price span {
   font-size: 1.2rem;
 }
@@ -2546,7 +2455,6 @@ span.price span {
   align-items: center;
   background: rgba(0, 0, 0, 0.6);
 }
-
 .pop_up_alerta_bg {
   display: none;
 }
@@ -2620,12 +2528,10 @@ span.price span {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
 }
-
 .confirmar_desuscripcion:hover {
   background: var(--rojo);
   color: white;
 }
-
 a.back_cart {
   margin-top: 2rem;
   display: inline-flex;
@@ -2665,7 +2571,6 @@ a.back_cart {
   margin-bottom: 2rem;
   font-weight: 700;
 }
-
 .contenido_pop_alerta .txt {
   text-align: left;
 }
@@ -2682,7 +2587,6 @@ a.back_cart {
   -o-border-radius: 3px;
   height: 50px;
 }
-
 .contenido_carrito .coupon button {
   background: var(--azul) !important;
   color: white !important;
@@ -2692,7 +2596,6 @@ a.back_cart {
   display: inline-block;
   height: 50px;
 }
-
 .contenido_carrito .coupon button:hover {
   background: var(--azul-oscuro) !important;
 }
@@ -2776,7 +2679,6 @@ a.back_cart {
   height: 10px;
   margin: 10px;
 }
-
 .relacionados_pdp .owl-dots,
 .especiales_membresias .owl-dots,
 .productosEtiquetas .owl-dots,
@@ -2847,12 +2749,10 @@ a.back_cart {
   top: -30px;
   left: 65%;
 }
-
 @keyframes loader {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
@@ -2866,7 +2766,6 @@ ul.contenido_carrito li:last-child {
   border: 0px;
   padding: 0;
 }
-
 ul.contenido_carrito li .coupon {
   display: inline-block;
   float: left;
@@ -2924,7 +2823,6 @@ footer .newsltetter_footer input[type="submit"] {
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
-
 .carrusel_docentes {
   padding: 0;
 }
@@ -2938,7 +2836,6 @@ footer .newsltetter_footer input[type="submit"] {
   margin: 0 0 10px 0;
   font-size: 0.8rem;
 }
-
 .carrusel_docentes ul li .item_extra {
   background: var(--azul-oscuro);
   border-radius: 10px;
@@ -2951,12 +2848,10 @@ footer .newsltetter_footer input[type="submit"] {
   padding: 5px 10px;
   margin-top: 5px;
 }
-
 .carrusel_docentes ul li {
   display: flex;
   align-items: center;
 }
-
 .carrusel_docentes ul {
   margin: 0;
   padding: 1rem;
@@ -3005,11 +2900,9 @@ footer .newsltetter_footer input[type="submit"] {
 .carrusel_docentes {
   position: relative;
 }
-
 .carrusel_docentes .owl-dots .owl-dot.active {
   background: var(--celeste);
 }
-
 .carrusel_docentes .owl-dots .owl-dot {
   background: lightgray;
   height: 10px;
@@ -3057,7 +2950,6 @@ span.select2 .select2-selection {
 .whmc-mini-cart {
   padding: 1rem;
 }
-
 /*Edicion mini cart nopi*/
 .whmc-cart-items {
   background: white;
@@ -3069,39 +2961,31 @@ span.select2 .select2-selection {
   -o-border-radius: 10px;
   border: 1px solid lightgray !important;
 }
-
 .whmc-cart-items .whmc-item-qty {
   display: none;
 }
-
 .whmc-cart-items .cart_image_iem img {
   width: 75%;
 }
-
 .whmc-cart-items .woocommerce-Price-amount.amount {
   font-size: 13px;
   color: #2e4259;
   font-weight: 500;
 }
-
 .whmc-cart-items .woocommerce-Price-amount.amount::before {
   content: "Precio: ";
   font-size: 10px;
 }
-
 .whmc-cart-items .cart_image_iem {
   margin-right: 0 !important;
 }
-
 .whmc-cart-items .cart-item-data-field {
   border-bottom: 1px solid lightgray;
   padding-bottom: 5px;
 }
-
 .whmc-cart-items .whmc-item-price {
   padding-top: 5px;
 }
-
 .whmc-cart-items .wc_remove_btn {
   position: absolute;
   top: 29%;
@@ -3113,32 +2997,26 @@ span.select2 .select2-selection {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-
 .whmc-cart-items .whmc-item-desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .whmc-body .medios-de-pago {
   padding: 10px 20px;
 }
-
 .whmc-body .medios-de-pago span {
   color: #2e4259;
   font-weight: 500;
 }
-
 .whmc-body .whmc-bottom-part2 h6 {
   color: #2e4259;
   font-weight: 500;
   margin-top: 10px;
 }
-
 .whmc-body .medios-de-pago img {
   margin-top: 10px;
 }
-
 .whmc-body .whmc-bottom-part2 {
   border-top: 1px solid lightgray;
   margin-top: 20px;
@@ -3150,7 +3028,6 @@ span.select2 .select2-selection {
 .animation_none {
   animation: none !important;
 }
-
 .whmc-buy-summary::before {
   content: "Resumen de compra";
   color: var(--azul-oscuro);
@@ -3158,7 +3035,6 @@ span.select2 .select2-selection {
   display: inline-block;
   margin-top: 1rem;
 }
-
 .medio_de_pago {
   width: 80%;
 }
@@ -3170,28 +3046,23 @@ span.select2 .select2-selection {
 .orderby option {
   color: black !important;
 }
-
 .whmc-body .whmc-bottom-part {
   border-top: 2px solid lightgray;
   padding-top: 10px;
 }
-
 .whmc-body .whmc-cart-item-wrap {
   min-height: 130px;
   max-height: 260px !important;
 }
-
 .whmc-body .whmc-cart-subtotal-wrap,
 .whmc-body .whmc-cart-discount-wrap {
   display: none;
 }
-
 /*Edicion del js que trae contenido al mini cart*/
 .whmc-body .contenido .woocommerce.recientes p strong {
   font-weight: 500 !important;
   color: #2e4259;
 }
-
 .whmc-body .detalles_loop a,
 .whmc-body .detalles_loop h2,
 .whmc-body .detalles_loop div,
@@ -3199,16 +3070,13 @@ span.select2 .select2-selection {
   margin: 0 !important;
   padding: 0 !important;
 }
-
 .whmc-body .woocommerce-loop-product__title {
   min-height: auto !important;
 }
-
 .whmc-body .detalles_loop .price,
 .whmc-body .detalles_loop .price span {
   font-size: 14px !important;
 }
-
 .whmc-body .contenido .product .detalles_loop .price {
   min-height: auto !important;
   line-height: auto !important;
@@ -3216,7 +3084,6 @@ span.select2 .select2-selection {
   margin: 5px 0px !important;
   padding-top: 5px !important;
 }
-
 /*Fin Edicion del js que trae contenido al mini cart*/
 .whmc-cart-items-inner .cart-item-data-field {
   width: 80%;
@@ -3311,7 +3178,6 @@ span.cloasebtn {
   justify-content: center;
   font-weight: 400;
 }
-
 .usuario_logueado span {
   font-weight: 700;
 }
@@ -3320,14 +3186,13 @@ span.cloasebtn {
   width: 40px;
 }
 
-li.usuario_logueado>div {
+li.usuario_logueado > div {
   margin-right: 10px;
 }
 
 li.usuario_logueado {
   color: white;
 }
-
 .mi_cuenta_home {
   position: relative;
 }
@@ -3340,14 +3205,12 @@ li.usuario_logueado {
 nav.woocommerce-MyAccount-navigation ul li:last-child a {
   border: 0;
 }
-
 nav.woocommerce-MyAccount-navigation ul a {
   display: block;
   text-decoration: none;
   border-bottom: 1px solid;
   padding: 1rem 0;
 }
-
 nav.woocommerce-MyAccount-navigation ul {
   padding: 0;
   margin: 0;
@@ -3357,7 +3220,6 @@ nav.woocommerce-MyAccount-navigation ul {
 nav.woocommerce-MyAccount-navigation ul a {
   color: rgba(0, 0, 0, 0.3);
 }
-
 nav.woocommerce-MyAccount-navigation ul a:hover {
   color: var(--azul);
 }
@@ -3398,7 +3260,6 @@ h4.complete span {
 h4.noiniciados span {
   color: var(--azul);
 }
-
 h4.incomplete span {
   color: var(--turquesa);
 }
@@ -3420,7 +3281,6 @@ h4.incomplete span {
 h3.mi_membresia span {
   color: var(--azul);
 }
-
 h3.mi_membresia {
   font-weight: 700;
   font-size: 1.4rem;
@@ -3448,7 +3308,6 @@ h3.mi_membresia {
   position: relative;
   width: 70%;
 }
-
 .price_myAccount ins {
   order: 0;
   margin-right: 10px;
@@ -3462,7 +3321,6 @@ h3.mi_membresia {
 
   color: red;
 }
-
 .price_myAccount {
   display: flex;
   align-items: end;
@@ -3485,7 +3343,6 @@ p.vencimiento span span {
 p.vencimiento span {
   color: var(--azul);
 }
-
 p.vencimiento {
   font-weight: bold;
   font-size: 1.2rem;
@@ -3535,11 +3392,11 @@ p.vencimiento {
   width: 26px;
 }
 
-input:checked+.slider {
+input:checked + .slider {
   background-color: #66bb6a;
 }
 
-input:checked+.slider:before {
+input:checked + .slider:before {
   transform: translateX(26px);
 }
 
@@ -3591,7 +3448,6 @@ p.anular_suscripcion {
   background: var(--turquesa);
   height: 10px;
 }
-
 .avance {
   display: block;
   height: 10px;
@@ -3639,12 +3495,10 @@ ul.listado_certificados a.descargar_certificado {
   text-align: center;
   /*white-space: nowrap;*/
 }
-
 .descargar_certificado:disabled,
 .compraRapida.disabled {
   opacity: 0.5;
 }
-
 .compraRapida .loaderCustom {
   float: right;
 }
@@ -3654,11 +3508,9 @@ ul.listado_certificados a.descargar_certificado {
   pointer-events: none;
   cursor: wait;
 }
-
 a.descargar_certificado span {
   width: auto;
 }
-
 a.descargar_certificado .loaderCustom:after {
   content: " ";
   display: inline-block;
@@ -3693,7 +3545,6 @@ a.descargar_certificado .loaderCustom:after {
 ul.listado_profe li:nth-child(3n) {
   margin-right: 0 !important;
 }
-
 ul.listado_profe li {
   width: 100%;
   overflow: hidden;
@@ -3719,7 +3570,6 @@ ul.listado_profe {
   background-size: cover !important;
   position: relative;
 }
-
 .categoria_profe {
   background: var(--azul-oscuro);
   display: inline-block;
@@ -3824,11 +3674,9 @@ h1.titulo_pagina {
 .centra_info p {
   margin: 0;
 }
-
 .cont_profe a:hover {
   background: var(--naranjo);
 }
-
 .centra_info .imagen_profe {
   width: 200px;
   height: 200px;
@@ -3870,7 +3718,6 @@ ul.desc_author {
   padding: 0;
   list-style: none;
 }
-
 ul.desc_author li {
   display: flex;
 }
@@ -3891,7 +3738,6 @@ ul.desc_author li {
   display: flex;
   margin-bottom: 3rem;
 }
-
 .formulario-empresas .wpcf7-form-control-wrap input {
   padding: 10px 5%;
   border: #bebdbd solid 1px;
@@ -3963,7 +3809,6 @@ ul.desc_author li {
 .centra_info h4 {
   font-size: 1.5rem;
 }
-
 .centra_info h1 {
   color: var(--azul-oscuro);
   font-weight: 700;
@@ -4000,12 +3845,10 @@ ul.desc_author li {
 #menu-mi-cuenta li:last-child {
   border: 0px;
 }
-
 #menu-mi-cuenta li {
   border-bottom: 1px solid var(--gris-lineas);
   text-align: left !important;
 }
-
 #menu-mi-cuenta {
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -4025,11 +3868,9 @@ ul.login_header #menu-mi-cuenta a {
 ul.login_header #menu-mi-cuenta a:hover {
   color: var(--azul) !important;
 }
-
 .img-educacion {
   margin-bottom: 1rem;
 }
-
 a.cerrar_sesion:before {
   content: "x";
   background: red;
@@ -4051,7 +3892,6 @@ a.cerrar_sesion:before {
 #menu-mi-cuenta {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
-
 .membresia_plp_mobile {
   display: none;
 }
@@ -4087,7 +3927,6 @@ form.woocommerce-ordering select {
   top: 10px;
   z-index: 0;
 }
-
 .circulo-105:after {
   background: url(./assets/img/globo.svg);
 }
@@ -4136,28 +3975,27 @@ li .cat_loop {
   padding: 5px 20px;
   border-bottom-left-radius: 0;
 }
-
 div#video-home h3,
 div#video-home h5 {
   margin-bottom: 1.5rem;
 }
-
 .woocommerce nav.woocommerce-pagination ul.page-numbers li a.page-numbers {
   color: #514f4f;
 }
-
-.woocommerce nav.woocommerce-pagination ul.page-numbers li span.page-numbers.current {
+.woocommerce
+  nav.woocommerce-pagination
+  ul.page-numbers
+  li
+  span.page-numbers.current {
   color: #3377ff;
   font-weight: 800;
 }
-
 a.prev.page-numbers,
 a.next.page-numbers {
   visibility: hidden;
   font-size: 0px !important;
   transition: 300ms;
 }
-
 a.prev.page-numbers:before {
   visibility: visible;
   content: "";
@@ -4181,10 +4019,10 @@ a.next.page-numbers:before {
   display: inline-block;
   vertical-align: middle;
 }
-
 a.prev.page-numbers:hover,
 a.next.page-numbers:hover {
-  filter: invert(36%) sepia(99%) saturate(2550%) hue-rotate(210deg) brightness(101%) contrast(101%);
+  filter: invert(36%) sepia(99%) saturate(2550%) hue-rotate(210deg)
+    brightness(101%) contrast(101%);
   transition: 300ms;
 }
 
@@ -4227,12 +4065,10 @@ li.usuario_logueado img {
 .woocommerce.recientes .precio_oferta_tiempo {
   display: none !important;
 }
-
 .woocommerce.recientes .detalles_loop {
   min-height: auto !important;
   height: auto !important;
 }
-
 .woocommerce.recientes ul li {
   display: flex;
   align-items: center;
@@ -4271,7 +4107,6 @@ body.home .joinchat__button {
   margin-top: -10px;
   margin-bottom: -10px !important;
 }
-
 .duracion img {
   margin-bottom: 0px !important;
 }
@@ -4281,7 +4116,6 @@ body.home .joinchat__button {
   width: 80%;
   margin: auto;
 }
-
 .cursos_404 a {
   display: block;
   padding: 10px 20px;
@@ -4296,18 +4130,15 @@ body.home .joinchat__button {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-
 .cursos_404 a:hover {
   background-color: var(--naranjo) !important;
   transition: 300ms;
 }
-
 img.img_404 {
   padding-bottom: 40px;
   border-bottom: solid 1px #000;
   width: 50%;
 }
-
 body.error404 p.p_404 {
   font-size: 18px;
   margin: 40px 0px;
@@ -4330,7 +4161,6 @@ h2.woocommerce-loop-product__title {
   display: inline-block;
   position: relative;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -4340,13 +4170,11 @@ h2.woocommerce-loop-product__title {
   background-color: #ffffff;
   max-height: 200px;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
   overflow-x: scroll;
   overflow-y: visible;
 }
-
 .dropdown-content a {
   display: block;
   color: #000000;
@@ -4358,7 +4186,6 @@ h2.woocommerce-loop-product__title {
   border-bottom: 1px solid #e5e5e5;
   margin: 0;
 }
-
 .dropdown-content a:hover {
   color: #ffffff;
   background-color: var(--naranjo);
@@ -4425,15 +4252,12 @@ body.woocommerce-order-received .woocommerce-order .woocommerce-info::before {
   display: flex;
   justify-content: center;
 }
-
 #cursos_home ul.products li:first-child {
   margin-left: 0;
 }
-
 #cursos_home ul.products li:last-child {
   margin-right: 0;
 }
-
 #cursos_home ul.products li {
   margin: 10px;
 }
@@ -4445,20 +4269,17 @@ body.woocommerce-order-received .woocommerce-order .woocommerce-info::before {
     margin: -0 0 0 0 !important;
     padding: 0 !important;
   }
-
   body {
     margin: 1.6cm;
   }
-
   header,
   #breadcrumbs,
   footer,
   .btn-primary,
   .volver_inicio,
-  .woocommerce-order .row>.col-md-12>a {
+  .woocommerce-order .row > .col-md-12 > a {
     display: none !important;
   }
-
   .logo-print {
     display: inline-block !important;
     margin: 10px auto;
@@ -4510,18 +4331,20 @@ p.woocommerce-verification-required {
   margin-top: 2rem;
 }
 
-.preguntas-centro-ayuda .vc_tta-color-grey.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels {
+.preguntas-centro-ayuda
+  .vc_tta-color-grey.vc_tta-style-classic.vc_tta-tabs
+  .vc_tta-panels {
   background-color: #fff !important;
   border-color: #fff !important;
 }
 
-.vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a {
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab > a {
   border-color: var(--gris-lineas) !important;
   background-color: white !important;
   color: var(--azul-oscuro) !important;
 }
 
-.vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active > a {
   border-color: var(--gris-lineas) !important;
   background-color: var(--celeste) !important;
   color: #fff !important;
@@ -4538,7 +4361,6 @@ form.variations_form.cart {
 .solo-membresias {
   display: none;
 }
-
 .page-template-page-membresia .solo-membresias {
   display: block;
 }
@@ -4590,11 +4412,9 @@ body.page-template-page-membresia .listado_caracteristicas {
 .product_cat-suscripciones .dictado_por {
   display: none;
 }
-
 .filtros_plp {
   display: none;
 }
-
 .productosEtiqueta ul li {
   width: 100% !important;
 }
@@ -4639,7 +4459,6 @@ body.page-template-page-membresia .listado_caracteristicas {
   color: #fff;
   padding: 5px 130px;
 }
-
 .busqueda_mobile_header {
   display: none;
 }
@@ -4648,14 +4467,12 @@ body.page-template-page-membresia .listado_caracteristicas {
   content: "MÁS POPULAR";
   color: white;
 }
-
 .cabezal_mas_popular {
   height: 30px;
   position: absolute;
   left: 0;
   top: -40px;
 }
-
 .membresias ul li:nth-child(3) .cabezal_mas_popular {
   background: var(--azul);
 
@@ -4704,11 +4521,9 @@ li.product_cat-suscripciones select#pa_personas {
   font-size: 1rem;
   color: var(--azul-oscuro);
 }
-
 #pm_menu {
   background: white !important;
 }
-
 .whmc-empty-cart {
   align-items: start !important;
   justify-content: center !important;
@@ -4734,7 +4549,6 @@ li.product_cat-suscripciones select#pa_personas {
 .contenido .woocommerce ul.products li {
   margin-bottom: 0 !important;
 }
-
 .whmc_applypromocode {
   text-decoration: none;
 }
@@ -4749,23 +4563,19 @@ li.product_cat-suscripciones select#pa_personas {
   border-bottom: 5px solid var(--azul);
   color: var(--azul);
 }
-
 #tab_especial_membresia button {
   color: var(--azul-oscuro);
   font-weight: 700;
   padding: 1rem;
   border: 0px;
 }
-
 #tab_especial_membresia button.active {
   border-bottom: 5px solid var(--azul) !important;
   color: var(--azul);
 }
-
 #tab_especial_membresia button {
   background: none !important;
 }
-
 #tab_especial_membresia {
   display: flex;
   justify-content: center;
@@ -4796,7 +4606,6 @@ li.login_header {
   justify-content: center;
   align-items: center;
 }
-
 li.login_header a {
   margin: 0;
   height: 100% !important;
@@ -4878,15 +4687,12 @@ div#menuiconwrap.icons02 span.cart_count_header {
   min-width: 1px;
   bottom: auto;
 }
-
 .cursos_gratis_mobile_home {
   display: none;
 }
-
 .cursos_gratis_desktop_home {
   display: block;
 }
-
 .cursos_gratis_desktop_home ul li:last-child {
   margin-right: 0 !important;
 }
@@ -4903,7 +4709,6 @@ div#menuiconwrap.icons02 span.cart_count_header {
   justify-content: center;
   align-items: center;
 }
-
 .cortina .loaderCustom:after {
   position: initial;
   display: block;
@@ -4911,7 +4716,6 @@ div#menuiconwrap.icons02 span.cart_count_header {
   width: 60px;
   height: 60px;
 }
-
 .cortina .loaderCustom {
   display: flex;
   float: left;
@@ -4920,7 +4724,6 @@ div#menuiconwrap.icons02 span.cart_count_header {
   align-items: center;
   margin-top: 10px;
 }
-
 .cortina img {
   display: block;
   width: 200px;
@@ -4953,15 +4756,12 @@ p.order-again a {
 .esconde_desktop_menu_burger ul.sub-menu li {
   border: 0px !important;
 }
-
 .esconde_desktop_menu_burger ul.sub-menu li:first-child a {
   font-weight: 900 !important;
 }
-
 .esconde_desktop_menu_burger ul.sub-menu a {
   font-weight: 400 !important;
 }
-
 .esconde_desktop_menu_burger ul.sub-menu {
   display: none;
   position: absolute;
@@ -4974,10 +4774,9 @@ p.order-again a {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.esconde_desktop_menu_burger>a {
+.esconde_desktop_menu_burger > a {
   font-weight: 900 !important;
 }
-
 .esconde_desktop_menu_burger ul.sub-menu li:first-child a:before {
   content: "< ";
   margin-right: 10px;
@@ -4988,8 +4787,7 @@ p.order-again a {
 #menu-hamburguesa li a {
   display: block;
 }
-
-.esconde_desktop_menu_burger>a:after {
+.esconde_desktop_menu_burger > a:after {
   content: ">";
   float: right;
 }
@@ -5001,11 +4799,9 @@ p.order-again a {
 .woocommerce-review__published-date {
   display: none;
 }
-
 .home .circulo-105 {
   display: none;
 }
-
 .carrusel_mobile {
   display: none;
   width: 100%;
@@ -5030,49 +4826,39 @@ span.count {
 .rating_single ul li:last-child p {
   margin: 0;
 }
-
 .rating_single ul li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 #tabla_especial_membresia .wpb_wrapper {
   width: 100%;
 }
-
 table.listado_membresia td {
   text-align: center;
 }
-
 table.listado_membresia td:nth-child(1) {
   text-align: left;
 }
-
 .listado_membresia img {
   display: inline-block;
 }
-
 .listado_membresia {
   border-collapse: separate;
   border-spacing: 0px 10px;
   font-weight: 700;
   width: 100%;
 }
-
 .listado_membresia td {
   color: white;
   padding: 1rem;
 }
-
 .listado_membresia th {
   background: white;
 }
-
 .listado_membresia tr:nth-child(odd) {
   background: var(--celeste);
 }
-
 .listado_membresia tr:nth-child(even) {
   background: var(--azul);
 }
@@ -5150,18 +4936,18 @@ a.ver_mas_especialiastas {
   transition: 0.5s all;
 }
 
-.woocommerce ul.products li.product .price>ins>span,
-.woocommerce ul.products li.product .price>span.amount {
+.woocommerce ul.products li.product .price > ins > span,
+.woocommerce ul.products li.product .price > span.amount {
   font-size: 1.4rem !important;
 }
 
-.woocommerce ul.products li.product a.woocommerce-LoopProduct-link>p {
+.woocommerce ul.products li.product a.woocommerce-LoopProduct-link > p {
   font-weight: bold;
   font-size: 1rem;
   margin: 5px 0;
 }
 
-.woocommerce ul.products li.product a.woocommerce-LoopProduct-link>p>span {
+.woocommerce ul.products li.product a.woocommerce-LoopProduct-link > p > span {
   color: var(--azul);
 }
 
@@ -5175,7 +4961,6 @@ li.banderas {
   justify-content: center;
   align-items: center;
 }
-
 .smobile {
   height: 100%;
   display: flex;
@@ -5201,7 +4986,6 @@ ul.cargo_home_profe li {
   display: inline-block;
   font-size: 0.7rem;
 }
-
 ul.cargo_home_profe {
   padding: 0;
   list-style: none;
@@ -5216,7 +5000,7 @@ ul.cargo_home_profe {
   height: 360px !important;
 }
 
-.capacita_equipo_plp a>div {
+.capacita_equipo_plp a > div {
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -5228,7 +5012,6 @@ ul.cargo_home_profe {
   margin: 0;
   font-size: 1.2rem;
 }
-
 .capacita_equipo_plp a {
   display: flex;
   justify-content: center;
@@ -5247,8 +5030,7 @@ ul.cargo_home_profe {
 .capacita_equipo_plp a {
   background: linear-gradient(90deg, var(--azul-oscuro), var(--celeste));
 }
-
-#preguntas_frecuentes_membresia>div>div>div.wpb_wrapper {
+#preguntas_frecuentes_membresia > div > div > div.wpb_wrapper {
   border: 1px solid var(--gris-lineas);
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -5279,7 +5061,6 @@ ul.cargo_home_profe {
   margin: 0;
   padding: 0;
 }
-
 #preguntas_frecuentes_membresia i {
   display: none;
 }
@@ -5288,7 +5069,6 @@ ul.cargo_home_profe {
   content: "ver menos";
   color: gray;
 }
-
 .filtro_especialistas {
   border: 1px solid var(--gris-lineas);
   padding: 1rem;
@@ -5317,7 +5097,6 @@ ul.cargo_home_profe {
   margin-bottom: 1rem;
   font-size: 80%;
 }
-
 .lupa_docente img {
   position: absolute;
   top: 8px;
@@ -5357,7 +5136,6 @@ ul.cargo_home_profe {
   content: url(./assets/img/flecha_nav.svg);
   margin-right: 10px;
 }
-
 .back_top {
   color: var(--azul);
   text-decoration: none;
@@ -5375,11 +5153,9 @@ ul.cargo_home_profe {
 .cerrar_filtro_especialista {
   opacity: 0;
 }
-
 .text-right {
   text-align: right;
 }
-
 input.btn_filtrar_docentes {
   background: var(--azul);
   color: white;
@@ -5393,7 +5169,6 @@ input.btn_filtrar_docentes {
   -o-border-radius: 5px;
   margin-top: 10px;
 }
-
 .muestra_filtro {
   position: relative;
 }
@@ -5402,7 +5177,6 @@ input.btn_filtrar_docentes {
   color: var(--azul) !important;
   width: 50%;
 }
-
 .tabla_especial_finalizar tfoot {
   font-size: 1.2rem;
 }
@@ -5444,7 +5218,6 @@ input.btn_filtrar_docentes {
 .bg_centro_mobile {
   display: none;
 }
-
 .resultados_listado_docentes {
   border-bottom: 1px solid var(--gris-lineas);
   padding-bottom: 1rem;
@@ -5460,7 +5233,6 @@ input.btn_filtrar_docentes {
   float: left;
   margin: 0;
 }
-
 form.ordenaDocentes {
   float: right;
 }
@@ -5506,11 +5278,11 @@ select#archive-sort {
   justify-content: center;
 }
 
-#centrabtnvercategorias>div {
+#centrabtnvercategorias > div {
   text-align: center;
 }
 
-#centrabtnvercategorias>div .dropdown-content {
+#centrabtnvercategorias > div .dropdown-content {
   z-index: 123;
 }
 
@@ -5531,17 +5303,14 @@ select#archive-sort {
 .woocommerce.membresias ul:before {
   display: none;
 }
-
 .woocommerce.membresias ul.products {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
 }
-
 .woocommerce.membresias ul.products:before {
   display: none;
 }
-
 .decide_membresia {
   background: -webkit-linear-gradient(left, #ff4141 20%, #fc6b4a 99%);
   color: #fff;
@@ -5556,17 +5325,14 @@ select#archive-sort {
   justify-content: center;
   align-items: center;
 }
-
 .decide_membresia p span {
   font-weight: 700;
 }
-
 .decide_membresia p {
   margin: 20px 0;
   font-size: 1.2rem;
   text-align: center;
 }
-
 .decide_membresia strong {
   display: block;
 }
@@ -5578,13 +5344,11 @@ select#archive-sort {
   align-items: center;
   text-align: left;
 }
-
 .cursos_gratis_desktop_home ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .cursos_gratis_desktop_home ul li {
   margin-right: 2% !important;
 }
@@ -5592,7 +5356,6 @@ select#archive-sort {
 .muestraSoloMobile {
   display: none !important;
 }
-
 .muestraSoloDesktop {
   display: flex !important;
 }
@@ -5611,11 +5374,9 @@ div#preguntas_frecuentes_membresia .vc_toggle_title {
   border-bottom: 1px solid var(--gris-lineas);
   padding-bottom: 10px;
 }
-
 .link_profe_carrusel_home {
   background-color: transparent !important;
 }
-
 .link_profe_carrusel_home:hover {
   background-color: transparent !important;
 }
@@ -5635,7 +5396,6 @@ div#preguntas_frecuentes_membresia .vc_toggle_title {
 .whmc-body .carro_vacio .dictado_por span {
   color: gray;
 }
-
 .whmc-body .carro_vacio .dictado_por {
   border-bottom: 1px solid;
   padding-bottom: 5px !important;
@@ -5694,11 +5454,9 @@ p.enlace_profe_home a {
   width: 50%;
   display: inline-block;
 }
-
 .woocommerce-order .col-md-6 {
   margin: auto;
 }
-
 .woocommerce-order .col-md-6 .row {
   display: grid !important;
   grid-template-columns: 1fr;
@@ -5714,7 +5472,6 @@ input.btn_imprimir {
   color: var(--azul);
   font-weight: 700;
 }
-
 input.btn_imprimir:hover {
   color: var(--naranjo);
 }
@@ -5727,12 +5484,11 @@ input.btn_imprimir:hover {
   font-size: 80%;
 }
 
-.cld-like-dislike-wrap.cld-custom>div {
+.cld-like-dislike-wrap.cld-custom > div {
   position: relative;
   min-width: 40px;
 }
-
-.cld-like-dislike-wrap.cld-custom>div span {
+.cld-like-dislike-wrap.cld-custom > div span {
   position: absolute;
   top: 5px;
   left: 0;
@@ -5744,7 +5500,6 @@ input.btn_imprimir:hover {
   line-height: 0;
   border-radius: 50%;
 }
-
 .cld-like-dislike-wrap {
   display: inline-block;
   margin-bottom: 20px;
@@ -5762,11 +5517,9 @@ input.btn_imprimir:hover {
   justify-content: end;
   align-items: center;
 }
-
 .navegacion nav.woocommerce-pagination ul {
   display: block !important;
 }
-
 .navegacion a.back_top {
   padding: 5px 10px;
   margin-right: 10px !important;
@@ -5820,11 +5573,9 @@ input.btn_imprimir:hover {
 .woocommerce-MyAccount-navigation-link--orders a:before {
   background-image: url(./assets/img/historial.svg) !important;
 }
-
 .woocommerce-MyAccount-navigation-link--customer-logout a:before {
   background-image: url(./assets/img/cerrar_perfil.svg) !important;
 }
-
 .woocommerce-MyAccount-navigation-link--customer-logout a:before {
   filter: grayscale(0) !important;
 }
@@ -5847,14 +5598,12 @@ ul.products.columns-3:after,
 ul.products.columns-3:before {
   display: none !important;
 }
-
 .woocommerce-MyAccount-content ul li,
 ul.products.columns-3 li {
   width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
 }
-
 .woocommerce-MyAccount-content ul,
 ul.products.columns-3 {
   display: grid;
@@ -5876,7 +5625,6 @@ ul.compartir_rrss_certificados {
   font-size: 80%;
   font-weight: 900;
 }
-
 ul.compartir_rrss_certificados li {
   border: 0px !important;
   width: auto !important;
@@ -5889,7 +5637,7 @@ ul.compartir_rrss_certificados.disabled a {
   opacity: 0.5 !important;
 }
 
-body .woocommerce-orders-table__cell-order-actions>a:last-child {
+body .woocommerce-orders-table__cell-order-actions > a:last-child {
   margin-bottom: 0 !important;
 }
 
@@ -5950,7 +5698,6 @@ body.logged-in .header .register-link {
 .woocommerce-MyAccount-content .avance_curso {
   display: block;
 }
-
 .avance_curso {
   display: none;
 }
@@ -5960,14 +5707,12 @@ body.logged-in .header .register-link {
   align-items: center;
   justify-content: center;
 }
-
 .woocommerce form.checkout_coupon {
   display: block !important;
   border: 0;
   padding: 0;
   margin: 0;
 }
-
 .woocommerce form.checkout_coupon .form-row {
   width: 100%;
 }
@@ -5986,7 +5731,6 @@ body.logged-in .header .register-link {
 
   font-size: 80%;
 }
-
 .testimonio_empresas .owl-item.center li {
   transform: scale(1);
 }
@@ -6005,19 +5749,16 @@ body.logged-in .header .register-link {
   color: var(--azul-oscuro);
   font-size: 130%;
 }
-
 .img_nombre_testimonio p {
   margin: 0;
   color: #514f4f;
   font-size: 80%;
 }
-
 .img_nombre_testimonio {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
-
 .img_nombre_testimonio img {
   width: 50px !important;
   height: 50px !important;
@@ -6035,23 +5776,19 @@ ul.testimonio_empresas .owl-next {
 ul.testimonio_empresas .owl-prev {
   left: 0;
 }
-
 ul.testimonio_empresas .owl-next {
   right: 0;
 }
-
 .cupon_woocommerce .cupon_checkout {
   background-color: transparent;
   border: none;
   padding-left: 0;
   padding-bottom: 0;
 }
-
 .cupon_woocommerce .cupon_checkout form {
   background-color: #f1f2f2;
   border-radius: 10px;
 }
-
 .detalle_pedido {
   margin-top: -215px;
 }
@@ -6076,7 +5813,7 @@ ul.testimonio_empresas .owl-next {
   margin-bottom: 20px;
 }
 
-.tabla_especial_finalizar tfoot>tr>td:first-child::before {
+.tabla_especial_finalizar tfoot > tr > td:first-child::before {
   content: "Métodos de pago";
   float: left;
   font-size: 1rem;
@@ -6140,7 +5877,6 @@ div#totalcla span.woocommerce-Price-amount.amount {
   height: 30px !important;
   overflow: hidden !important;
 }
-
 .whmc-bottom-part .couplonfield {
   display: none !important;
 }
@@ -6169,7 +5905,6 @@ button.whmc-coupon-submit.whmc-button {
   margin: 16px;
   padding: 0 !important;
 }
-
 #preguntasfrecuentesBakery ul.vc_tta-tabs-list {
   display: flex !important;
   align-items: center !important;
@@ -6187,18 +5922,15 @@ div#preguntasfrecuentesBakery a:after,
 #preguntasfrecuentesBakery ul.vc_tta-tabs-list li:last-child {
   margin-right: 0;
 }
-
 #preguntasfrecuentesBakery ul.vc_tta-tabs-list li:first-child {
   margin-left: 0;
 }
-
 #preguntasfrecuentesBakery ul,
 #preguntasfrecuentesBakery ul li,
 #preguntasfrecuentesBakery ul li a,
 #preguntasfrecuentesBakery ul span {
   transition: 0ms !important;
 }
-
 #preguntasfrecuentesBakery ul a {
   border-radius: 5px;
   text-align: center;
@@ -6234,7 +5966,6 @@ div#preguntasfrecuentesBakery a:after,
   margin: 0 !important;
   height: auto !important;
 }
-
 #preguntasfrecuentesBakery .vc_toggle_title {
   padding: 0;
   border-bottom: 1px solid lightgray;
@@ -6286,7 +6017,6 @@ div#preguntasfrecuentesBakery a:after,
   display: flex;
   text-align: center;
 }
-
 .fondo_centro_ayuda {
   background-size: cover !important;
   background-position: center !important;
@@ -6309,7 +6039,6 @@ div#preguntasfrecuentesBakery a:after,
 .resultado_busqueda_mobile .vc_toggle_content {
   margin-bottom: 1rem;
 }
-
 .resultado_busqueda .vc_toggle_content,
 .resultado_busqueda .vc_toggle_title,
 .resultado_busqueda_mobile .vc_toggle_content,
@@ -6318,12 +6047,10 @@ div#preguntasfrecuentesBakery a:after,
   margin: 0;
   padding: 10px;
 }
-
 .resultado_busqueda .vc_toggle_title h4,
 .resultado_busqueda_mobile .vc_toggle_title h4 {
   font-size: 1rem !important;
 }
-
 .resultado_busqueda,
 .resultado_busqueda_mobile {
   margin-top: 2rem;
@@ -6358,7 +6085,6 @@ input#palabras_buscar_mobile {
   margin-left: 10px;
   margin-top: 4px;
 }
-
 .item_buscar.relative {
   background: white;
   border-radius: 5px;
@@ -6367,7 +6093,7 @@ input#palabras_buscar_mobile {
   text-align: left;
 }
 
-.carrusel_docentes ul li>div {
+.carrusel_docentes ul li > div {
   padding-left: 20px;
 }
 
@@ -6386,7 +6112,7 @@ input#palabras_buscar_mobile {
   grid-gap: 5px;
 }
 
-.checkout .row.row_especial>div {
+.checkout .row.row_especial > div {
   width: 100%;
 }
 
@@ -6401,7 +6127,7 @@ input#palabras_buscar_mobile {
 #pm_menu .add_to_cart_button {
   display: inline-flex !important;
   width: auto !important;
-  padding: 5px 4px !important;
+  padding: 5px 15px !important;
   font-size: 10px;
   margin-top: 3px !important;
 }
@@ -6431,7 +6157,6 @@ div#preguntasfrecuentesBakery .vc_active .vc_tta-panel-title a {
   padding: 10px;
   transition: 0ms !important;
 }
-
 div#preguntasfrecuentesBakery .vc_tta-panel-title,
 div#preguntasfrecuentesBakery .vc_active .vc_tta-panel-title,
 div#preguntasfrecuentesBakery {
@@ -6492,7 +6217,6 @@ div#preguntasfrecuentesBakery .vc_tta-panel-body {
 #info_contacto ul li:nth-child(2) {
   margin: 0 30px;
 }
-
 #info_contacto ul {
   margin: 0;
   padding: 2rem 0;
@@ -6514,22 +6238,21 @@ div#preguntasfrecuentesBakery .vc_tta-panel-body {
 .my_account_orders a.button.pay {
   background: var(--turquesa) !important;
 }
-
 .woocommerce table.my_account_orders td {
-  border-bottom: 1px solid var(--gris-lineas) !important;
-  padding: 1rem 0 !important;
+  border-bottom: 1px solid var(--gris-lineas)!important;
+  padding: 1rem 0!important;
 }
 
 .woocommerce table.my_account_orders,
 .woocommerce table.my_account_orders td,
 .woocommerce table.my_account_orders tr {
-  border: 0px !important;
+  border: 0px!important;
 }
 
 
 .woocommerce-orders-table__cell-order-number a {
   font-weight: 700;
-  text-decoration: none !important;
+  text-decoration: none!important;
   color: var(--azulk-oscuro);
 }
 
@@ -6540,12 +6263,12 @@ div#preguntasfrecuentesBakery .vc_tta-panel-body {
 }
 
 table.my_account_orders {
-  border: 0px !important;
-  border: 0px !important;
+  border: 0px!important;
+  border: 0px!important;
 }
 
 .woocommerce-orders-table__cell-order-actions a {
-  margin: 2px !important;
+  margin: 2px!important;
 }
 
 .woocommerce-orders-table__cell-order-actions {
@@ -6567,47 +6290,37 @@ body:has(.pm_open) {
   overflow: auto !important;
   justify-content: space-between !important;
 }
-
 .whmc-cart-item-wrap {
   flex: 1 !important;
   height: auto !important;
   max-height: initial !important;
 
 }
-
 .whmc-body .whmc-cart-item-wrap {
   max-height: initial !important;
 }
-
 .whmc-bottom-part {
   min-height: initial !important;
 }
-
 .whmc-bottom-part p {
-  margin-bottom: 5px !important;
-  ;
+  margin-bottom: 5px !important;;
   font-size: 14px !important;
 }
-
 .medio_de_pago {
   width: 70% !important;
 }
-
 #pm_menu span.whmc-cart-total-amount span.woocommerce-Price-amount.amount {
   font-size: 20px !important;
 }
-
 #pm_menu .whmc-cart-items-inner {
   display: flex !important;
   align-items: flex-start !important;
 }
-
 @media (max-width: 320px) {
   .whmc-cart-items-inner .cart-item-data-field {
     width: 66% !important;
   }
 }
-
 @media (max-width: 768px) {
 
   #pm_menu .whmc-cart-items-inner {
@@ -6638,9 +6351,7 @@ body:has(.pm_open) {
     max-height: initial !important;
   }
 }
-
 /* SIDEBAR CART */
-
 /* BANNER DATOS DE CONTACTO */
 .info_contacto_sobreisil {
   border-radius: 10px;
@@ -6648,9 +6359,6 @@ body:has(.pm_open) {
   margin-bottom: 40px !important;
   display: block;
 }
-
-
-
 @media (max-width: 768px) {
 
   #info_contacto ul {
@@ -6710,7 +6418,81 @@ body:has(.pm_open) {
   position: relative;
   display: block;}
 /* BANNER DATOS DE CONTACTO */
+/* ISIL CONTENIDOS */
+.isilRow_container_no_fullwidth, .isilRow_container_no_fullwidth_v2 .vc_column-inner
+{
+  max-width: 1320px !important;
+  margin: auto !important;
+  position:relative !important;
+}
+/* ISIL CONTENIDOS */
+/* AJUSTE OWL CARRUSEL */
+@media (max-width: 600px){
+  .carrusel_docentes ul li {    
+    justify-content: center !important;
+  }
+}
+/* AJUSTE OWL CARRUSEL */
+/* AJUSTE HOME CURSOS GRATIS CARRUSEL */
+.max_width_600px
+{
+  max-width: 600px !important;
+}
+/* AJUSTE HOME CURSOS GRATIS CARRUSEL*/
+/* AJUSTE DE LOS BREADCRUMS */
+#breadcrumbs
+{
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aling_center_detalle_pay [type="button"]{margin: 0 auto;
+  position: relative;
+  display: block;}
+/* AJUSTE DE LOS BREADCRUMS */
+/* MEJORAS SIDEBAR DE FILTROS Y LISTADOS */
+@media (max-width: 1200px){
+  .listado_docentes
+  {
+    font-size:12px !important;
+  }
+}
 
+@media (max-width: 768px){
+  .woocommerce-MyAccount-content ul, ul.products.columns-3
+  {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  ul.listado_profe {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .ajuste-isil-sidebar
+  {
+    position:absolute !important;
+  }
+  .ajuste-isil-contenido
+  {
+    width:100% !important;
+  }
+  .membresia_plp_mobile
+  {
+    display:none !important;
+  }
+}
+@media (max-width: 620px){
+  ul.listado_profe {
+    grid-template-columns: 1fr !important;
+  }
+  .woocommerce-MyAccount-content ul, ul.products.columns-3
+  {
+    grid-template-columns: 1fr !important;
+  }
+  .membresia_plp_mobile
+  {
+    display:block !important;
+  }
+}
+/* MEJORAS SIDEBAR DE FILTROS Y LISTADOS */
 /*****************************/
 /* MODIFICADO POR ISIL C.A. */
 /*****************************/

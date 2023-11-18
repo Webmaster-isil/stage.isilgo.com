@@ -41,8 +41,18 @@ defined('ABSPATH') || exit;
 									$product_permalink = apply_filters('woocommerce_cart_item_permalink', $_product->is_visible() ? $_product->get_permalink($cart_item) : '', $cart_item, $cart_item_key);
 									$thumbnail = apply_filters('woocommerce_cart_item_thumbnail', $_product->get_image(), $cart_item, $cart_item_key);
 									$link_foto  = get_the_post_thumbnail_url($_product->get_id());
+									
+									/* MODIFICADO POR ISIL C.A. */
+									$variacion = wc_get_product($_product->get_id());
+									$variation_image_id = $variacion->get_image_id();
+									if($variation_image_id)
+									{
+										$link_foto = wp_get_attachment_url($variation_image_id);
+									}
+									/* MODIFICADO POR ISIL C.A. */
+									
 									if (!$product_permalink) {
-										echo $thumbnail; // PHPCS: XSS ok.
+										echo $thumbnail; // PHPCS: XSS ok.										
 									} else {
 										printf('<a style="background-image:url(' . $link_foto . ')" class="custom_image_cart" href="%s"></a>', esc_url($product_permalink), $thumbnail); // PHPCS: XSS ok.
 									}

@@ -71,10 +71,6 @@ add_action("wp_ajax_nopriv_revisaCarritoMembresia", "revisaCarritoMembresia");
 
 add_filter('woocommerce_cart_redirect_after_error', '__return_false');
 
-
-
-
-
 // add_action( 'wp_enqueue_scripts', 'WHMC-js');
 
 /* SOPORTES */
@@ -93,7 +89,18 @@ register_nav_menus(array('menu' => 'Menu'));
 
 function my_theme_wrapper_start()
 {
-    echo '<div class="container pt-3"><div class="row">';
+    /* MODIFICADO POR ISIL */
+    $post_id = get_the_ID();
+    //echo $post_id;
+    if (in_array($post_id, array(9480,398, 501)))
+    {
+        echo '<div class="container-xl pt-3"><div class="row">';
+    }    
+    else
+    {
+        echo '<div class="container pt-3"><div class="row">';
+    }
+    /* MODIFICADO POR ISIL */
 }
 function my_theme_wrapper_end()
 {
@@ -889,9 +896,31 @@ function custom_woocommerce_auto_complete_order($order_id)
     if (!$order_id) {
         return;
     }
-
     $order = wc_get_order($order_id);
     $order->update_status('completed');
+}
+
+add_action( 'woocommerce_before_thankyou', 'wp_woocommerce_thankyou_action' );
+function wp_woocommerce_thankyou_action($order_id){
+	$order = wc_get_order($order_id);
+	$userdata = array(
+	'ID' => get_current_user_id(),
+	'display_name' => "{$order-> get_billing_first_name()} {$order-> get_billing_last_name()}",
+	);
+	wp_update_user($userdata);
+	
+	$phone = $order->get_billing_phone();
+	$first_name = $order->get_billing_first_name();
+	$last_name = $order->get_billing_last_name();
+	$metas = array( 
+		'telefono'   => $phone,
+		'first_name' => $first_name, 
+		'last_name'  => $last_name,
+	);
+
+	foreach($metas as $key => $value) {
+		update_user_meta( get_current_user_id(), $key, $value );
+	}
 }
 
 add_action('woocommerce_checkout_order_created', 'save_regalo_queue');
@@ -1956,3 +1985,12 @@ function dictadoPor()
 
     die();
 }
+
+function disable_browser_cache() {
+    header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+    header("Cache-Control: post-check=0, pre-check=0", false);
+    header("Pragma: no-cache");
+}
+
+add_action('init', 'disable_browser_cache');
+

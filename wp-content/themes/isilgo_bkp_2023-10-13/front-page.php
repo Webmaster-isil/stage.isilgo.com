@@ -2,10 +2,9 @@
 
 get_template_part('./template-parts/carrusel');
 ?>
-<div class="container">
-
+<!-- MODIFICADO POR ISIL C.A. -->
+<div>
     <?php the_content(); ?>
-
 </div>
-
+<!-- MODIFICADO POR ISIL C.A. -->
 <?php get_footer(); ?>
