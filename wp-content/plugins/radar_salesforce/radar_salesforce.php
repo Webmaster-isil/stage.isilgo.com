@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Plugin Name: Salesforce
@@ -42,9 +43,10 @@ function create_salesforce_customer( $user, $resource_owner ) {
 		'recordType'      => '0122S000000DLhf', //Lead Record Type (ISIL GO)
 		'00N2S000007S7ro' => date( 'd/m/Y' ), //Fecha Registro ISIL Go
 		'lead_source'     => 'Web to Lead',
-		'oid'             => '00D3I0000008lXO'
+		'oid'             => '00Df4000003B0C9'
 	);
-	$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
+// 	$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
+	$url = 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';	
 	genera_lead( $lead_data, $url, 'nuevo usuario' );
 }
 
@@ -79,10 +81,11 @@ function update_salesforce_customer( $customer_id, $customer ) {
 		"00N2S000007RuME" => '', //Interés 2
 		"00N2S000007RuMT" => '', //Interés 3
 		"00N2S000007RuMP" => '', //Interés 4
-		"oid"             => '00D3I0000008lXO'
+		"oid"             => '00Df4000003B0C9'
 	);
 
-    $url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
+//     $url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
+	$url = 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
 	genera_lead( $lead_data, $url, 'actualiza usuario');
 }
 
@@ -106,9 +109,11 @@ function send_company_form( $cf7form, $result ) {
 				'00Nf400000TUZyL' => 's737', //Sub-origen contacto
 				'recordType'      => '0122S0000006HXV', //Lead record type
 				'lead_source'     => 'Web to Lead',
-				'oid'             => '00D3I0000008lXO'
+				'oid'             => '00Df4000003B0C9'
 			);
-			$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
+// 			$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
+			$url = 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
+			
 			genera_lead( $lead_data, $url, 'empresa');
 		}
 	}
@@ -236,7 +241,7 @@ error_reporting(E_ALL);
 		"00N2S000007RuME" => $_REQUEST['account_interes_2'], //Interés 2
 		"00N2S000007RuMT" => $_REQUEST['account_interes_3'], //Interés 3
 		"00N2S000007RuMP" => $_REQUEST['account_interes_4'], //Interés 4
-		"oid"             => '00D3I0000008lXO'
+		"oid"             => '00Df4000003B0C9'
 	);
 	
 	if($_REQUEST['account_company'] && $_REQUEST['account_company'] != ''){ $data->set_billing_company($_REQUEST['account_company']); }
@@ -247,7 +252,8 @@ error_reporting(E_ALL);
 	
 	$data->save();
 
-	$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
+// 	$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
+	$url = 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
 	genera_lead( $lead_data, $url, 'actualiza usuario');
     
 }
