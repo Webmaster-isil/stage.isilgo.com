@@ -149,11 +149,6 @@ if($variable==1){
 		nuestros cursos, materiales de aprendizaje y recursos exclusivos. Te garantizamos una experiencia 
 		de aprendizaje de alta calidad que te ayudará a alcanzar tus metas educativas y profesionales.
 		<br>
-		Aquí hay algunos detalles clave sobre tu membresía: 
-		<br><br>
-		Fecha de inicio de la membresía: <?php echo $fecha_suscripcion; ?><br>
-		Fecha de Fin de la membresía: <?php echo $fecha_expiracion; ?>
-		<br><br>
 	</p>
 	<?php
 }
@@ -225,6 +220,5 @@ if ( $additional_content ) {
  * @hooked WC_Emails::email_footer() Output the email footer
  */
 do_action( 'woocommerce_email_footer', $email );
-
 
 
