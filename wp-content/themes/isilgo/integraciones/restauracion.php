@@ -1,47 +1,79 @@
 <?php 
+// 1
 add_action('wp_ajax_crearCursos', 'crearCursos');
 add_action('wp_ajax_nopriv_crearCursos', 'crearCursos');
+// 2
 add_action('wp_ajax_actualizarCursos', 'actualizarCursos');
 add_action('wp_ajax_nopriv_actualizarCursos', 'actualizarCursos');
-add_action('wp_ajax_asociarCursos', 'asociarCursos');
-add_action('wp_ajax_nopriv_asociarCursos', 'asociarCursos');
+// 3
 add_action('wp_ajax_crearProfesores', 'crearProfesores');
 add_action('wp_ajax_nopriv_crearProfesores', 'crearProfesores');
+// 4
 add_action('wp_ajax_actualizarProfesores', 'actualizarProfesores');
 add_action('wp_ajax_nopriv_actualizarProfesores', 'actualizarProfesores');
-add_action('wp_ajax_actualizarCursosReview', 'actualizarCursosReview');
-add_action('wp_ajax_nopriv_actualizarCursosReview', 'actualizarCursosReview');
+// 5
 add_action('wp_ajax_crearAlumnos', 'crearAlumnos');
 add_action('wp_ajax_nopriv_crearAlumnos', 'crearAlumnos');
+
+// ESTE DEPENDE DE QUE EXISTAN LOS ALUMNOS Y LOS CURSOS 
+add_action('wp_ajax_asociarCursos', 'asociarCursos');
+add_action('wp_ajax_nopriv_asociarCursos', 'asociarCursos');
+
+// ESTE DEPENDE DE QUE EXISTASN LOS CURSOS, Y LOS PROFESORES
+add_action('wp_ajax_actualizarCursosReview', 'actualizarCursosReview');
+add_action('wp_ajax_nopriv_actualizarCursosReview', 'actualizarCursosReview');
+
+// DEPENDE DE QUE EXISTAN LOS CURSOS 
 add_action('wp_ajax_planesDeEstudio', 'planesDeEstudio');
 add_action('wp_ajax_nopriv_planesDeEstudio', 'planesDeEstudio');
+
+// DEPENDE DE QUE EXISTAN CURSOS 
 add_action('wp_ajax_atributosCursos', 'atributosCursos');
 add_action('wp_ajax_nopriv_atributosCursos', 'atributosCursos');
+
+// DEPENDE QUE EXISTAN CURSOS Y PROFESORES 
 add_action('wp_ajax_asignarCursosProfesores', 'asignarCursosProfesores');
 add_action('wp_ajax_nopriv_asignarCursosProfesores', 'asignarCursosProfesores');
+
+// DEPENDE DE QUE EXISTAN LOS PROFESORES 
 add_action('wp_ajax_cargarCargosProfesores', 'cargarCargosProfesores');
 add_action('wp_ajax_nopriv_cargarCargosProfesores', 'cargarCargosProfesores');
+
+// DEPENDE DE LOS ALUMNOS Y DE LOS CURSOS Y D ELOS PROFESORES 
 add_action('wp_ajax_cargarEvaluacionCurso', 'cargarEvaluacionCurso');
 add_action('wp_ajax_nopriv_cargarEvaluacionCurso', 'cargarEvaluacionCurso');
+
+// DEPENDE DE LOS CURSOS 
 add_action('wp_ajax_cargarInfoCurso', 'cargarInfoCurso');
 add_action('wp_ajax_nopriv_cargarInfoCurso', 'cargarInfoCurso');
+
+// DEPENDE SOLO DE LOS ALUMNOS Y DE SUS CURSOS
 add_action('wp_ajax_cargarCertificados', 'cargarCertificados');
 add_action('wp_ajax_nopriv_cargarCertificados', 'cargarCertificados');
+
+// DEPENDE DE LOS ALUMNOS Y USUARIOS (PROFESORES)
 add_action('wp_ajax_cargarDNIDATA', 'cargarDNIDATA');
 add_action('wp_ajax_nopriv_cargarDNIDATA', 'cargarDNIDATA');
+
+// DEPENDE DE LOS ALUMNOS 
 add_action('wp_ajax_cargarMembresias', 'cargarMembresias');
 add_action('wp_ajax_nopriv_cargarMembresias', 'cargarMembresias');
+
+// DEPENDEN DE LOS CURSOS
 add_action('wp_ajax_cargarCupones', 'cargarCupones');
 add_action('wp_ajax_nopriv_cargarCupones', 'cargarCupones');
+
+// DEPENDE DE QUE EXISTAN PROFESORES 
 add_action('wp_ajax_asociarCategoriasProfe', 'asociarCategoriasProfe');
 add_action('wp_ajax_nopriv_asociarCategoriasProfe', 'asociarCategoriasProfe');
 
-
 /* codigo brindado por radar*/
+// DEPENDE DE LOS CURSOS
 add_action('wp_ajax_cargarMetadata', 'cargarMetadata');
 add_action('wp_ajax_nopriv_cargarMetadata', 'cargarMetadata');
-add_action('wp_ajax_actualziarCuponesSegundoCheck', 'actualziarCuponesSegundoCheck');
-add_action('wp_ajax_nopriv_actualziarCuponesSegundoCheck', 'actualziarCuponesSegundoCheck');
+
+// add_action('wp_ajax_actualziarCuponesSegundoCheck', 'actualziarCuponesSegundoCheck');
+// add_action('wp_ajax_nopriv_actualziarCuponesSegundoCheck', 'actualziarCuponesSegundoCheck');
 
 
 
@@ -49,7 +81,7 @@ function cargarDNIDATA(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
@@ -129,7 +161,7 @@ function cargarCertificados(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
@@ -214,7 +246,7 @@ function cargarCupones(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexión */
     if ($mysqli->connect_errno) {
@@ -250,7 +282,7 @@ function cargarCupones(){
                 update_post_meta( $new_coupon_id, 'discount_type', 'percent' );                
                 update_post_meta( $new_coupon_id, 'coupon_amount', $fila['descuento']);                
                 update_post_meta( $new_coupon_id, 'individual_use', 'yes' );
-                update_post_meta( $new_coupon_id, 'exclude_sale_items', 'yes' );
+                update_post_meta( $new_coupon_id, 'exclude_sale_items', 'no' );
                 
                                 
                 if($ids_productos){ update_post_meta( $new_coupon_id, 'product_ids',  implode(', ', $ids_productos )); }                
@@ -267,8 +299,7 @@ function cargarCupones(){
                 $mysqli->query($consulta);
                 echo "Creado con éxito....";
 
-            } else {
-                
+            } else {                
                 $consulta = "UPDATE `coupon` SET `estado` = '2' WHERE `id_coupon` = '".$fila['id_coupon']."'";  
                 $mysqli->query($consulta);
                 echo "No creado....";
@@ -284,7 +315,7 @@ function cargarMembresias(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexión */
     if ($mysqli->connect_errno) {
@@ -292,7 +323,7 @@ function cargarMembresias(){
         exit();
     }    
     $consulta = "SELECT `student`.`email`, `student_membership`.`id_student_membership` ,`student_membership`.`fecha_limite`, `student_membership`.`id_membership` 
-    FROM `student_membership` INNER JOIN `student` ON `student`.`id_student` = `student_membership`.`id_student` WHERE `student_membership`.`estado` = 3 LIMIT 200;";
+    FROM `student_membership` INNER JOIN `student` ON `student`.`id_student` = `student_membership`.`id_student` WHERE `student_membership`.`estado` = 0 LIMIT 200;";
 
     if ($resultado = $mysqli->query($consulta)) {  
         $i = 0;             
@@ -354,14 +385,14 @@ function actualizarCursos(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
         printf("Conexión fallida: %s\n", $mysqli->connect_error);
         exit();
     }    
-    $consulta = "SELECT * FROM `course` WHERE estado = 0 LIMIT 100";
+    $consulta = "SELECT * FROM `course` WHERE estado = 0";
     
     if ($resultado = $mysqli->query($consulta)) {
         //tener un array asociativo */
@@ -392,7 +423,7 @@ function actualizarCursos(){
                 // }
 
                 $producto->save();
-                echo 'Producto Actualizado: <a href="https://isilgo.dev.radar.cl/wp-admin/post.php?post='.$id_producto.'&action=edit" target="_blank">'.$fila['nombre'].'</a>';          
+                echo 'Producto Actualizado: <a href="https://stage2.isilgo.com/wp-admin/post.php?post='.$id_producto.'&action=edit" target="_blank">'.$fila['nombre'].'</a>';          
                 $consulta = "UPDATE `course` SET `estado` = '3' WHERE `id_curso` = '".$fila['id_curso']."'";  
                 $mysqli->query($consulta);           
                 echo '<br>';
@@ -406,7 +437,7 @@ function crearCursos(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
@@ -414,7 +445,7 @@ function crearCursos(){
         exit();
     }
     
-    $consulta = "SELECT * FROM `course` WHERE estado = 0 LIMIT 20";
+    $consulta = "SELECT * FROM `course` WHERE estado = 0";
     
     if ($resultado = $mysqli->query($consulta)) {
         //tener un array asociativo */
@@ -458,8 +489,9 @@ function cargarInfoCurso(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+    $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
+
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
         printf("Conexión fallida: %s\n", $mysqli->connect_error);
@@ -498,7 +530,7 @@ function cargarEvaluacionCurso(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
@@ -543,7 +575,7 @@ function cargarCargosProfesores(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
@@ -599,7 +631,7 @@ function asignarCursosProfesores(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
@@ -669,7 +701,7 @@ function actualizarCursosReview(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
@@ -721,7 +753,7 @@ function actualizarProfesores(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
@@ -729,7 +761,7 @@ function actualizarProfesores(){
         exit();
     }
     
-    $consulta = "SELECT * FROM professor WHERE estado = 1 LIMIT 20";
+    $consulta = "SELECT * FROM professor WHERE estado = 1";
     
     if ($resultado = $mysqli->query($consulta)) {
         //tener un array asociativo */
@@ -803,7 +835,7 @@ function crearProfesores(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
@@ -873,7 +905,7 @@ function crearAlumnos(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la Conexión */
     if ($mysqli->connect_errno) {
@@ -944,14 +976,15 @@ function asociarCursos(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");    
+    $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");    
     if ($mysqli->connect_errno) {
         printf("Conexión fallida: %s\n", $mysqli->connect_error);
         exit();
-    }    
+    }  
+    $registroPorLotes = 1000;  
     $consulta = "SELECT `student`.email, `student`.id_student, `student_course`.`id_student_course` ,`student_course`.`id_course`, `student_course`.avance 
     FROM `student_course` INNER JOIN `student` ON `student`.id_student = `student_course`.`id_student`
-    WHERE `student_course`.estado = 0 LIMIT 2000;";        
+    WHERE `student_course`.estado = 0 LIMIT $registroPorLotes;";        
     if ($resultado = $mysqli->query($consulta)) {        
         $i = 0;
         while ($fila = $resultado->fetch_assoc()) {            
@@ -961,12 +994,14 @@ function asociarCursos(){
                 $id_producto = wc_get_product_id_by_sku($fila['id_course']);
                 $producto = false;
                 if($id_producto) { $producto = wc_get_product($id_producto); }                                                
-                if($producto){
-
+                
+                 //cortado                
+                 if($producto){
                     $cursos = get_field('mis_cursos', 'user_'.$user->ID);
                     $estado = 'iniciado';
                     if($fila['avance'] == '100'){ $estado = 'finalizado'; }  
-                    if($cursos){
+                      //cortado2 
+                      if($cursos){
                         $switch = 0;
                         foreach ($cursos as $key => $value) {                            
                             if($id_producto == $value['curso']){
@@ -1002,17 +1037,19 @@ function asociarCursos(){
                         );    
                                                                        
                         add_row('mis_cursos', $datos, 'user_' . $user->ID);
-                    }                                    
+                    }             
                     $consulta = "UPDATE `student_course` SET `estado` = '1' WHERE `id_student_course` = '".$fila['id_student_course']."'";                
-                    $mysqli->query($consulta);
+                    $mysqli->query($consulta); 
                 }else{
                     $consulta = "UPDATE `student_course` SET `estado` = '2' WHERE `id_student_course` = '".$fila['id_student_course']."'";                
                     $mysqli->query($consulta);
-                }                
+                }
+             
             }else{
                 $consulta = "UPDATE `student_course` SET `estado` = '3' WHERE `id_student_course` = '".$fila['id_student_course']."'";                
                 $mysqli->query($consulta);
             }
+            //fin de cortado
                         
             echo '<br>';  
             $i++;     
@@ -1034,7 +1071,7 @@ function planesDeEstudio(){
     // 3 no encuentra el curso
     // 4 sin plan
         
-    $mysqli = new mysqli("localhost", "isilgodevradar_usr", "Dy~4G{m(S3wx", "isilgodevradar_bckp2");
+  $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");
     
     /* verificar la conexi贸n */
     if ($mysqli->connect_errno) {
@@ -1168,9 +1205,8 @@ function atributosCursos(){
 function cargarMetadata(){
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-
-    $mysqli = new mysqli('10.0.6.40', 'ecommerce_usr', 'hSg%34fdFsre$F', 'isilgo_qa_ecommerce_db');        
+    error_reporting(E_ALL);   
+    $mysqli = new mysqli("ecommerce-db-instance-1.c6dtz61dw11m.us-east-1.rds.amazonaws.com", "ecommerce_usr_qa2", 'hSg%34fdFsre$F', "isilgo_stage2_ecommerce_db");       
     /* verificar la conexion */
     if ($mysqli->connect_errno) {
         printf("Conexión fallida: %s\n", $mysqli->connect_error);
@@ -1189,17 +1225,14 @@ function cargarMetadata(){
         
             $id_producto = wc_get_product_id_by_sku($fila['id_curso']);
             $producto = false;
-            if($id_producto) { $producto = wc_get_product($id_producto); }  //307 id_producto                                              
+            if($id_producto) { $producto = wc_get_product($id_producto); }                                                
             if($producto){
-                echo $producto->get_id(). ' '. $producto->get_name(); //50 metas que imprimio
-     
+                echo $producto->get_id(). ' '. $producto->get_name();
+
                 update_post_meta($producto->get_id(), '_yoast_wpseo_title', $fila['title']); 
                 update_post_meta($producto->get_id(), '_yoast_wpseo_metadesc', $fila['description']); 
                 update_post_meta($producto->get_id(), '_yoast_wpseo_focuskw', str_replace(',', ' ', $fila['keywords'])); 
-                 
-                
-
-
+                                    
                 $consulta = "UPDATE `course_meta_tag` SET `estado` = '1' WHERE `id_tag` = '".$fila['id_tag']."'";  
                 $mysqli->query($consulta);           
                 echo '<br>';

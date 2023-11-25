@@ -113,7 +113,10 @@ if (!$estadoMembresia && !$cursoComprado) {
             )
         );
     }*/
-} else if (($estadoMembresia && !$esMembresia) || ($cursoComprado && !$esMembresia)) { ?>
+} else if (($estadoMembresia && !$esMembresia) || ($cursoComprado && !$esMembresia)) {
+	// si tu cuenta tiene menbresia,el curso unamenbresia,|| 
+	//es un curso y lo tienes comprado, no es menbresia
+	?>
 	<a href="#" class="ir_curso_pdp membresiaAjax">Ir al curso
 		<div class="loaderCustom"></div>
 	</a>
