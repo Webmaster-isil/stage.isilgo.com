@@ -1,4 +1,3 @@
-
 <?php
 /**
  * Plugin Name: Salesforce
@@ -25,29 +24,32 @@ function so_26675676_your_function($user_login, $user) {
 function create_salesforce_customer( $user, $resource_owner ) {
 
 	$new_user = get_userdata($user->ID);
+	$exists = get_user_meta($user->ID, 'created_salesforce', true);
+	if(empty($exists)){
 
-	$nombre = get_user_meta($user->ID, 'first_name', true);
-	$apellido = get_user_meta($user->ID, 'last_name', true);
-	$telefono = get_user_meta($user->ID, 'telefono', true);
-	asignarComunidadIsil($user);
-	$lead_data = array(
-		'first_name'      => $nombre,
-		'last_name'       => $apellido,
-		'company'         => $nombre . ' ' . $apellido,
-		'email'           => $new_user->user_email,
-		'00Nf400000TUbiN' => $telefono, //celular
-		'00N2S000007Bt0I' => 1, //terminos y condiciones
-		'00Nf400000TUZxy' => 'f077', //Formulario Web / Cod ISIL
-		'00Nf400000TUZy9' => '82', //Origen de Contacto / Cod ISIL
-		'00Nf400000TUZyL' => 's751', //Sub-Origen de Contacto / Cod ISIL
-		'recordType'      => '0122S000000DLhf', //Lead Record Type (ISIL GO)
-		'00N2S000007S7ro' => date( 'd/m/Y' ), //Fecha Registro ISIL Go
-		'lead_source'     => 'Web to Lead',
-		'oid'             => '00Df4000003B0C9'
-	);
-// 	$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
-	$url = 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';	
-	genera_lead( $lead_data, $url, 'nuevo usuario' );
+		$nombre = get_user_meta($user->ID, 'first_name', true);
+		$apellido = get_user_meta($user->ID, 'last_name', true);
+		$telefono = get_user_meta($user->ID, 'telefono', true);
+		asignarComunidadIsil($user);
+		$lead_data = array(
+			'first_name'      => $nombre,
+			'last_name'       => $apellido,
+			'company'         => $nombre . ' ' . $apellido,
+			'email'           => $new_user->user_email,
+			'00Nf400000TUbiN' => $telefono, //celular
+			'00N2S000007Bt0I' => 1, //terminos y condiciones
+			'00Nf400000TUZxy' => 'f077', //Formulario Web / Cod ISIL
+			'00Nf400000TUZy9' => '82', //Origen de Contacto / Cod ISIL
+			'00Nf400000TUZyL' => 's751', //Sub-Origen de Contacto / Cod ISIL
+			'recordType'      => '0122S000000DLhf', //Lead Record Type (ISIL GO)
+			'00N2S000007S7ro' => date( 'd/m/Y' ), //Fecha Registro ISIL Go
+			'lead_source'     => 'Web to Lead',
+			'oid'             => '00D3I0000008lXO'
+		);
+		$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
+		genera_lead( $lead_data, $url, 'nuevo usuario' );
+		update_user_meta($user->ID, 'created_salesforce', true);
+	}
 }
 
 function update_salesforce_customer( $customer_id, $customer ) {
@@ -81,11 +83,10 @@ function update_salesforce_customer( $customer_id, $customer ) {
 		"00N2S000007RuME" => '', //Interés 2
 		"00N2S000007RuMT" => '', //Interés 3
 		"00N2S000007RuMP" => '', //Interés 4
-		"oid"             => '00Df4000003B0C9'
+		"oid"             => '00D3I0000008lXO'
 	);
 
-//     $url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
-	$url = 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
+    $url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
 	genera_lead( $lead_data, $url, 'actualiza usuario');
 }
 
@@ -109,11 +110,9 @@ function send_company_form( $cf7form, $result ) {
 				'00Nf400000TUZyL' => 's737', //Sub-origen contacto
 				'recordType'      => '0122S0000006HXV', //Lead record type
 				'lead_source'     => 'Web to Lead',
-				'oid'             => '00Df4000003B0C9'
+				'oid'             => '00D3I0000008lXO'
 			);
-// 			$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
-			$url = 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
-			
+			$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
 			genera_lead( $lead_data, $url, 'empresa');
 		}
 	}
@@ -150,7 +149,9 @@ function getGmt(){
 function asignarComunidadIsil($user){
 // 	$user->set_role('customer');  
 	$rol = get_user_meta($user->ID, 'nickname_isil', true);
-	if($rol && $rol != ''){
+	$documento = get_field('nro_documento', 'user_' . $user->ID);
+	$rol = !empty($rol) ? $rol : $documento;
+	if(!empty($rol)){
 		$url_API = get_field('url_api_isil', 'options');    
         $token_API = get_field('token_api_isil', 'options');
         $permisos_API = get_field('permisos_api_isil', 'options');
@@ -241,7 +242,7 @@ error_reporting(E_ALL);
 		"00N2S000007RuME" => $_REQUEST['account_interes_2'], //Interés 2
 		"00N2S000007RuMT" => $_REQUEST['account_interes_3'], //Interés 3
 		"00N2S000007RuMP" => $_REQUEST['account_interes_4'], //Interés 4
-		"oid"             => '00Df4000003B0C9'
+		"oid"             => '00D3I0000008lXO'
 	);
 	
 	if($_REQUEST['account_company'] && $_REQUEST['account_company'] != ''){ $data->set_billing_company($_REQUEST['account_company']); }
@@ -252,12 +253,8 @@ error_reporting(E_ALL);
 	
 	$data->save();
 
-// 	$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
-	$url = 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
+	$url = 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3I0000008lXO';
 	genera_lead( $lead_data, $url, 'actualiza usuario');
     
 }
 add_action( 'woocommerce_save_account_details', 'custom_user_profile_fields' );
-
-
-
