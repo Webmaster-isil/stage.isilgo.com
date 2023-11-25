@@ -18,6 +18,9 @@ class RadarNiubizFunction {
 
 	private $endPointAffiliationCharges = "api.posservices/api/v1/service/recurrence.getCharges";
 
+    private $baseUrlDevPos = 'https://apitestposenv.vnforapps.com/';
+    private $baseUrlProdPos = 'https://apipos.vnforapps.com/';
+
     public $endPointSandboxJs = "https://static-content-qas.vnforapps.com/v2/js/checkout.js?qa=true";
     public $endPointDevJs = "https://static-content-qas.vnforapps.com/v2/js/checkout.js?qa=true";
     public $endPointProdJs = "https://static-content.vnforapps.com/v2/js/checkout.js";
@@ -68,6 +71,17 @@ class RadarNiubizFunction {
                 return $this->baseUrlDev;
             case 'prd':
                 return $this->baseUrlProd;
+        }
+    }
+
+    public function getEnvironmentPos($env) {
+        switch ($env) {
+            case 'prd':
+                return $this->baseUrlProdPos;
+            case 'S':
+                return $this->baseUrlDevPos;
+            case 'dev':
+                return $this->baseUrlDevPos;
         }
     }
 
@@ -177,7 +191,7 @@ class RadarNiubizFunction {
     }
 
     public function generateDisaffiliation($env, $terminalId, $merchantId, $merchantName, $datetime, $currencyId, $channelId=6, $amount=0, $dataMap, $token, $save) {
-        $baseUrl = $this->getEnvironment($env);
+        $baseUrl = $this->getEnvironmentPos($env);
         $data = array(
             'terminalId' => $terminalId,
             'merchantId' => $merchantId,
@@ -196,7 +210,7 @@ class RadarNiubizFunction {
     }
 
 	public function getAffiliationList($env, $terminalId, $merchantId, $merchantName, $datetime, $dataMap, $token, $save){
-		$baseUrl = $this->getEnvironment($env);
+		$baseUrl = $this->getEnvironmentPos($env);
 		$data = array(
 			'terminalId' => $terminalId,
 			'merchantId' => $merchantId,
@@ -211,7 +225,7 @@ class RadarNiubizFunction {
 	}
 
 	public function getAffiliationStatus($env, $terminalId, $merchantId, $merchantName, $datetime, $dataMap, $token, $save){
-		$baseUrl = $this->getEnvironment($env);
+		$baseUrl = $this->getEnvironmentPos($env);
 		$data = array(
 			'terminalId' => $terminalId,
 			'merchantId' => $merchantId,
@@ -226,7 +240,7 @@ class RadarNiubizFunction {
 	}
 
 	public function getAffiliatedCharges($env, $terminalId, $merchantId, $merchantName, $datetime, $dataMap, $token, $save){
-		$baseUrl = $this->getEnvironment($env);
+		$baseUrl = $this->getEnvironmentPos($env);
 		$data = array(
 			'terminalId' => $terminalId,
 			'merchantId' => $merchantId,
@@ -247,4 +261,3 @@ class RadarNiubizFunction {
     }
 
 }
-
