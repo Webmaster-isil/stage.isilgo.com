@@ -149,7 +149,9 @@ function getGmt(){
 function asignarComunidadIsil($user){
 // 	$user->set_role('customer');  
 	$rol = get_user_meta($user->ID, 'nickname_isil', true);
-	if($rol && $rol != ''){
+	$documento = get_field('nro_documento', 'user_' . $user->ID);
+	$rol = !empty($rol) ? $rol : $documento;
+	if(!empty($rol)){	
 		$url_API = get_field('url_api_isil', 'options');    
         $token_API = get_field('token_api_isil', 'options');
         $permisos_API = get_field('permisos_api_isil', 'options');
