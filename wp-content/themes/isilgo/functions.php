@@ -6,14 +6,6 @@ include('integraciones/grados.php');
 include('integraciones/restauracion.php');
 session_start();
 
-add_action('wp_logout', 'auto_redirect_after_logout');
-
-function auto_redirect_after_logout()
-{
-    wp_safe_redirect(home_url());
-    exit;
-}
-
 function revisaMembresia()
 {
     $carrito = WC()->cart->get_cart();
@@ -89,13 +81,12 @@ register_nav_menus(array('menu' => 'Menu'));
 
 function my_theme_wrapper_start()
 {
-    /* MODIFICADO POR ISIL */
+   /* MODIFICADO POR ISIL */
     $post_id = get_the_ID();
-    //echo $post_id;
-    if (in_array($post_id, array(9480,398, 501)))
+   if (in_array($post_id, array(9480,398)))
     {
         echo '<div class="container-xl pt-3"><div class="row">';
-    }    
+    }
     else
     {
         echo '<div class="container pt-3"><div class="row">';
@@ -902,13 +893,7 @@ function custom_woocommerce_auto_complete_order($order_id)
 
 add_action( 'woocommerce_before_thankyou', 'wp_woocommerce_thankyou_action' );
 function wp_woocommerce_thankyou_action($order_id){
-	$order = wc_get_order($order_id);
-	$userdata = array(
-	'ID' => get_current_user_id(),
-	'display_name' => "{$order-> get_billing_first_name()} {$order-> get_billing_last_name()}",
-	);
-	wp_update_user($userdata);
-	
+	$order = wc_get_order($order_id);	
 	$phone = $order->get_billing_phone();
 	$first_name = $order->get_billing_first_name();
 	$last_name = $order->get_billing_last_name();
@@ -1264,6 +1249,7 @@ function recientesVistos()
         'orderby' => 'date',
         'order' => 'ASC',
         'post__in' => $listadoFinal,
+		'post__not_in' => $id_carrito,
         'posts_per_page' => 1
     );
 
@@ -1334,7 +1320,7 @@ function recientesVistosCarroVacio()
         <h2><strong>¡Aún no tienes cursos agregados a tu carrito!</strong></h2>
         <p>Acá te mostramos algunos que te podrían interesar</p>
         <?php
-        echo '<ul class="products columns-1">';
+        echo '<ul class="products columns-1 a">';
         if ($the_query->have_posts()) {
 
             echo '<div class="">';
@@ -1689,14 +1675,13 @@ function masVendidosHome()
 
             if ($query->have_posts()) {
                 while ($query->have_posts()) {
-                    $query->the_post();
+                    $query->the_post();					
                     do_action('woocommerce_shop_loop');
-                    wc_get_template_part('content', 'product');
+                    wc_get_template_part('content', 'product');					
                 }
             }
             wp_reset_postdata();
-            ?>
-
+            ?>			
         </ul>
     </div>
     <?php }
@@ -1757,6 +1742,7 @@ function productosRecomendados()
         if ($interes_4) {
             array_push($categorias, $interes_4->term_id);
         }
+		
         if (count($categorias) > 0) {
             $args = array(
                 'number' => 12,
@@ -1803,13 +1789,21 @@ function productosRecomendados()
     ?>
         <h5 style="text-align: center; color: #2e4259;" class="mb-5"><strong>Cursos <span style="color: #3377ff;">recomendados</span></strong></h5>
         <?php
-
+		
         $args = array(
             'post_type' => 'product',
             'posts_per_page' => 12,
             'post_status' => 'publish',
             'order' => 'DESC',
             'orderby' => 'rand',
+            'tax_query' => array(
+                array(
+                    'taxonomy' => 'product_cat',
+                    'field'    => 'id', // Or 'name' or 'term_id'
+                    'terms'    => array(24),
+                    'operator' => 'NOT IN', // Excluded
+                )
+            )
         );
         $loop = new WP_Query($args);
         $product_count = $loop->post_count;
@@ -1986,11 +1980,77 @@ function dictadoPor()
     die();
 }
 
-function disable_browser_cache() {
+/*function disable_browser_cache() {
     header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
     header("Cache-Control: post-check=0, pre-check=0", false);
     header("Pragma: no-cache");
 }
 
-add_action('init', 'disable_browser_cache');
+add_action('init', 'disable_browser_cache');*/
 
+/* SCRIPTS DE OPTIMIZACIÓN 11-19-2023*/
+add_action( 'after_setup_theme', 'prefix_remove_unnecessary_tags' );
+
+function prefix_remove_unnecessary_tags(){
+
+    // REMOVE WP EMOJI
+    remove_action('wp_head', 'print_emoji_detection_script', 7);
+    remove_action('wp_print_styles', 'print_emoji_styles');
+
+    remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+    remove_action( 'admin_print_styles', 'print_emoji_styles' );
+
+    // remove all tags from header
+    remove_action( 'wp_head', 'rsd_link' );
+    remove_action( 'wp_head', 'wp_generator' );
+    remove_action( 'wp_head', 'feed_links', 2 );
+    remove_action( 'wp_head', 'index_rel_link' );
+    remove_action( 'wp_head', 'wlwmanifest_link' );
+    remove_action( 'wp_head', 'feed_links_extra', 3 );
+    remove_action( 'wp_head', 'start_post_rel_link', 10, 0 );
+    remove_action( 'wp_head', 'parent_post_rel_link', 10, 0 );
+    remove_action( 'wp_head', 'adjacent_posts_rel_link', 10, 0 );
+    remove_action( 'wp_head', 'wp_shortlink_wp_head', 10, 0 );
+    remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
+    remove_action( 'wp_head',      'rest_output_link_wp_head'              );
+    remove_action( 'wp_head',      'wp_oembed_add_discovery_links'         );
+    remove_action( 'template_redirect', 'rest_output_link_header', 11 );
+}
+
+function desencolar_recursos_innecesarios() {
+    if (is_front_page()) {  
+
+        wp_dequeue_style('wp-block-library');
+        wp_dequeue_style('wc-blocks-vendors');
+        wp_dequeue_style('wc-blocks-style');
+        wp_dequeue_style('contact-form-7');
+        wp_dequeue_style('wsv-dataTables');
+        wp_dequeue_style('wsv-dataTables-min');
+        wp_dequeue_style('woo_discount_pro_style');
+        wp_dequeue_style('heateor_sss_frontend_css');        
+        wp_dequeue_style('cld-frontend');
+        wp_dequeue_style('bsf-Defaults');
+        wp_dequeue_style('cld-font-awesome');
+        wp_dequeue_style('show-product-variations-for-woocommerce');
+        wp_dequeue_style('style_login_widget');        
+        wp_dequeue_style('cf7cf-style');
+
+        /* SCRIPTS */
+        wp_dequeue_script('cld-frontend');
+        wp_dequeue_script('show-product-variations-for-woocommerce');
+        wp_dequeue_script('jquery-blockui');
+        wp_dequeue_script('woo-multi-currency');
+        
+        wp_dequeue_script('awdr-main');
+        wp_dequeue_script('awdr-dynamic-price');
+        
+        wp_dequeue_script('heateor_sss_sharing_js');
+        wp_dequeue_script('wpcf7cf-scripts');
+        wp_dequeue_script('woo_discount_pro_script');
+
+    }
+}
+add_action('wp_enqueue_scripts', 'desencolar_recursos_innecesarios', 999);
+
+
+/* SCRIPTS DE OPTIMIZACIÓN 11-19-2023*/
