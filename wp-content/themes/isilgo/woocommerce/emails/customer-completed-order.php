@@ -227,3 +227,4 @@ if ( $additional_content ) {
 do_action( 'woocommerce_email_footer', $email );
 
 
+
